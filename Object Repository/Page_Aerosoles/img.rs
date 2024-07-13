@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>7e401c72-9bdb-49ca-854c-9fe33cc7835d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>cx-media.imageItemList.noneImage.is-initialized > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'https://hfprod.farmaciasanpablo.com.mx/sys-master-azureproductimages/h54/h9d/34791643873310/Fsp275Wx275H_Fsp800Wx800H_70006591_1hrosevth.jpg')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>app-product-list-item >> internal:has-text=&quot;30% de Descuento Silka Medic Defensa Desodorante en Aero... 150 ML Lata $109.00 &quot;i >> internal:role=link >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>2686f1bf-ec91-4406-bbb5-4add60eb99ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://hfprod.farmaciasanpablo.com.mx/sys-master-azureproductimages/h54/h9d/34791643873310/Fsp275Wx275H_Fsp800Wx800H_70006591_1hrosevth.jpg</value>
+      <webElementGuid>a35a9182-65c6-43de-9214-ced0d5fdc22d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>srcset</name>
+      <type>Main</type>
+      <value>https://hfprod.farmaciasanpablo.com.mx/sys-master-azureproductimages/h52/ha0/34791643938846/Fsp100Wx100H_Fsp800Wx800H_70006591_1hrosevth.jpg 96w, https://hfprod.farmaciasanpablo.com.mx/sys-master-azureproductimages/h54/h9d/34791643873310/Fsp275Wx275H_Fsp800Wx800H_70006591_1hrosevth.jpg 284w</value>
+      <webElementGuid>fc2ca641-6cb5-4244-8360-535a9932a84a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;header-scroll-hide&quot;]/app-root[1]/cx-storefront[@class=&quot;ProductListPageTemplate stop-navigating&quot;]/main[@class=&quot;mouse-focus&quot;]/cx-page-layout[@class=&quot;ProductListPageTemplate&quot;]/cx-page-slot[@class=&quot;ProductListSlot has-components&quot;]/app-product-list[1]/div[2]/div[@class=&quot;row no-gutters justify-content-center&quot;]/div[@class=&quot;col-md-3 col-lg-3 col-sm-6 col-6&quot;]/app-product-list-item[1]/div[@class=&quot;shadow bg-white rounded cardItemCustom&quot;]/div[3]/a[@class=&quot;row m-0 justify-content-center imageAlert&quot;]/cx-media[@class=&quot;imageItemList noneImage is-initialized&quot;]/img[1]</value>
+      <webElementGuid>9f4bdeec-de60-4177-aca1-bb19397b5125</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://hfprod.farmaciasanpablo.com.mx/sys-master-azureproductimages/h54/h9d/34791643873310/Fsp275Wx275H_Fsp800Wx800H_70006591_1hrosevth.jpg')]</value>
+      <webElementGuid>5d3f5990-a43a-42e5-8b3a-1bbb71146cee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/a/cx-media/img</value>
+      <webElementGuid>a489aa74-a84a-4fd6-b2bb-3b6dd1300043</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://hfprod.farmaciasanpablo.com.mx/sys-master-azureproductimages/h54/h9d/34791643873310/Fsp275Wx275H_Fsp800Wx800H_70006591_1hrosevth.jpg']</value>
+      <webElementGuid>1434ee6c-924f-4aaf-bf9b-6b64f9e6a7cf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

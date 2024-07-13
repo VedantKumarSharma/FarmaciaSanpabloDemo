@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_ProductoPrecio</name>
+   <tag></tag>
+   <elementGuidId>c9cd29f6-914e-4004-90d7-e0deab15b3ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.d-none.d-md-flex.flex-row.flex-wrap.justify-content-between.my-4.py-2.title-wrapper</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Consulta Términos y Condiciones.'])[1]/following::div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;ProductoPrecio&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a59ccf7e-9034-4f61-b764-709d81f1a053</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-none d-md-flex flex-row flex-wrap justify-content-between my-4 py-2 title-wrapper</value>
+      <webElementGuid>940c72f0-a13d-44ea-b618-c002d4e21b55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ProductoPrecio</value>
+      <webElementGuid>e6039301-2e0a-40e9-af83-caeb65a2ab1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/cx-storefront[@class=&quot;CartPageTemplate stop-navigating&quot;]/main[@class=&quot;mouse-focus&quot;]/cx-page-layout[@class=&quot;CartPageTemplate&quot;]/cx-page-slot[@class=&quot;TopContent has-components&quot;]/app-custom-cart-details[1]/div[@class=&quot;card&quot;]/app-custom-cart-item-list[1]/div[@class=&quot;cart-item-list&quot;]/div[@class=&quot;d-block&quot;]/div[@class=&quot;d-none d-md-flex flex-row flex-wrap justify-content-between my-4 py-2 title-wrapper&quot;]</value>
+      <webElementGuid>2287d5b1-3bf8-406d-8975-40f8b0dca823</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Consulta Términos y Condiciones.'])[1]/following::div[2]</value>
+      <webElementGuid>1859e75e-59df-4a27-bd1e-b37ad6827723</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Envío GRATIS'])[1]/following::div[2]</value>
+      <webElementGuid>fa894992-8f5c-4852-a0ce-c06c68d1d82a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-custom-cart-item-list/div/div/div[2]</value>
+      <webElementGuid>9c0affcd-589a-4c12-80ae-6631cfeed2b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'ProductoPrecio' or . = 'ProductoPrecio')]</value>
+      <webElementGuid>ea1c8e2e-bb62-4817-93f2-10ac5a3bc7df</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

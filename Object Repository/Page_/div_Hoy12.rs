@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Hoy12</name>
+   <tag></tag>
+   <elementGuidId>76e446b7-8150-4094-9cba-2709f24556f7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.row.justify-content-center.mx-0.dayInfoSelect</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambiar'])[1]/following::div[17]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Hoy12&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>94903df5-8284-45c8-b372-5b172118fb49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>row justify-content-center mx-0 dayInfoSelect</value>
+      <webElementGuid>b10d4794-df11-468a-b2e5-9254d2708679</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hoy12</value>
+      <webElementGuid>c40ae1e3-ab75-4efa-90a5-b4235d66c8a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/cx-storefront[@class=&quot;MultiStepCheckoutSummaryPageTemplate stop-navigating&quot;]/main[@class=&quot;mouse-focus&quot;]/cx-page-layout[@class=&quot;MultiStepCheckoutSummaryPageTemplate&quot;]/cx-page-slot[@class=&quot;BodyContent has-components&quot;]/app-custom-delivery-mode[1]/div[3]/app-delivery-method-sheduling[1]/div[@class=&quot;carousel-wrapper&quot;]/div[@class=&quot;d-flex flex-row justify-content-center carousel custom-carousel-space&quot;]/div[@class=&quot;p-1 bd-highlight cardCustom&quot;]/div[@class=&quot;row justify-content-center mx-0 dayInfoSelect&quot;]</value>
+      <webElementGuid>aa3296dd-080b-43ad-8edf-41c7b380a52d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambiar'])[1]/following::div[17]</value>
+      <webElementGuid>0153960f-59bc-4557-9960-573af5f8895e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mañana'])[1]/preceding::div[3]</value>
+      <webElementGuid>35cb7610-70b2-4cee-b482-6ba96b9023bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-delivery-method-sheduling/div/div/div/div</value>
+      <webElementGuid>aea8724d-edb9-4ec3-a15a-f37f4d17f182</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Hoy12' or . = 'Hoy12')]</value>
+      <webElementGuid>376969f3-1d87-4500-a2c7-ac96903a74fd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

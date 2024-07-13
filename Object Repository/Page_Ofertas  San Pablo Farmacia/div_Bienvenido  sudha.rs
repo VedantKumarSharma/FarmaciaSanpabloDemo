@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Bienvenido  sudha</name>
+   <tag></tag>
+   <elementGuidId>266f2588-0468-42c0-9ba4-0c0a889a21f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.login-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='cx-header']/cx-page-layout/cx-page-slot[6]/app-custom-login/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Bienvenido sudha&quot;i >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5da2a97e-4b28-4159-87f2-b72d913f4703</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>login-text</value>
+      <webElementGuid>bb656a70-6c70-4b05-a2e0-eb7098af025e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bienvenido  sudha</value>
+      <webElementGuid>cb5279b7-dc84-48fb-8ad5-2920af16244c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cx-header&quot;)/cx-page-layout[@class=&quot;header&quot;]/cx-page-slot[@class=&quot;SiteLogin has-components&quot;]/app-custom-login[1]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;login-text&quot;]</value>
+      <webElementGuid>7ea6629d-0aba-4524-b621-d60ee96e1c15</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='cx-header']/cx-page-layout/cx-page-slot[6]/app-custom-login/div/div</value>
+      <webElementGuid>cf7f2373-0a53-4455-9e86-806ab5907293</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='()'])[1]/following::div[3]</value>
+      <webElementGuid>96238a58-77a5-453a-ad8a-31205eaede71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mi Perfil'])[1]/preceding::div[3]</value>
+      <webElementGuid>fa081f4e-a0f4-4822-99a9-5dd3d6f65254</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Direcciones de Envío'])[1]/preceding::div[6]</value>
+      <webElementGuid>54af8336-fb24-489b-b776-40bec3208d5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Bienvenido']/parent::*</value>
+      <webElementGuid>035929fe-a934-46ca-be64-8fbbc08db405</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-custom-login/div/div</value>
+      <webElementGuid>21a3a687-727a-452a-b98e-a6f2609a4b2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Bienvenido  sudha' or . = 'Bienvenido  sudha')]</value>
+      <webElementGuid>cd4eb465-0c15-490c-9112-d0f80d858e0b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

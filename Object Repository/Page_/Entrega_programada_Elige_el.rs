@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Entrega_programada_Elige_el</name>
+   <tag></tag>
+   <elementGuidId>c96360e6-d2cb-48b7-8449-2b554c58f6a7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambiar'])[1]/following::div[8]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.card-body.custom-card-body-delivery</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.card-body</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a653acc7-baa4-4356-bba0-d030c9b421d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body custom-card-body-delivery</value>
+      <webElementGuid>de40fe30-c461-4e75-b931-7b3ec8722d90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Entrega programadaElige el día y horario que funcione mejor para ti.</value>
+      <webElementGuid>5dbb5e64-08db-490e-95c4-13c2f5872538</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/cx-storefront[@class=&quot;MultiStepCheckoutSummaryPageTemplate stop-navigating&quot;]/main[@class=&quot;mouse-focus&quot;]/cx-page-layout[@class=&quot;MultiStepCheckoutSummaryPageTemplate&quot;]/cx-page-slot[@class=&quot;BodyContent has-components&quot;]/app-custom-delivery-mode[1]/div[2]/div[@class=&quot;row custom-row&quot;]/div[@class=&quot;col-12 col-sm-6 custom-col&quot;]/div[@class=&quot;card h-100&quot;]/div[@class=&quot;card-body custom-card-body-delivery&quot;]</value>
+      <webElementGuid>0b00badc-cf85-4d78-8322-ec140fb2187a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambiar'])[1]/following::div[8]</value>
+      <webElementGuid>bd96c73d-4e5f-456e-b8b2-686b0e5a0512</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Resumen de compra'])[1]/preceding::div[5]</value>
+      <webElementGuid>2fbcd33a-6dbb-4c30-812b-7e1de995fb3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div</value>
+      <webElementGuid>a1c667e0-4aa7-41de-883e-7398b467e87d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Entrega programadaElige el día y horario que funcione mejor para ti.' or . = 'Entrega programadaElige el día y horario que funcione mejor para ti.')]</value>
+      <webElementGuid>28775316-a53a-4b0a-90a6-64ce990ce1bb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

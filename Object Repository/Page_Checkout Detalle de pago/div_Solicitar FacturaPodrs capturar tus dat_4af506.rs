@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Solicitar FacturaPodrs capturar tus dat_4af506</name>
+   <tag></tag>
+   <elementGuidId>5f4a1d1b-3569-49b9-b371-d57e0c6f149f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#invoicer-toggle</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='invoicer-toggle']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Solicitar FacturaPodrás capturar tus datos en el siguiente paso&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>433ed42c-f997-473b-82d3-c215ad79fa89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>invoicer-toggle</value>
+      <webElementGuid>ecd2b1f8-566b-4dd9-9bff-4815ae16ac8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body card-item d-flex justify-content-between</value>
+      <webElementGuid>096d2ca9-e9fb-41cb-afc8-3781fabbca7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  Solicitar FacturaPodrás capturar tus datos en el siguiente paso</value>
+      <webElementGuid>e891a146-ab40-406e-8d94-b743601d1347</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;invoicer-toggle&quot;)</value>
+      <webElementGuid>1f33a137-8cff-4909-bc2d-22461227f01b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='invoicer-toggle']</value>
+      <webElementGuid>e9cb6c72-0804-443e-85e1-136283be1a24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='¿Necesitas factura?'])[1]/following::div[4]</value>
+      <webElementGuid>13555bd8-fffb-4b90-93c6-6b3df6831357</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambiar'])[2]/following::div[6]</value>
+      <webElementGuid>325c2b13-a518-464f-96eb-21f15adba2e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div</value>
+      <webElementGuid>97657ee3-fc05-4221-b3bb-d114523ead8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'invoicer-toggle' and (text() = '  Solicitar FacturaPodrás capturar tus datos en el siguiente paso' or . = '  Solicitar FacturaPodrás capturar tus datos en el siguiente paso')]</value>
+      <webElementGuid>78139adc-0dcd-4bdf-a5d0-9837d52784b5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

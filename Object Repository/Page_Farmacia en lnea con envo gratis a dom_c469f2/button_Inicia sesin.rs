@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Inicia sesin</name>
+   <tag></tag>
+   <elementGuidId>e15eee5e-35d3-46ff-8b1a-5b413fe45da6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.dropdown-item</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='cx-header']/cx-page-layout/cx-page-slot[6]/app-custom-login/div/div[2]/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Inicia sesión&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2d0d473d-7612-4f5f-8995-aaa4f662aa49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-item</value>
+      <webElementGuid>c14658fb-3d43-4ada-93a9-f6bf2b8b945f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>318f2a7b-0450-4f8d-89ca-5f90662abc56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Inicia sesión</value>
+      <webElementGuid>40ddaa61-7aea-45c2-b13e-8af4478464ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cx-header&quot;)/cx-page-layout[@class=&quot;header&quot;]/cx-page-slot[@class=&quot;SiteLogin has-components&quot;]/app-custom-login[1]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;d.inline.block show dropdown&quot;]/div[@class=&quot;dropdown-menu dropdown-menu-right show&quot;]/button[@class=&quot;dropdown-item&quot;]</value>
+      <webElementGuid>22d049de-5fbc-4d71-a9c4-108de38c37f0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='cx-header']/cx-page-layout/cx-page-slot[6]/app-custom-login/div/div[2]/div[2]/button</value>
+      <webElementGuid>834242aa-6b7a-4260-87a1-990051366c5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='()'])[1]/following::button[1]</value>
+      <webElementGuid>e2291803-6181-4c1c-bc30-5706e408706c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Club Salud'])[1]/preceding::button[1]</value>
+      <webElementGuid>81397f44-ad17-47bc-8b14-600eb694bcf5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regístrate'])[1]/preceding::button[2]</value>
+      <webElementGuid>62233eda-5706-49a2-878b-219762aa6577</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>a3b3f1e0-6df3-4a20-9d78-ead42e69fb3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Inicia sesión' or . = 'Inicia sesión')]</value>
+      <webElementGuid>647d2ee0-ef03-4b60-8b24-8e4a912b1776</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

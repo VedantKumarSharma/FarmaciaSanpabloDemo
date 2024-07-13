@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_santafe 98765TLALPAN, RESIDENCIAL INSUR_9c95c1</name>
+   <tag></tag>
+   <elementGuidId>11421012-47c4-49bb-b285-f6d4f470eed3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.imgCheck</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>app-custom-delivery-mode >> internal:role=img</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>5222177b-2b1e-45d0-b47f-a469bba66d5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>./../../../../../assets/svg/checkout/icono-unchecked.svg</value>
+      <webElementGuid>9e943314-11e2-43ed-9adf-d44caab2ecfe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>imgCheck</value>
+      <webElementGuid>7aa3bd34-5668-41ce-ad3b-0bfdd7035e1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/cx-storefront[@class=&quot;MultiStepCheckoutSummaryPageTemplate stop-navigating&quot;]/main[@class=&quot;mouse-focus&quot;]/cx-page-layout[@class=&quot;MultiStepCheckoutSummaryPageTemplate&quot;]/cx-page-slot[@class=&quot;BodyContent has-components&quot;]/app-custom-delivery-mode[1]/div[2]/div[@class=&quot;row custom-row&quot;]/div[@class=&quot;col-12 col-sm-6 custom-col&quot;]/div[@class=&quot;card h-100&quot;]/div[@class=&quot;card-body custom-card-body-delivery&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-2 custom-check-col&quot;]/p[@class=&quot;text-center&quot;]/img[@class=&quot;imgCheck&quot;]</value>
+      <webElementGuid>3f85263f-8d8a-4b18-8e1d-47ea47a6100e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/img</value>
+      <webElementGuid>c5efa654-3aff-482d-aed4-675f1e6d742d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = './../../../../../assets/svg/checkout/icono-unchecked.svg']</value>
+      <webElementGuid>15e83ed3-3a1b-4973-a612-0829e6582229</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

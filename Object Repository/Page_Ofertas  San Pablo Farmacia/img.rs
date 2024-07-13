@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>4bcf7b8d-90c1-4f89-9b0c-f6db2f74bc25</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;FSP Logo&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='cx-header']/cx-page-layout/cx-page-slot[4]/cx-banner/cx-generic-link/a/cx-media/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;FSP Logo&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>265dbadc-ffc2-4d60-b769-e37037de5e9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://3230j5vu2h77l4hojbycpuf.blob.core.windows.net/sys-master-cmsimages/h41/h8b/8864185057310/logo.png</value>
+      <webElementGuid>1f5f75a2-27e8-46a5-a14e-0dbeb482cd5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>FSP Logo</value>
+      <webElementGuid>d05738c5-4577-45f5-8521-b32287ca31b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cx-header&quot;)/cx-page-layout[@class=&quot;header&quot;]/cx-page-slot[@class=&quot;SiteLogo has-components&quot;]/cx-banner[@class=&quot;logo-fsp&quot;]/cx-generic-link[1]/a[1]/cx-media[@class=&quot;is-initialized&quot;]/img[1]</value>
+      <webElementGuid>3bfe6bab-d2a0-44c3-b2ea-bc228817b8b4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='cx-header']/cx-page-layout/cx-page-slot[4]/cx-banner/cx-generic-link/a/cx-media/img</value>
+      <webElementGuid>43365df2-0f47-414d-b9ef-65f575b92380</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='FSP Logo']</value>
+      <webElementGuid>75de0f02-c336-4987-996a-8e56708ce3c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>8be2da86-574e-44ca-8f8b-ce88f8d77315</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://3230j5vu2h77l4hojbycpuf.blob.core.windows.net/sys-master-cmsimages/h41/h8b/8864185057310/logo.png' and @alt = 'FSP Logo']</value>
+      <webElementGuid>5e704ee6-141f-44bb-9412-3c511bb8535c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

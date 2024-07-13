@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Efectivo_checkCard</name>
+   <tag></tag>
+   <elementGuidId>2d60155d-413c-4141-bc2a-3b9b51a340fd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/div/div/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>app-custom-payment-mode-component >> internal:role=img >> nth=3</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>9add8eba-1973-458e-be12-760cdf00a86a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>./../../../../../assets/svg/checkout/icono-unchecked.svg</value>
+      <webElementGuid>3dd9bf46-e01d-49b8-8fbd-0a4d33f01e05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>checkCard</value>
+      <webElementGuid>2474a247-4f13-4cb2-9595-ce7a058fe404</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/cx-storefront[@class=&quot;MultiStepCheckoutSummaryPageTemplate stop-navigating&quot;]/main[@class=&quot;mouse-focus&quot;]/cx-page-layout[@class=&quot;MultiStepCheckoutSummaryPageTemplate&quot;]/cx-page-slot[@class=&quot;BodyContent has-components&quot;]/app-custom-payment-mode-component[1]/div[@class=&quot;main-payment&quot;]/div[@class=&quot;row custom-payment-row&quot;]/div[@class=&quot;col-12 order-4 order-md-4 p-2 c-pt-0&quot;]/div[@class=&quot;row custom-row&quot;]/div[@class=&quot;col-12 col-sm-6 custom-col&quot;]/div[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body card-item mobile-card-body&quot;]/div[@class=&quot;mobile-align&quot;]/img[@class=&quot;checkCard&quot;]</value>
+      <webElementGuid>162f9321-3432-45ef-a950-4d13c010bc4c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/img</value>
+      <webElementGuid>b5561b48-27ca-4bf4-886b-0e1ec3f9a4f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = './../../../../../assets/svg/checkout/icono-unchecked.svg']</value>
+      <webElementGuid>c1634312-0498-4c57-9665-eafd61856609</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

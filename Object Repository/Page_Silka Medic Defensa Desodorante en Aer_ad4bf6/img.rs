@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>1dcf1958-47e1-4513-8f20-dc26352c12b9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//img[@alt='Silka Medic Defensa Desodorante en Aerosol para Pies Antitranspirante Antibacterial'])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=img[name=&quot;Silka Medic Defensa Desodorante en Aerosol para Pies Antitranspirante Antibacterial&quot;i] >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>20c7e3c2-b921-4fa9-a732-06729cad3606</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://hfprod.farmaciasanpablo.com.mx/sys-master-azureproductimages/hc5/hfc/34791644561438/Fsp100Wx100H_Fsp800Wx800H_70006591_1_1hrosevth.jpg</value>
+      <webElementGuid>667069ac-c793-4945-9ca4-9527ecc2b44e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>srcset</name>
+      <type>Main</type>
+      <value>https://hfprod.farmaciasanpablo.com.mx/sys-master-azureproductimages/hc5/hfc/34791644561438/Fsp100Wx100H_Fsp800Wx800H_70006591_1_1hrosevth.jpg 96w</value>
+      <webElementGuid>185fec90-a5ec-4bd1-9cb8-c91d034b2094</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Silka Medic Defensa Desodorante en Aerosol para Pies Antitranspirante Antibacterial</value>
+      <webElementGuid>520813aa-0503-4310-ab79-89faa388f805</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;header-scroll-hide&quot;]/app-root[1]/cx-storefront[@class=&quot;ProductDetailsPageTemplate stop-navigating&quot;]/main[@class=&quot;mouse-focus&quot;]/cx-page-layout[@class=&quot;ProductDetailsPageTemplate&quot;]/cx-page-slot[@class=&quot;Summary-Desk-Left has-components&quot;]/app-product-images[1]/app-cx-carosuel-custom[1]/div[@class=&quot;row justify-content-center rowThumnails&quot;]/cx-media[@class=&quot;mini-image is-initialized&quot;]/img[1]</value>
+      <webElementGuid>cdac7afa-fd13-47b6-badf-7b8c2a34097b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>(//img[@alt='Silka Medic Defensa Desodorante en Aerosol para Pies Antitranspirante Antibacterial'])[3]</value>
+      <webElementGuid>5ed9c0ce-95b6-407c-994a-7d572bcfaf9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//cx-media[2]/img</value>
+      <webElementGuid>930e2c54-3b7b-46a7-ba1a-5012c344a0b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://hfprod.farmaciasanpablo.com.mx/sys-master-azureproductimages/hc5/hfc/34791644561438/Fsp100Wx100H_Fsp800Wx800H_70006591_1_1hrosevth.jpg' and @alt = 'Silka Medic Defensa Desodorante en Aerosol para Pies Antitranspirante Antibacterial']</value>
+      <webElementGuid>2b1347be-934e-4799-8346-f135f4b2c481</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

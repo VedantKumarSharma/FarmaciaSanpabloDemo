@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Artculos por pgina 12_fa fa-2x fa-th-larg_767e51</name>
+   <tag></tag>
+   <elementGuidId>c0002348-bd5d-4b19-8cab-bf6e78646a8f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-2x.fa-th-large.orderType.active</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>76e25c4b-ea97-4a3c-90df-2f4156414896</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-2x fa-th-large orderType active</value>
+      <webElementGuid>6b66b934-4b5c-42fe-ae19-d7e9c7404592</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/cx-storefront[@class=&quot;ProductListPageTemplate stop-navigating&quot;]/main[@class=&quot;mouse-focus&quot;]/cx-page-layout[@class=&quot;ProductListPageTemplate&quot;]/cx-page-slot[@class=&quot;ProductListSlot has-components&quot;]/app-product-list[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col-lg-9 filters-container d-flex&quot;]/div[@class=&quot;col-2 d-flex align-items-center p-0&quot;]/button[@class=&quot;view-button&quot;]/i[@class=&quot;fa fa-2x fa-th-large orderType active&quot;]</value>
+      <webElementGuid>a74ce921-fab0-4526-be92-7b1e350b6f2e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button/i</value>
+      <webElementGuid>2bd8bad8-5e22-4684-a7d5-ebdd2155288c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Inicia sesin_form-control ng-untouche_9480b0</name>
+   <tag></tag>
+   <elementGuidId>49ab5aea-c812-45a5-b908-70151fcc3bf5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.ng-untouched.ng-invalid.ng-dirty</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='email']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Correo electrónico&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>08675432-ad62-46b9-979d-6eee60ff39f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Correo electrónico</value>
+      <webElementGuid>8726abfe-c204-48ea-b74a-c2e2ef291f74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>email</value>
+      <webElementGuid>2343ee61-af25-45db-a5b4-a69c389c285c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>userId</value>
+      <webElementGuid>40552947-6264-49c6-982a-ae8b09b3fc10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-untouched ng-invalid ng-dirty</value>
+      <webElementGuid>12d3106a-04b6-43a2-9be1-379c99478224</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open fix-scroll&quot;]/ngb-modal-window[@class=&quot;d-block modal fade show&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered modal-lg&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/fsp-custom-login-form[1]/form[@class=&quot;ng-untouched ng-invalid ng-dirty&quot;]/div[@class=&quot;row d-flex justify-content-center&quot;]/div[@class=&quot;form-group col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 form-group floating-label-container colorwhite&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;form-group floating-label-container&quot;]/input[@class=&quot;form-control ng-untouched ng-invalid ng-dirty&quot;]</value>
+      <webElementGuid>0c1da6bb-8d27-43c3-bb4b-15343d211b6c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@type='email']</value>
+      <webElementGuid>7eda22d4-e84c-4d84-a6ed-b0b2e0fd9852</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/input</value>
+      <webElementGuid>6114a736-9e3b-4d45-aed8-31bfb1afb8d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Correo electrónico' and @type = 'email']</value>
+      <webElementGuid>a74014c4-948b-4ede-bccd-874828453527</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

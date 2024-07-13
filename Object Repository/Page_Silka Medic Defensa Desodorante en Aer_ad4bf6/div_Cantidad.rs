@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Cantidad</name>
+   <tag></tag>
+   <elementGuidId>45f788ed-3b53-4341-ac8c-982e8a7570df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-md-3.col-lg-3.col-auto.tapText</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Consulta disponibilidad en sucursales'])[1]/following::div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Cantidad&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8ca6bee9-0ad3-4f35-8083-0352863586b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-md-3 col-lg-3 col-auto tapText</value>
+      <webElementGuid>10cb5f15-d3af-49bd-929d-cd8709e8023f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cantidad</value>
+      <webElementGuid>6b8b44ad-5346-40a3-b315-afb138923799</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;header-scroll-hide&quot;]/app-root[1]/cx-storefront[@class=&quot;ProductDetailsPageTemplate stop-navigating&quot;]/main[@class=&quot;mouse-focus&quot;]/cx-page-layout[@class=&quot;ProductDetailsPageTemplate&quot;]/cx-page-slot[@class=&quot;Summary-Desk-Right has-components&quot;]/app-product-add-to-cart[1]/div[@class=&quot;row formQuantity divider-b&quot;]/div[@class=&quot;col-md-3 col-lg-3 col-auto tapText&quot;]</value>
+      <webElementGuid>002d5cfb-c401-4adf-a238-7f66cacda4f7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Consulta disponibilidad en sucursales'])[1]/following::div[2]</value>
+      <webElementGuid>3764ad11-6b83-4589-b7e2-073e9da5d73f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Consulta Términos y Condiciones.'])[1]/following::div[10]</value>
+      <webElementGuid>90d44c8c-41cc-43d5-bf28-db2ff24d3580</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Agregar al carrito'])[1]/preceding::div[5]</value>
+      <webElementGuid>15df654a-fb77-4394-8bc6-5057a224b208</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comprar ahora'])[1]/preceding::div[6]</value>
+      <webElementGuid>f926e508-ed03-49fc-bf61-e1b737d170a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cantidad']/parent::*</value>
+      <webElementGuid>9d20b13f-47fa-4c05-b324-633a8f98e350</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-product-add-to-cart/div/div</value>
+      <webElementGuid>98a13090-796a-4712-8a19-54e74f62e06b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Cantidad' or . = 'Cantidad')]</value>
+      <webElementGuid>e1444661-09cd-4842-b401-f5a2d0761234</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
