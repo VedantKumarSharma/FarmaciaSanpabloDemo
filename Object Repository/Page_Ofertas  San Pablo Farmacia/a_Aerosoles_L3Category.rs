@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Aerosoles</name>
+   <name>a_Aerosoles_L3Category</name>
    <tag></tag>
    <elementGuidId>dd119491-f33b-4b00-833b-5118156d79e0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#subcategory</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@id='subcategory']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#subcategory</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

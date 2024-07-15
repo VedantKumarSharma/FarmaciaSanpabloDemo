@@ -9,93 +9,93 @@ import java.lang.String
 
 
 
-def static "com.customKeywords.myKeywords.generateRandomEmail"() {
-    (new com.customKeywords.myKeywords()).generateRandomEmail()
+def static "com.customKeywords.MyKeywords.generateRandomEmail"() {
+    (new com.customKeywords.MyKeywords()).generateRandomEmail()
 }
 
 
-def static "com.customKeywords.myKeywords.refreshBrowser"() {
-    (new com.customKeywords.myKeywords()).refreshBrowser()
+def static "com.customKeywords.MyKeywords.refreshBrowser"() {
+    (new com.customKeywords.MyKeywords()).refreshBrowser()
 }
 
 
-def static "com.customKeywords.myKeywords.clickElement"(
+def static "com.customKeywords.MyKeywords.clickElement"(
     	TestObject to	) {
-    (new com.customKeywords.myKeywords()).clickElement(
+    (new com.customKeywords.MyKeywords()).clickElement(
         	to)
 }
 
 
-def static "com.customKeywords.myKeywords.clickElementWithoutScroll"(
+def static "com.customKeywords.MyKeywords.clickElementWithoutScroll"(
     	TestObject to	
      , 	int timeout	) {
-    (new com.customKeywords.myKeywords()).clickElementWithoutScroll(
+    (new com.customKeywords.MyKeywords()).clickElementWithoutScroll(
         	to
          , 	timeout)
 }
 
 
-def static "com.customKeywords.myKeywords.getHtmlTableRows"(
+def static "com.customKeywords.MyKeywords.getHtmlTableRows"(
     	TestObject table	
      , 	String outerTagName	) {
-    (new com.customKeywords.myKeywords()).getHtmlTableRows(
+    (new com.customKeywords.MyKeywords()).getHtmlTableRows(
         	table
          , 	outerTagName)
 }
 
 
-def static "com.customKeywords.myKeywords.scrollWindow"() {
-    (new com.customKeywords.myKeywords()).scrollWindow()
+def static "com.customKeywords.MyKeywords.scrollWindow"() {
+    (new com.customKeywords.MyKeywords()).scrollWindow()
 }
 
 
-def static "com.customKeywords.myKeywords.scrollToTop"() {
-    (new com.customKeywords.myKeywords()).scrollToTop()
+def static "com.customKeywords.MyKeywords.scrollToTop"() {
+    (new com.customKeywords.MyKeywords()).scrollToTop()
 }
 
 
-def static "com.customKeywords.myKeywords.highlightElement1"() {
-    (new com.customKeywords.myKeywords()).highlightElement1()
+def static "com.customKeywords.MyKeywords.highlightElement1"() {
+    (new com.customKeywords.MyKeywords()).highlightElement1()
 }
 
 
-def static "com.customKeywords.myKeywords.highlightElement"(
+def static "com.customKeywords.MyKeywords.highlightElement"(
     	TestObject objectto	) {
-    (new com.customKeywords.myKeywords()).highlightElement(
+    (new com.customKeywords.MyKeywords()).highlightElement(
         	objectto)
 }
 
 
-def static "com.customKeywords.myKeywords.verifyElementPresentKeyword"(
+def static "com.customKeywords.MyKeywords.verifyElementPresentKeyword"(
     	TestObject to	
      , 	int timeout	) {
-    (new com.customKeywords.myKeywords()).verifyElementPresentKeyword(
+    (new com.customKeywords.MyKeywords()).verifyElementPresentKeyword(
         	to
          , 	timeout)
 }
 
 
-def static "com.customKeywords.myKeywords.randomString"() {
-    (new com.customKeywords.myKeywords()).randomString()
+def static "com.customKeywords.MyKeywords.randomString"() {
+    (new com.customKeywords.MyKeywords()).randomString()
 }
 
 
-def static "com.customKeywords.myKeywords.removeDollar"(
+def static "com.customKeywords.MyKeywords.removeDollar"(
     	String withDollarprice	) {
-    (new com.customKeywords.myKeywords()).removeDollar(
+    (new com.customKeywords.MyKeywords()).removeDollar(
         	withDollarprice)
 }
 
 
-def static "com.customKeywords.myKeywords.clickElementWithoutScroll"(
+def static "com.customKeywords.MyKeywords.clickElementWithoutScroll"(
     	TestObject to	) {
-    (new com.customKeywords.myKeywords()).clickElementWithoutScroll(
+    (new com.customKeywords.MyKeywords()).clickElementWithoutScroll(
         	to)
 }
 
 
-def static "com.customKeywords.myKeywords.verifyElementPresentKeyword"(
+def static "com.customKeywords.MyKeywords.verifyElementPresentKeyword"(
     	TestObject to	) {
-    (new com.customKeywords.myKeywords()).verifyElementPresentKeyword(
+    (new com.customKeywords.MyKeywords()).verifyElementPresentKeyword(
         	to)
 }

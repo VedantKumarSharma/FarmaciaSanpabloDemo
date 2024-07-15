@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img</name>
+   <name>Logo_hp</name>
    <tag></tag>
    <elementGuidId>4bcf7b8d-90c1-4f89-9b0c-f6db2f74bc25</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>img[alt=&quot;FSP Logo&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//header[@id='cx-header']/cx-page-layout/cx-page-slot[4]/cx-banner/cx-generic-link/a/cx-media/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;FSP Logo&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

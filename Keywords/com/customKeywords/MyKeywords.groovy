@@ -51,8 +51,8 @@ import com.kms.katalon.core.exception.StepFailedException
 import com.kms.katalon.core.util.KeywordUtil
 
 
-class myKeywords {
-	private static final KeywordLogger logger = KeywordLogger.getInstance(myKeywords.class)
+class MyKeywords {
+	private static final KeywordLogger logger = KeywordLogger.getInstance(MyKeywords.class)
 	@Keyword
 	def generateRandomEmail() {
 		String firstName = 'automation'
@@ -104,7 +104,8 @@ class myKeywords {
 	def clickElementWithoutScroll(TestObject to, int timeout = 30) {
 
 		try {
-			//WebElement element = WebUI.findWebElement(to, timeout);
+			WebElement element = WebUI.findWebElement(to);
+
 			WebUI.waitForElementClickable(to, timeout)
 			for (int i = 0; i < 5; i++) {
 
@@ -206,7 +207,8 @@ class myKeywords {
 	@Keyword
 	def verifyElementPresentKeyword(TestObject to, int timeout = 30) {
 		try {
-			boolean isPresent = WebUI.waitForElementPresent(to, timeout)
+			WebElement element = WebUI.findWebElement(to, timeout);
+			boolean isPresent = element.isDisplayed();
 			if (isPresent) {
 				JavascriptExecutor js = (JavascriptExecutor)DriverFactory.getWebDriver();
 
@@ -238,7 +240,7 @@ class myKeywords {
 	}
 
 
-	private void handleFailure(String message, Exception e) {
+	private void handleFailure(String message, Exception e=null) {
 		logger.logFailed(message)
 		KeywordUtil.markFailedAndStop(message)
 		takeScreenshot()
@@ -253,4 +255,3 @@ class myKeywords {
 
 //price = removeDollar('$2,3,0')
 //	KeywordUtil.logInfo(price)
-

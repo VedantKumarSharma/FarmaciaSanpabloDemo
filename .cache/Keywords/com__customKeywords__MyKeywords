@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "244F344FA0BE7528FCE99785D920B9BA",
+  "keywordFileContentHash": "025084C6F609F0013077C7263FC0CEB6",
   "keywordClasses": [
     {
-      "name": "com.customKeywords.myKeywords",
+      "name": "com.customKeywords.MyKeywords",
       "keywordMethods": [
         {
           "name": "generateRandomEmail",
