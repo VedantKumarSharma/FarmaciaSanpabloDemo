@@ -6,12 +6,12 @@
    <elementGuidId>6476489f-16be-4239-bbbc-f50707c838d2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h4.textLightGrey</value>
+         <key>XPATH</key>
+         <value>(//h4[@class=&quot;textLightGrey&quot;])[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Resumen de compra'])[1]/following::h4[1]</value>
+         <key>CSS</key>
+         <value>h4.textLightGrey</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
-      <webElementGuid>e7824163-19d2-4fce-8374-3714f7b591b5</webElementGuid>
+      <webElementGuid>821096d8-3f6c-487a-a53e-bdcbccd9b699</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>textLightGrey</value>
-      <webElementGuid>2353d6e7-52c0-43be-884c-eba9e2c24c97</webElementGuid>
+      <webElementGuid>d0d1a4e2-2d8f-477d-9cbe-c0b5cdfd7a39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Subtotal (1 producto)</value>
-      <webElementGuid>e487e03e-e289-4063-b2f8-0baa55a2d34e</webElementGuid>
+      <webElementGuid>13ebfa19-4b72-49c0-a6db-fb30ba835f2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/cx-storefront[@class=&quot;MultiStepCheckoutSummaryPageTemplate stop-navigating&quot;]/main[@class=&quot;mouse-focus&quot;]/cx-page-layout[@class=&quot;MultiStepCheckoutSummaryPageTemplate&quot;]/cx-page-slot[@class=&quot;SideContent has-components&quot;]/app-order-summary[1]/div[@class=&quot;row orderSumary custom-orderSummary-fixed&quot;]/div[@class=&quot;container custom-container-fixed&quot;]/div[@class=&quot;row badgeSummary&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;row mb-1&quot;]/div[@class=&quot;col-md-6&quot;]/h4[@class=&quot;textLightGrey&quot;]</value>
-      <webElementGuid>374bc18a-db82-4102-9734-a74b0f64b389</webElementGuid>
+      <webElementGuid>31be6ec9-3131-41d4-aee7-f1bd83aab976</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Resumen de compra'])[1]/following::h4[1]</value>
-      <webElementGuid>b38af377-d971-41c9-9a93-e16f74f7be38</webElementGuid>
+      <webElementGuid>a8779417-80dd-4f9f-8211-578ad245a290</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nueva dirección'])[1]/following::h4[2]</value>
-      <webElementGuid>e8d107be-959c-41d3-a9e1-c9ceb7013a5d</webElementGuid>
+      <webElementGuid>08b45c37-2d60-4e42-814b-bec307f1cace</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$436.00 MXN'])[1]/preceding::h4[1]</value>
-      <webElementGuid>e559b1d5-ac9f-43dc-8fd0-a436ac7bd009</webElementGuid>
+      <webElementGuid>cc50172d-13f5-4d0f-836b-3b0a7c4c5859</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Subtotal']/parent::*</value>
-      <webElementGuid>77fdc2ca-fd65-4f16-947d-a1b3f2470380</webElementGuid>
+      <webElementGuid>72464c46-6879-4a64-a1f7-a118622bd2dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/h4</value>
-      <webElementGuid>11b334f4-9bf9-4acb-b045-9dfcbcab6215</webElementGuid>
+      <webElementGuid>023e7d21-1dac-46bb-a59f-741fbd22e30b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[(text() = 'Subtotal (1 producto)' or . = 'Subtotal (1 producto)')]</value>
-      <webElementGuid>7dd32fe1-60da-4a8f-acf4-e409fe85a956</webElementGuid>
+      <webElementGuid>e06432a7-d19d-4cdc-90e6-9a69c971174d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-<<<<<<<< HEAD:Object Repository/Page_Ofertas  San Pablo Farmacia/Logo_hp.rs
    <name>Logo_hp</name>
-========
-   <name>Logo_HP</name>
->>>>>>>> 0a1c789eaba5f398e936ee2566286cc6bc38b944:Object Repository/Home Page/Logo_HP.rs
    <tag></tag>
    <elementGuidId>80b13691-1025-4625-973b-f35d84d96806</elementGuidId>
    <selectorCollection>

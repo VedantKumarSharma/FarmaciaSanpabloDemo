@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FarmaciaSanpablo,Chrome 126.0.0.0,,,15-07-2024 16:10:54,15-07-2024 16:11:24,29.252s,FAILED
+,,,,,,,
+Test Cases/End_to_End,Chrome 126.0.0.0,,,15-07-2024 16:10:55,15-07-2024 16:11:24,29.093s,FAILED
+"openBrowser("""")",Chrome 126.0.0.0,,,15-07-2024 16:10:55,15-07-2024 16:10:57,1.837s,PASSED
+"navigateToUrl(""https://www.farmaciasanpablo.com.mx/"")",Chrome 126.0.0.0,"enter the testing enviornment URL
+",,15-07-2024 16:10:57,15-07-2024 16:11:17,20.237s,PASSED
+"com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject(""Object Repository/Home Page/No_button_Popup_HP""))",Chrome 126.0.0.0,,,15-07-2024 16:11:17,15-07-2024 16:11:21,3.611s,PASSED
+"com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject(""Object Repository/Home Page/Close_popUp_HP""))",Chrome 126.0.0.0,,,15-07-2024 16:11:21,15-07-2024 16:11:22,1.587s,PASSED
+"com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject(""HP/Login_LOGO_HP""))",Chrome 126.0.0.0,,,15-07-2024 16:11:22,15-07-2024 16:11:23,0.912s,PASSED
+acceptAlert(),Chrome 126.0.0.0,,,15-07-2024 16:11:23,15-07-2024 16:11:24,0.482s,FAILED

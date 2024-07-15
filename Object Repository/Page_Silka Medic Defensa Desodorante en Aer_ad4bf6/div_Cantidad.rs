@@ -6,12 +6,12 @@
    <elementGuidId>45f788ed-3b53-4341-ac8c-982e8a7570df</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.col-md-3.col-lg-3.col-auto.tapText</value>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'Cantidad')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Consulta disponibilidad en sucursales'])[1]/following::div[2]</value>
+         <key>CSS</key>
+         <value>div.col-md-3.col-lg-3.col-auto.tapText</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>8ca6bee9-0ad3-4f35-8083-0352863586b1</webElementGuid>
+      <webElementGuid>fd99d42a-0366-464e-bbc5-1121acca13de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>col-md-3 col-lg-3 col-auto tapText</value>
-      <webElementGuid>10cb5f15-d3af-49bd-929d-cd8709e8023f</webElementGuid>
+      <webElementGuid>f59dd4a8-b356-4f3b-889f-c5f3eac7d4e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cantidad</value>
-      <webElementGuid>6b8b44ad-5346-40a3-b315-afb138923799</webElementGuid>
+      <webElementGuid>66dc9759-64ab-493e-9e2f-2cb17c36b4ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;header-scroll-hide&quot;]/app-root[1]/cx-storefront[@class=&quot;ProductDetailsPageTemplate stop-navigating&quot;]/main[@class=&quot;mouse-focus&quot;]/cx-page-layout[@class=&quot;ProductDetailsPageTemplate&quot;]/cx-page-slot[@class=&quot;Summary-Desk-Right has-components&quot;]/app-product-add-to-cart[1]/div[@class=&quot;row formQuantity divider-b&quot;]/div[@class=&quot;col-md-3 col-lg-3 col-auto tapText&quot;]</value>
-      <webElementGuid>002d5cfb-c401-4adf-a238-7f66cacda4f7</webElementGuid>
+      <webElementGuid>d83b2682-f0d3-4b6a-8e4b-74328c8d14a4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Consulta disponibilidad en sucursales'])[1]/following::div[2]</value>
-      <webElementGuid>3764ad11-6b83-4589-b7e2-073e9da5d73f</webElementGuid>
+      <webElementGuid>a91e68fe-056a-4f2f-8d5f-fcf934ef5aca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Consulta Términos y Condiciones.'])[1]/following::div[10]</value>
-      <webElementGuid>90d44c8c-41cc-43d5-bf28-db2ff24d3580</webElementGuid>
+      <webElementGuid>839a610c-2a77-4e5c-bd10-3762e77257ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Agregar al carrito'])[1]/preceding::div[5]</value>
-      <webElementGuid>15df654a-fb77-4394-8bc6-5057a224b208</webElementGuid>
+      <webElementGuid>44de8a42-22ed-42fa-acf6-75cde2eedad8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Comprar ahora'])[1]/preceding::div[6]</value>
-      <webElementGuid>f926e508-ed03-49fc-bf61-e1b737d170a5</webElementGuid>
+      <webElementGuid>977058a3-cea7-4842-b853-39ca6c63c2ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Cantidad']/parent::*</value>
-      <webElementGuid>9d20b13f-47fa-4c05-b324-633a8f98e350</webElementGuid>
+      <webElementGuid>165e7d31-d6b0-44e7-b025-01c737fc75d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//app-product-add-to-cart/div/div</value>
-      <webElementGuid>98a13090-796a-4712-8a19-54e74f62e06b</webElementGuid>
+      <webElementGuid>1fbe59dc-0678-452f-9554-2e6ed80e9ce4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Cantidad' or . = 'Cantidad')]</value>
-      <webElementGuid>e1444661-09cd-4842-b401-f5a2d0761234</webElementGuid>
+      <webElementGuid>44943259-0419-456b-98c5-81991ee82c32</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

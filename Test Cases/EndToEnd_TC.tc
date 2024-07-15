@@ -6,43 +6,4 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>78a55390-3e49-4b20-b468-683603ce15df</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>d86ebe45-712b-42ce-a1c7-2a96e15a3181</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>9a8bd757-c92e-4beb-926f-ab2fcc823de5</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>075145c7-ee95-42a2-b4d7-77a514cf4a4b</variableId>
-   </variableLinks>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>d86ebe45-712b-42ce-a1c7-2a96e15a3181</id>
-      <masked>false</masked>
-      <name>userName</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>9a8bd757-c92e-4beb-926f-ab2fcc823de5</id>
-      <masked>false</masked>
-      <name>Password</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>075145c7-ee95-42a2-b4d7-77a514cf4a4b</id>
-      <masked>false</masked>
-      <name>Url</name>
-   </variable>
 </TestCaseEntity>

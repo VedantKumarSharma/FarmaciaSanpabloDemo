@@ -6,12 +6,12 @@
    <elementGuidId>e4fe0c64-0862-48c2-9c41-12418b8e8b5c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.col-5.summary-amount.bold.custom-summary-margin-subtotal</value>
+         <key>XPATH</key>
+         <value>//div[@class='col-5 summary-amount bold custom-summary-margin-subtotal']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Subtotal (4 productos)'])[1]/following::div[1]</value>
+         <key>CSS</key>
+         <value>div.col-5.summary-amount.bold.custom-summary-margin-subtotal</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>2c774a8f-1fd0-430b-abfa-f5c3a71946f2</webElementGuid>
+      <webElementGuid>c0e74d88-a0cf-4ce8-8e83-9f87b5c8d65b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>col-5 summary-amount bold custom-summary-margin-subtotal</value>
-      <webElementGuid>f3ed2d80-e88a-47d3-b3c5-1898ab4db10a</webElementGuid>
+      <webElementGuid>4d53e278-79f5-40b6-851a-e7d39ef07cea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value> $436.00 MXN </value>
-      <webElementGuid>147989c7-14df-4650-8039-7ac6167c7dc5</webElementGuid>
+      <webElementGuid>6f268e23-466c-4a74-b8ec-a8683320b297</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/cx-storefront[@class=&quot;CartPageTemplate stop-navigating&quot;]/main[@class=&quot;mouse-focus&quot;]/cx-page-layout[@class=&quot;CartPageTemplate&quot;]/cx-page-slot[@class=&quot;CenterRightContentSlot has-components&quot;]/app-custom-cart-totals[1]/app-custom-order-summary[1]/div[@class=&quot;summary-partials poscenter&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-5 summary-amount bold custom-summary-margin-subtotal&quot;]</value>
-      <webElementGuid>3fd830e3-108f-4bb2-8f55-ab998d5aeddd</webElementGuid>
+      <webElementGuid>6bdb1f1e-51f9-42d4-ab1e-40be9fe79987</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Subtotal (4 productos)'])[1]/following::div[1]</value>
-      <webElementGuid>d11fbdad-bdee-46e2-968f-616881de7c44</webElementGuid>
+      <webElementGuid>c4e47bd6-123c-43fe-bd5c-1b9cbb76eda9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Aplicar'])[1]/following::div[5]</value>
-      <webElementGuid>87ce0880-ed40-4bc9-8ad5-40d0178c1344</webElementGuid>
+      <webElementGuid>5bb4dc31-4376-4265-bc84-2376c84d2608</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ahorro'])[2]/preceding::div[1]</value>
-      <webElementGuid>389fb081-bff5-44ab-81bf-641d7b78fb29</webElementGuid>
+      <webElementGuid>75f4460a-7f0e-406d-b31f-c6b2251b1dc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$132.00 MXN'])[4]/preceding::div[2]</value>
-      <webElementGuid>523028ff-1c3a-4bf7-8ee0-b6b9b7cbf94b</webElementGuid>
+      <webElementGuid>baf83d12-e0a9-4370-9769-d6c0e6e1d109</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//app-custom-order-summary/div/div/div[2]</value>
-      <webElementGuid>1e90368f-f17f-4863-af28-e8ac89a508ad</webElementGuid>
+      <webElementGuid>4a9161ae-eb36-4d25-9716-27f167f0732d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' $436.00 MXN ' or . = ' $436.00 MXN ')]</value>
-      <webElementGuid>ebb07bd5-43fa-40f8-9de8-da7488da885e</webElementGuid>
+      <webElementGuid>d185f8b3-c1bf-4efc-acdc-523bffdc8aa1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

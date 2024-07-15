@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Product1_Name_PLP</name>
+   <tag></tag>
+   <elementGuidId>9fc2ec78-c99c-4399-9af6-b6bffe6840e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@class='nameProduct'])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.nameProduct</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Silka Medic Defensa Desodorante en Aero...&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>fbf802b8-be1e-4ec6-9be2-4d2407b53ddc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nameProduct</value>
+      <webElementGuid>b1e8a032-46a1-4d1d-b75c-64c21ce65c57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/medicamentos/antimicoticos/aerosoles/silka-medic-defensa-desodorante-en-aerosol-para-pies-antitranspirante-antibacterial/p/000000000070006591</value>
+      <webElementGuid>d5bb9d81-b869-4812-98b6-8e42f89c7254</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Silka Medic Defensa Desodorante en Aero... </value>
+      <webElementGuid>81ca8cb5-749c-4d6f-af72-6fa0b3d9e57c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;header-scroll-hide&quot;]/app-root[1]/cx-storefront[@class=&quot;ProductListPageTemplate stop-navigating&quot;]/main[@class=&quot;mouse-focus&quot;]/cx-page-layout[@class=&quot;ProductListPageTemplate&quot;]/cx-page-slot[@class=&quot;ProductListSlot has-components&quot;]/app-product-list[1]/div[2]/div[@class=&quot;row no-gutters justify-content-center&quot;]/div[@class=&quot;col-md-3 col-lg-3 col-sm-6 col-6&quot;]/app-product-list-item[1]/div[@class=&quot;shadow bg-white rounded cardItemCustom&quot;]/div[@class=&quot;cardAjust&quot;]/div[@class=&quot;containerCardOne&quot;]/div[@class=&quot;row centerMobile rowNameCustom divSpaceAjust text-center justify-content-center&quot;]/div[@class=&quot;col-md-11 col-lg-11 col-sm-11 col-12&quot;]/a[@class=&quot;nameProduct&quot;]</value>
+      <webElementGuid>7d3022f6-2d0b-4788-a865-813208cc6279</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Silka Medic Defensa Desodorante en Aero...')]</value>
+      <webElementGuid>fe6ba481-e7df-4e4a-bb5c-9d77629e67ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Artículos por página: 12'])[1]/following::a[4]</value>
+      <webElementGuid>db95130c-6d74-49ee-b992-2735a598f1a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Relevancia'])[1]/following::a[5]</value>
+      <webElementGuid>263735bc-9789-46c7-a029-6e37d83418af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Agregar'])[1]/preceding::a[1]</value>
+      <webElementGuid>e3a2a860-d79d-4e55-88ea-1bd7c08f4d1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Conazol'])[1]/preceding::a[2]</value>
+      <webElementGuid>adf413f8-3a8b-43b6-80a6-4268c53ef8a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Silka Medic Defensa Desodorante en Aero...']/parent::*</value>
+      <webElementGuid>85f490f4-7189-4135-a955-a492f2276fcb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/medicamentos/antimicoticos/aerosoles/silka-medic-defensa-desodorante-en-aerosol-para-pies-antitranspirante-antibacterial/p/000000000070006591')])[3]</value>
+      <webElementGuid>5703d41f-a9c7-40c9-8650-5b4f7759f376</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/div/div/a</value>
+      <webElementGuid>df1809e1-4209-40c1-a3e7-913006e58a90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/medicamentos/antimicoticos/aerosoles/silka-medic-defensa-desodorante-en-aerosol-para-pies-antitranspirante-antibacterial/p/000000000070006591' and (text() = ' Silka Medic Defensa Desodorante en Aero... ' or . = ' Silka Medic Defensa Desodorante en Aero... ')]</value>
+      <webElementGuid>88a177b3-8770-4d43-bc2b-a30a4486275c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

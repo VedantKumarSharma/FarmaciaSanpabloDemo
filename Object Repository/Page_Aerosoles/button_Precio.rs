@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Filtrar'])[2]/following::button[2]</value>
+         <value>//button[contains(text(),' Precio ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f4b869f6-e359-4a8c-adcc-7277dd609a99</webElementGuid>
+      <webElementGuid>ce827437-f6f5-430d-b1a7-f2c81e3f6a3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>heading</value>
-      <webElementGuid>6435727a-797c-4d3c-9650-7d6f99857228</webElementGuid>
+      <webElementGuid>fea1dc11-9de1-4db1-9c6c-e6b173171439</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>05eca3af-adca-4fea-ad6c-ace4f3712ab8</webElementGuid>
+      <webElementGuid>498b9cfa-3094-486f-a353-b3cd8b0d9b23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value> </value>
-      <webElementGuid>19de8573-adc8-4a35-9b46-e872d58b45d1</webElementGuid>
+      <webElementGuid>6c1da1b5-47a0-4290-8c81-36215cb74428</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Precio </value>
-      <webElementGuid>d105a298-2cd6-468d-8986-ea9c5b401660</webElementGuid>
+      <webElementGuid>2bcbe3ea-0dcf-43a2-b98c-96ad2480fcae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/cx-storefront[@class=&quot;ProductListPageTemplate stop-navigating&quot;]/main[@class=&quot;mouse-focus&quot;]/cx-page-layout[@class=&quot;ProductListPageTemplate&quot;]/cx-page-slot[@class=&quot;ProductLeftRefinements has-components&quot;]/cx-product-facet-navigation[1]/cx-facet-list[1]/section[@class=&quot;inner&quot;]/cx-facet[@class=&quot;expanded&quot;]/button[@class=&quot;heading&quot;]</value>
-      <webElementGuid>c7510c2a-6ea6-4c0b-8185-c688e06fc62b</webElementGuid>
+      <webElementGuid>00c0835e-263d-4098-a1ab-8639607246bd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filtrar'])[2]/following::button[2]</value>
-      <webElementGuid>5126c0d7-cc3c-4a60-98a4-52c6c06e30ce</webElementGuid>
+      <webElementGuid>66c738d5-a113-4562-948b-9427995fc516</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filtrar'])[1]/following::button[2]</value>
-      <webElementGuid>422de865-fce3-4b6f-945d-e6ea2ae6d232</webElementGuid>
+      <webElementGuid>5816f9a4-f693-44e3-bf77-39c624234326</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Marca'])[1]/preceding::button[1]</value>
-      <webElementGuid>8a63ed82-769a-4f70-b4d6-26660592aedc</webElementGuid>
+      <webElementGuid>dce34aca-74a6-4ecc-80a4-a91f782e63f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Segmento'])[1]/preceding::button[2]</value>
-      <webElementGuid>4d27af5e-60d6-48a6-993c-650566782dbf</webElementGuid>
+      <webElementGuid>e7808ff4-8a96-4c41-b596-57bf1997cd0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Precio']/parent::*</value>
-      <webElementGuid>ec70afa9-c50a-4a3b-b332-0e3ef031f28a</webElementGuid>
+      <webElementGuid>d21451f7-3a1c-45b2-b8e5-c3af978d7a7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//cx-facet/button</value>
-      <webElementGuid>05bbb915-84bd-4ead-abfa-71a84ee7ab58</webElementGuid>
+      <webElementGuid>4adde7db-93ce-457e-9dbe-6e47477b88cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' Precio ' or . = ' Precio ')]</value>
-      <webElementGuid>ba742541-f90e-45d8-9a45-9c6dc1aa0b2d</webElementGuid>
+      <webElementGuid>a5301b91-bf4b-443f-aadb-333ab5049b33</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

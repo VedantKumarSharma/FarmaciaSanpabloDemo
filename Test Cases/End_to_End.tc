@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>End_to_End</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>15b12638-ca47-47fa-92d3-74cdf2c66a40</testCaseGuid>
+</TestCaseEntity>

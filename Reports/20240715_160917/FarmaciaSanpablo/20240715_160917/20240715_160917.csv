@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FarmaciaSanpablo,Chrome 126.0.0.0,,,15-07-2024 16:09:33,15-07-2024 16:09:36,2.880s,ERROR
+,,,,,,,
+Test Cases/EndToEnd_TC,Chrome 126.0.0.0,,,15-07-2024 16:09:34,15-07-2024 16:09:36,2.744s,ERROR
+"openBrowser("""")",Chrome 126.0.0.0,,,15-07-2024 16:09:34,15-07-2024 16:09:36,2.226s,PASSED
+navigateToUrl(Url),Chrome 126.0.0.0,,,15-07-2024 16:09:36,15-07-2024 16:09:36,0.021s,ERROR

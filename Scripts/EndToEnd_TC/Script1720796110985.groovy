@@ -78,44 +78,44 @@ CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTes
 
 WebUI.rightClick(findTestObject('Object Repository/Page_Aerosoles/button_Precio'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Aerosoles/button_Precio'), 'Precio')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Aerosoles/button_Precio'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Aerosoles/Marca'), 'Marca')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Aerosoles/Marca'))
 
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/Todas_las_Categoras'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Aerosoles/Ordenar_por'), 'Ordenar por:')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Aerosoles/Ordenar_por'))
 
-CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/a_Artculos por pgina 12'))
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/item per page'))
 
-CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/i_Artculos por pgina 12_fa fa-2x fa-th-larg_767e51'))
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/item per row option 1'))
 
-CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/button_Artculos por pgina 12_view-button'))
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/item per row option 2'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Aerosoles/div_30 de Descuento  Silka Medic Defensa De_b8a457'), 
-    '30% de Descuento Silka Medic Defensa Desodorante en Aero... 150 ML Lata $109.00 MXN $76.00 MXN Agregar')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Aerosoles/Product 1'), 
+    0)
 
-CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/div_30 de Descuento  Silka Medic Defensa De_b8a457'))
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/Product 1'))
 
-CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/i_Artculos por pgina 12_fa fa-heart disable'))
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/Product1_Add to wishlist'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Aerosoles/a_Silka Medic Defensa Desodorante en Aero'), 'Silka Medic Defensa Desodorante en Aero...')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Aerosoles/Product1_Name_PLP'), 0)
 
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/img'))
 
 CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Aerosoles/img'))
 
-CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/h3_Silka Medic Defensa Desodorante en Aeros_261b7a'))
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/h3_product_name_PDP'))
 
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/img'))
 
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_Cantidad'))
 
-CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/p_Envo GRATIS a toda la Repblica Mexicana. _34a419'))
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/Product_price_PDP'))
 
-CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_'))
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/header_IMG_PDP'))
 
-CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_30 de Descuento'))
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/Quantity_PDP'))
 
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Comprar ahora'))
 
@@ -127,7 +127,8 @@ CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findT
 
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_304.00 MXN'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Realizar compra'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Realizar compra'), 
+    0)
 
 CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Realizar compra'))
 
@@ -147,7 +148,8 @@ CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findT
 
 CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/Selecciona_direccin_de_entrega'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Checkout Shipping Address/h4_Selecciona una direccin'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Checkout Shipping Address/h4_Selecciona una direccin'), 
+    0)
 
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Shipping Address/h4_Resumen de compra'))
 
@@ -163,7 +165,7 @@ CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findT
 
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Shipping Address/button_Entregar en esta direccin'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Checkout Shipping Address/div_Nueva direccin'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Checkout Shipping Address/div_Nueva direccin'), 0)
 
 CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Checkout Shipping Address/button_Entregar en esta direccin'))
 
@@ -183,9 +185,11 @@ CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findT
 
 CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_/Elegir_forma_de_entrega_PDP'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_Solicitar FacturaPodrs capturar tus dat_4af506'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_Solicitar FacturaPodrs capturar tus dat_4af506'), 
+    0)
 
-WebUI.rightClick(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_En lneaTarjeta de crdito o dbito'))
+WebUI.rightClick(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_En lneaTarjeta de crdito o dbito'), 
+    0)
 
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Detalle de pago/h4_Selecciona una forma de pago'))
 
@@ -205,9 +209,10 @@ CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTes
 
 CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Checkout Detalle de pago/button_Pagar al recibir pedido'))
 
-WebUI.rightClick(findTestObject('Object Repository/Page_/div_Silka Medic Defensa Desodorante en Aero_b44a92'))
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_/div_Silka Medic Defensa Desodorante en Aero_b44a92'), 
+    0)
 
-WebUI.rightClick(findTestObject('Object Repository/Page_/Direccin_de_entrega'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_/Direccin_de_entrega'), 0)
 
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_/h4_Resumen de productos'))
 
