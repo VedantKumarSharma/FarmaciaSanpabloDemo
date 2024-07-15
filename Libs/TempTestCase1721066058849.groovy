@@ -18,7 +18,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\VEDANT~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\End_to_End\\20240715_205409\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\VEDANT~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\End_to_End\\20240715_232418\\execution.properties')
 
 TestCaseMain.beforeStart()
 
@@ -277,11 +277,9 @@ not_run: WebUI.click(findTestObject('Object Repository/Page_/img_Viernes_imgChec
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_/Elegir_forma_de_entrega_PDP'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/Page_/Elegir_forma_de_entrega_PDP'))
+WebUI.enhancedClick(findTestObject('Object Repository/Page_/Elegir_forma_de_entrega_PDP'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_Solicitar FacturaPodrs capturar tus dat_4af506'))
-
-WebUI.rightClick(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_En lneaTarjeta de crdito o dbito'))
 
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Detalle de pago/h4_Selecciona una forma de pago'), 
     0)

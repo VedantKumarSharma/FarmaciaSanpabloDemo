@@ -49,6 +49,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_436.00 MXN_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_/p_8am - 9am",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Viernes\u0027])[1]/following::p[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/div/div[2]/p",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_/p_8am - 9am_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_/img_Viernes_imgCheck",
+      "brokenLocator": "//img[@alt\u003d\u0027unchecked\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_/img_Viernes_imgCheck_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_/Elegir_forma_de_entrega_PDP",
+      "brokenLocator": "//button[@class\u003d\u0027btn btn-primary btnSetMethod ng-star-inserted\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Resumen de compra\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_/Elegir_forma_de_entrega_PDP_neighbor.png"
     }
   ]
 }

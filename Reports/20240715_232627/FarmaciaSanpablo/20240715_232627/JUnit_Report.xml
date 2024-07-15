@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FarmaciaSanpablo" time="114.393" tests="1" failures="0" errors="0">
+   <testsuite name="FarmaciaSanpablo" tests="1" failures="0" errors="0" time="114.393" skipped="0" timestamp="15-07-2024T23:26:36" hostname="VedantKumarSharma - KVITSPL-0525" id="Test Suites/FarmaciaSanpablo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\Github\\FarmaciaSanpabloDemo\\Reports\\20240715_232627\\FarmaciaSanpablo\\20240715_232627"/>
+         <property name="logFiles" value="D:\\Github\\FarmaciaSanpabloDemo\\Reports\\20240715_232627\\FarmaciaSanpablo\\20240715_232627\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="VedantKumarSharma - KVITSPL-0525"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.4"/>
+         <property name="sessionId" value="adcf66ad6ccf398724f0da992f7e4a51"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/End_to_End" time="114.199" classname="Test Cases/End_to_End" status="PASSED">
+         <system-out><![CDATA[15-07-2024T23:26:36 - [TEST_CASE][PASSED] - Test Cases/End_to_End: Test Cases/End_to_End
+
+15-07-2024T23:26:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-07-2024T23:26:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-07-2024T23:26:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-07-2024T23:26:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-07-2024T23:26:38 - [TEST_STEP][PASSED] - navigateToUrl("https://www.farmaciasanpablo.com.mx/"): Navigate to 'https://www.farmaciasanpablo.com.mx/' successfully
+
+15-07-2024T23:27:00 - [MESSAGE][PASSED] - Navigate to 'https://www.farmaciasanpablo.com.mx/' successfully
+
+15-07-2024T23:27:00 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject("Object Repository/Home Page/No_button_Popup_HP")): com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+
+15-07-2024T23:27:02 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Home Page/No_button_Popup_HP
+
+15-07-2024T23:27:04 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/No_button_Popup_HP' is clickable
+
+15-07-2024T23:27:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/No_button_Popup_HP' is clicked on
+
+15-07-2024T23:27:04 - [MESSAGE][PASSED] - Clicked on element: Object Repository/Home Page/No_button_Popup_HP
+
+15-07-2024T23:27:04 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+
+15-07-2024T23:27:04 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject("Object Repository/Home Page/Close_popUp_HP")): com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+
+15-07-2024T23:27:05 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Home Page/Close_popUp_HP
+
+15-07-2024T23:27:05 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/Close_popUp_HP' is clickable
+
+15-07-2024T23:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Close_popUp_HP' is clicked on
+
+15-07-2024T23:27:06 - [MESSAGE][PASSED] - Clicked on element: Object Repository/Home Page/Close_popUp_HP
+
+15-07-2024T23:27:06 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+
+15-07-2024T23:27:06 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject("HP/Login_LOGO_HP")): com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+
+15-07-2024T23:27:06 - [MESSAGE][PASSED] - Found web element by test object Object Repository/HP/Login_LOGO_HP
+
+15-07-2024T23:27:07 - [MESSAGE][PASSED] - Object 'Object Repository/HP/Login_LOGO_HP' is clickable
+
+15-07-2024T23:27:07 - [MESSAGE][PASSED] - Object: 'Object Repository/HP/Login_LOGO_HP' is clicked on
+
+15-07-2024T23:27:07 - [MESSAGE][PASSED] - Clicked on element: Object Repository/HP/Login_LOGO_HP
+
+15-07-2024T23:27:07 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+
+15-07-2024T23:27:07 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject("Object Repository/Home Page/Inicia_sesin_HP")): com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+
+15-07-2024T23:27:08 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Home Page/Inicia_sesin_HP
+
+15-07-2024T23:27:08 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/Inicia_sesin_HP' is clickable
+
+15-07-2024T23:27:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Inicia_sesin_HP' is clicked on
+
+15-07-2024T23:27:09 - [MESSAGE][PASSED] - Clicked on element: Object Repository/Home Page/Inicia_sesin_HP
+
+15-07-2024T23:27:09 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+
+15-07-2024T23:27:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Home Page/Inicia_sesin_Username_HP_loginPopup"), username): Text 'sudha.addepalli6662@gmail.com' is set on object 'Object Repository/Home Page/Inicia_sesin_Username_HP_loginPopup'
+
+15-07-2024T23:27:10 - [MESSAGE][PASSED] - Text 'sudha.addepalli6662@gmail.com' is set on object 'Object Repository/Home Page/Inicia_sesin_Username_HP_loginPopup'
+
+15-07-2024T23:27:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Home Page/Inicia_sesin_Password_HP_loginPopup"), password): Text 'Indian143.' is set on object 'Object Repository/Home Page/Inicia_sesin_Password_HP_loginPopup'
+
+15-07-2024T23:27:11 - [MESSAGE][PASSED] - Text 'Indian143.' is set on object 'Object Repository/Home Page/Inicia_sesin_Password_HP_loginPopup'
+
+15-07-2024T23:27:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Ingresar_Header_HP")): Object: 'Object Repository/Home Page/Ingresar_Header_HP' is clicked on
+
+15-07-2024T23:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Ingresar_Header_HP' is clicked on
+
+15-07-2024T23:27:11 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Home Page/Categoras_button_HP"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:15 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Home Page/Categoras_button_HP
+
+15-07-2024T23:27:15 - [MESSAGE][PASSED] - Element is present: Object Repository/Home Page/Categoras_button_HP
+
+15-07-2024T23:27:15 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:15 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Home Page/Enviar_a_Cdiga_Postal_14000_(after login postal code)"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:15 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Home Page/Enviar_a_Cdiga_Postal_14000_(after login postal code)
+
+15-07-2024T23:27:16 - [MESSAGE][PASSED] - Element is present: Object Repository/Home Page/Enviar_a_Cdiga_Postal_14000_(after login postal code)
+
+15-07-2024T23:27:16 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:16 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Home Page/Ofertas_hedaer_HP"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:16 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Home Page/Ofertas_hedaer_HP
+
+15-07-2024T23:27:16 - [MESSAGE][PASSED] - Element is present: Object Repository/Home Page/Ofertas_hedaer_HP
+
+15-07-2024T23:27:16 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:16 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Home Page/Sucursales_HP"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:16 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Home Page/Sucursales_HP
+
+15-07-2024T23:27:17 - [MESSAGE][PASSED] - Element is present: Object Repository/Home Page/Sucursales_HP
+
+15-07-2024T23:27:17 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:17 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Home Page/Facturacin_header_HP"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:18 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Home Page/Facturacin_header_HP
+
+15-07-2024T23:27:18 - [MESSAGE][PASSED] - Element is present: Object Repository/Home Page/Facturacin_header_HP
+
+15-07-2024T23:27:18 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:18 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Ofertas  San Pablo Farmacia/div_Bienvenido  sudha"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:19 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Ofertas  San Pablo Farmacia/div_Bienvenido  sudha
+
+15-07-2024T23:27:19 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Ofertas  San Pablo Farmacia/div_Bienvenido  sudha
+
+15-07-2024T23:27:19 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:19 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Home Page/SideBox_HP"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:19 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Home Page/SideBox_HP
+
+15-07-2024T23:27:19 - [MESSAGE][PASSED] - Element is present: Object Repository/Home Page/SideBox_HP
+
+15-07-2024T23:27:19 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:19 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Home Page/SearchBox_Header_HP"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:19 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Home Page/SearchBox_Header_HP
+
+15-07-2024T23:27:19 - [MESSAGE][PASSED] - Element is present: Object Repository/Home Page/SearchBox_Header_HP
+
+15-07-2024T23:27:19 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:19 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Home Page/Logo_hp"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:20 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Home Page/Logo_hp
+
+15-07-2024T23:27:20 - [MESSAGE][PASSED] - Element is present: Object Repository/Home Page/Logo_hp
+
+15-07-2024T23:27:20 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:20 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Page_Ofertas  San Pablo Farmacia/li_Categoras MedicamentosMedicamentosAntimi_49f250")): Object: 'Object Repository/Page_Ofertas  San Pablo Farmacia/li_Categoras MedicamentosMedicamentosAntimi_49f250' is hovered
+
+15-07-2024T23:27:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Ofertas  San Pablo Farmacia/li_Categoras MedicamentosMedicamentosAntimi_49f250' is hovered
+
+15-07-2024T23:27:21 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Home Page/Medicamentos_L1_category_HP"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:21 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Home Page/Medicamentos_L1_category_HP
+
+15-07-2024T23:27:21 - [MESSAGE][PASSED] - Element is present: Object Repository/Home Page/Medicamentos_L1_category_HP
+
+15-07-2024T23:27:21 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Medicamentos_L1_category_HP"), STOP_ON_FAILURE): Object: 'Object Repository/Home Page/Medicamentos_L1_category_HP' is clicked on
+
+15-07-2024T23:27:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Medicamentos_L1_category_HP' is clicked on
+
+15-07-2024T23:27:22 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Ofertas  San Pablo Farmacia/a_Medicamentos"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:22 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Ofertas  San Pablo Farmacia/a_Medicamentos
+
+15-07-2024T23:27:22 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Ofertas  San Pablo Farmacia/a_Medicamentos
+
+15-07-2024T23:27:22 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:22 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Page_Ofertas  San Pablo Farmacia/a_Aerosoles_L3Category")): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:23 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Ofertas  San Pablo Farmacia/a_Aerosoles_L3Category
+
+15-07-2024T23:27:23 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Ofertas  San Pablo Farmacia/a_Aerosoles_L3Category
+
+15-07-2024T23:27:23 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_Ofertas  San Pablo Farmacia/a_Aerosoles_L3Category")): Object: 'Object Repository/Page_Ofertas  San Pablo Farmacia/a_Aerosoles_L3Category' is clicked on
+
+15-07-2024T23:27:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Ofertas  San Pablo Farmacia/a_Aerosoles_L3Category' is clicked on
+
+15-07-2024T23:27:24 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Aerosoles/button_Precio")): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:28 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Aerosoles/button_Precio
+
+15-07-2024T23:27:28 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Aerosoles/button_Precio
+
+15-07-2024T23:27:28 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:28 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Aerosoles/Marca")): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:28 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Aerosoles/Marca
+
+15-07-2024T23:27:28 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Aerosoles/Marca
+
+15-07-2024T23:27:28 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:28 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Aerosoles/Todas_las_Categoras"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:29 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Aerosoles/Todas_las_Categoras
+
+15-07-2024T23:27:29 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Aerosoles/Todas_las_Categoras
+
+15-07-2024T23:27:29 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Aerosoles/Ordenar_por"), "Ordenar por:"): Actual text and expected text of test object 'Object Repository/Page_Aerosoles/Ordenar_por' are matched.
+
+15-07-2024T23:27:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Aerosoles/Ordenar_por' are matched.
+
+15-07-2024T23:27:29 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Aerosoles/item per page"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:29 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Aerosoles/item per page
+
+15-07-2024T23:27:29 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Aerosoles/item per page
+
+15-07-2024T23:27:29 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:29 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Page_Aerosoles/item per row option 1"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:30 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Aerosoles/item per row option 1
+
+15-07-2024T23:27:30 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Aerosoles/item per row option 1
+
+15-07-2024T23:27:30 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:30 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Aerosoles/item per row option 2"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:30 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Aerosoles/item per row option 2
+
+15-07-2024T23:27:30 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Aerosoles/item per row option 2
+
+15-07-2024T23:27:30 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:30 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Aerosoles/Product 1"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:31 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Aerosoles/Product 1
+
+15-07-2024T23:27:31 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Aerosoles/Product 1
+
+15-07-2024T23:27:31 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:31 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Aerosoles/Product1_Add to wishlist"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:31 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Aerosoles/Product1_Add to wishlist
+
+15-07-2024T23:27:31 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Aerosoles/Product1_Add to wishlist
+
+15-07-2024T23:27:31 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:31 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Aerosoles/Product1_Name_PLP")): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:32 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Aerosoles/Product1_Name_PLP
+
+15-07-2024T23:27:32 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Aerosoles/Product1_Name_PLP
+
+15-07-2024T23:27:32 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:32 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Aerosoles/img"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:32 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Aerosoles/img
+
+15-07-2024T23:27:32 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Aerosoles/img
+
+15-07-2024T23:27:32 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Aerosoles/img")): Object: 'Object Repository/Page_Aerosoles/img' is clicked on
+
+15-07-2024T23:27:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Aerosoles/img' is clicked on
+
+15-07-2024T23:27:37 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/h3_product_name_PDP"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:44 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/h3_product_name_PDP
+
+15-07-2024T23:27:44 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/h3_product_name_PDP
+
+15-07-2024T23:27:44 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:44 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/img"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:44 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/img
+
+15-07-2024T23:27:44 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/img
+
+15-07-2024T23:27:44 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:44 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_Cantidad"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:44 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_Cantidad
+
+15-07-2024T23:27:45 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_Cantidad
+
+15-07-2024T23:27:45 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:45 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/Product_price_PDP"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:45 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/Product_price_PDP
+
+15-07-2024T23:27:45 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/Product_price_PDP
+
+15-07-2024T23:27:45 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:45 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/header_IMG_PDP"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:46 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/header_IMG_PDP
+
+15-07-2024T23:27:46 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/header_IMG_PDP
+
+15-07-2024T23:27:46 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:46 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/Quantity_PDP"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:46 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/Quantity_PDP
+
+15-07-2024T23:27:46 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/Quantity_PDP
+
+15-07-2024T23:27:46 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:46 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Comprar ahora"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:46 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Comprar ahora
+
+15-07-2024T23:27:46 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Comprar ahora
+
+15-07-2024T23:27:46 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:46 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Agregar al carrito"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:47 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Agregar al carrito
+
+15-07-2024T23:27:47 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Agregar al carrito
+
+15-07-2024T23:27:47 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Agregar al carrito")): Object: 'Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Agregar al carrito' is clicked on
+
+15-07-2024T23:27:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Agregar al carrito' is clicked on
+
+15-07-2024T23:27:47 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Seguir comprando"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:50 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Seguir comprando
+
+15-07-2024T23:27:50 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Seguir comprando
+
+15-07-2024T23:27:50 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:50 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_304.00 MXN"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:50 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_304.00 MXN
+
+15-07-2024T23:27:50 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_304.00 MXN
+
+15-07-2024T23:27:50 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Realizar compra")): Object 'Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Realizar compra' is visible
+
+15-07-2024T23:27:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Realizar compra' is visible
+
+15-07-2024T23:27:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Realizar compra")): Object: 'Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Realizar compra' is clicked on
+
+15-07-2024T23:27:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Realizar compra' is clicked on
+
+15-07-2024T23:27:51 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_ProductoPrecio"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:55 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_ProductoPrecio
+
+15-07-2024T23:27:55 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_ProductoPrecio
+
+15-07-2024T23:27:55 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:55 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_Subtotal (4 productos)"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:56 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_Subtotal (4 productos)
+
+15-07-2024T23:27:56 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_Subtotal (4 productos)
+
+15-07-2024T23:27:56 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:56 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_436.00 MXN"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:56 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_436.00 MXN
+
+15-07-2024T23:27:57 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_436.00 MXN
+
+15-07-2024T23:27:57 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:57 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_Total"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:57 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_Total
+
+15-07-2024T23:27:57 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_Total
+
+15-07-2024T23:27:57 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:57 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_304.00 MXN"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:57 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_304.00 MXN
+
+15-07-2024T23:27:57 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_304.00 MXN
+
+15-07-2024T23:27:57 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:57 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Carrito de compras  San Pablo Farmacia/Selecciona_direccin_de_entrega"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:58 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Carrito de compras  San Pablo Farmacia/Selecciona_direccin_de_entrega
+
+15-07-2024T23:27:58 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Carrito de compras  San Pablo Farmacia/Selecciona_direccin_de_entrega
+
+15-07-2024T23:27:58 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:58 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Carrito de compras  San Pablo Farmacia/h3_304.00 MXN"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:27:58 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Carrito de compras  San Pablo Farmacia/h3_304.00 MXN
+
+15-07-2024T23:27:58 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Carrito de compras  San Pablo Farmacia/h3_304.00 MXN
+
+15-07-2024T23:27:58 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Carrito de compras  San Pablo Farmacia/Selecciona_direccin_de_entrega")): Object: 'Object Repository/Page_Carrito de compras  San Pablo Farmacia/Selecciona_direccin_de_entrega' is clicked on
+
+15-07-2024T23:27:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Carrito de compras  San Pablo Farmacia/Selecciona_direccin_de_entrega' is clicked on
+
+15-07-2024T23:27:59 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Shipping Address/h4_Resumen de compra"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:27:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:28:04 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Checkout Shipping Address/h4_Resumen de compra
+
+15-07-2024T23:28:04 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Checkout Shipping Address/h4_Resumen de compra
+
+15-07-2024T23:28:04 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:04 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Shipping Address/h4_Subtotal (1 producto)"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:28:04 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Checkout Shipping Address/h4_Subtotal (1 producto)
+
+15-07-2024T23:28:04 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Checkout Shipping Address/h4_Subtotal (1 producto)
+
+15-07-2024T23:28:04 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:04 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Shipping Address/h4_436.00 MXN"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:28:04 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Checkout Shipping Address/h4_436.00 MXN
+
+15-07-2024T23:28:04 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Checkout Shipping Address/h4_436.00 MXN
+
+15-07-2024T23:28:04 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:04 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Shipping Address/h3_Total"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:28:05 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Checkout Shipping Address/h3_Total
+
+15-07-2024T23:28:05 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Checkout Shipping Address/h3_Total
+
+15-07-2024T23:28:05 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:05 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Shipping Address/h3_304.00 MXN"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:28:05 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Checkout Shipping Address/h3_304.00 MXN
+
+15-07-2024T23:28:05 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Checkout Shipping Address/h3_304.00 MXN
+
+15-07-2024T23:28:05 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:05 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Shipping Address/div_sudhasantafe98765Residencial insurgente_0adf22"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:28:05 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Checkout Shipping Address/div_sudhasantafe98765Residencial insurgente_0adf22
+
+15-07-2024T23:28:05 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Checkout Shipping Address/div_sudhasantafe98765Residencial insurgente_0adf22
+
+15-07-2024T23:28:05 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:05 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Shipping Address/button_Entregar en esta direccin"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:28:06 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Checkout Shipping Address/button_Entregar en esta direccin
+
+15-07-2024T23:28:06 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Checkout Shipping Address/button_Entregar en esta direccin
+
+15-07-2024T23:28:06 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Checkout Shipping Address/div_Nueva direccin")): Object 'Object Repository/Page_Checkout Shipping Address/div_Nueva direccin' is visible
+
+15-07-2024T23:28:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Checkout Shipping Address/div_Nueva direccin' is visible
+
+15-07-2024T23:28:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Checkout Shipping Address/button_Entregar en esta direccin")): Object: 'Object Repository/Page_Checkout Shipping Address/button_Entregar en esta direccin' is clicked on
+
+15-07-2024T23:28:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout Shipping Address/button_Entregar en esta direccin' is clicked on
+
+15-07-2024T23:28:07 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_/Selecciona_un_mtodo_de_entrega(cambiar)"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:28:09 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_/Selecciona_un_mtodo_de_entrega(cambiar)
+
+15-07-2024T23:28:09 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_/Selecciona_un_mtodo_de_entrega(cambiar)
+
+15-07-2024T23:28:09 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:09 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_/Entrega_programada_Elige_el"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:28:10 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_/Entrega_programada_Elige_el
+
+15-07-2024T23:28:10 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_/Entrega_programada_Elige_el
+
+15-07-2024T23:28:10 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/img_santafe 98765TLALPAN, RESIDENCIAL INSUR_9c95c1")): Object: 'Object Repository/Page_/img_santafe 98765TLALPAN, RESIDENCIAL INSUR_9c95c1' is clicked on
+
+15-07-2024T23:28:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/img_santafe 98765TLALPAN, RESIDENCIAL INSUR_9c95c1' is clicked on
+
+15-07-2024T23:28:10 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_/div_Hoy12"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:28:11 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_/div_Hoy12
+
+15-07-2024T23:28:11 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_/div_Hoy12
+
+15-07-2024T23:28:11 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:11 - [TEST_STEP][NOT_RUN] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_/p_8am - 9am"), 0): NOT_RUN: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_/p_8am - 9am"), 0)
+
+15-07-2024T23:28:11 - [MESSAGE][NOT_RUN] - NOT_RUN: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_/p_8am - 9am"), 0)
+
+15-07-2024T23:28:11 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Page_/img_Viernes_imgCheck")): NOT_RUN: click(findTestObject("Object Repository/Page_/img_Viernes_imgCheck"))
+
+15-07-2024T23:28:11 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Page_/img_Viernes_imgCheck"))
+
+15-07-2024T23:28:11 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_/Elegir_forma_de_entrega_PDP"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:28:11 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_/Elegir_forma_de_entrega_PDP
+
+15-07-2024T23:28:11 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_/Elegir_forma_de_entrega_PDP
+
+15-07-2024T23:28:11 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:11 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/Page_/Elegir_forma_de_entrega_PDP")): Object: 'Object Repository/Page_/Elegir_forma_de_entrega_PDP' is clicked on
+
+15-07-2024T23:28:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/Elegir_forma_de_entrega_PDP' is clicked on
+
+15-07-2024T23:28:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Checkout Detalle de pago/div_Solicitar FacturaPodrs capturar tus dat_4af506")): Object 'Object Repository/Page_Checkout Detalle de pago/div_Solicitar FacturaPodrs capturar tus dat_4af506' is visible
+
+15-07-2024T23:28:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Checkout Detalle de pago/div_Solicitar FacturaPodrs capturar tus dat_4af506' is visible
+
+15-07-2024T23:28:18 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Detalle de pago/h4_Selecciona una forma de pago"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:28:18 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Checkout Detalle de pago/h4_Selecciona una forma de pago
+
+15-07-2024T23:28:18 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Checkout Detalle de pago/h4_Selecciona una forma de pago
+
+15-07-2024T23:28:18 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:18 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Detalle de pago/div_En lneaTarjeta de crdito o dbito"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:28:19 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Checkout Detalle de pago/div_En lneaTarjeta de crdito o dbito
+
+15-07-2024T23:28:19 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Checkout Detalle de pago/div_En lneaTarjeta de crdito o dbito
+
+15-07-2024T23:28:19 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:19 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Detalle de pago/div_Al recibir tu PedidoEfectivo o tarjeta"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:28:19 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Checkout Detalle de pago/div_Al recibir tu PedidoEfectivo o tarjeta
+
+15-07-2024T23:28:19 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Checkout Detalle de pago/div_Al recibir tu PedidoEfectivo o tarjeta
+
+15-07-2024T23:28:19 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Checkout Detalle de pago/div_Al recibir tu PedidoEfectivo o tarjeta")): Object: 'Object Repository/Page_Checkout Detalle de pago/div_Al recibir tu PedidoEfectivo o tarjeta' is clicked on
+
+15-07-2024T23:28:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout Detalle de pago/div_Al recibir tu PedidoEfectivo o tarjeta' is clicked on
+
+15-07-2024T23:28:20 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Detalle de pago/div_Efectivo"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:28:21 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Checkout Detalle de pago/div_Efectivo
+
+15-07-2024T23:28:21 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Checkout Detalle de pago/div_Efectivo
+
+15-07-2024T23:28:21 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:21 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Detalle de pago/span_Tarjeta de crdito o dbito"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:28:21 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_Checkout Detalle de pago/span_Tarjeta de crdito o dbito
+
+15-07-2024T23:28:21 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_Checkout Detalle de pago/span_Tarjeta de crdito o dbito
+
+15-07-2024T23:28:21 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Checkout Detalle de pago/div_Tarjeta de crdito o dbito")): Object: 'Object Repository/Page_Checkout Detalle de pago/div_Tarjeta de crdito o dbito' is clicked on
+
+15-07-2024T23:28:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout Detalle de pago/div_Tarjeta de crdito o dbito' is clicked on
+
+15-07-2024T23:28:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Checkout Detalle de pago/img_Efectivo_checkCard")): Object: 'Object Repository/Page_Checkout Detalle de pago/img_Efectivo_checkCard' is clicked on
+
+15-07-2024T23:28:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout Detalle de pago/img_Efectivo_checkCard' is clicked on
+
+15-07-2024T23:28:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Checkout Detalle de pago/button_Pagar al recibir pedido")): Object: 'Object Repository/Page_Checkout Detalle de pago/button_Pagar al recibir pedido' is clicked on
+
+15-07-2024T23:28:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout Detalle de pago/button_Pagar al recibir pedido' is clicked on
+
+15-07-2024T23:28:25 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_/h4_Resumen de productos"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:28:29 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_/h4_Resumen de productos
+
+15-07-2024T23:28:29 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_/h4_Resumen de productos
+
+15-07-2024T23:28:29 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:29 - [TEST_STEP][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_/Finalizar_compra_OPC"), 0): com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-07-2024T23:28:29 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_/Finalizar_compra_OPC
+
+15-07-2024T23:28:29 - [MESSAGE][PASSED] - Element is present: Object Repository/Page_/Finalizar_compra_OPC
+
+15-07-2024T23:28:29 - [MESSAGE][PASSED] - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+
+15-07-2024T23:28:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-07-2024T23:28:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-07-2024T23:26:36 - [TEST_SUITE][PASSED] - FarmaciaSanpablo: Test Cases/End_to_End]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

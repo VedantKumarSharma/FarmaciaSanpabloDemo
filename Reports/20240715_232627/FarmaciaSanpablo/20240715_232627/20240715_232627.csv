@@ -1,0 +1,104 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FarmaciaSanpablo,Chrome 126.0.0.0,,,15-07-2024 23:26:36,15-07-2024 23:28:30,1m - 54.393s,PASSED
+,,,,,,,
+Test Cases/End_to_End,Chrome 126.0.0.0,,,15-07-2024 23:26:36,15-07-2024 23:28:30,1m - 54.199s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,15-07-2024 23:26:36,15-07-2024 23:26:38,2.188s,PASSED
+"navigateToUrl(""https://www.farmaciasanpablo.com.mx/"")",Chrome 126.0.0.0,"enter the testing enviornment URL
+",,15-07-2024 23:26:38,15-07-2024 23:27:00,21.467s,PASSED
+"com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject(""Object Repository/Home Page/No_button_Popup_HP""))",Chrome 126.0.0.0,"no selection of pop-up
+",,15-07-2024 23:27:00,15-07-2024 23:27:04,4.545s,PASSED
+"com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject(""Object Repository/Home Page/Close_popUp_HP""))",Chrome 126.0.0.0,close of Pop-up,,15-07-2024 23:27:04,15-07-2024 23:27:06,1.618s,PASSED
+"com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject(""HP/Login_LOGO_HP""))",Chrome 126.0.0.0,click on login icon ,,15-07-2024 23:27:06,15-07-2024 23:27:07,1.241s,PASSED
+"com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject(""Object Repository/Home Page/Inicia_sesin_HP""))",Chrome 126.0.0.0,"click on iniciar session icon
+",,15-07-2024 23:27:07,15-07-2024 23:27:09,1.626s,PASSED
+"setText(findTestObject(""Object Repository/Home Page/Inicia_sesin_Username_HP_loginPopup""), username)",Chrome 126.0.0.0,enter username for login,,15-07-2024 23:27:09,15-07-2024 23:27:10,1.049s,PASSED
+"setText(findTestObject(""Object Repository/Home Page/Inicia_sesin_Password_HP_loginPopup""), password)",Chrome 126.0.0.0,enter password for login,,15-07-2024 23:27:10,15-07-2024 23:27:11,0.943s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Ingresar_Header_HP""))",Chrome 126.0.0.0,submit button ,,15-07-2024 23:27:11,15-07-2024 23:27:11,0.416s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Home Page/Categoras_button_HP""), 0)",Chrome 126.0.0.0,category option header ,,15-07-2024 23:27:11,15-07-2024 23:27:15,3.771s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Home Page/Enviar_a_Cdiga_Postal_14000_(after login postal code)""), 0)",Chrome 126.0.0.0,verify postal code at header ,,15-07-2024 23:27:15,15-07-2024 23:27:16,0.447s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Home Page/Ofertas_hedaer_HP""), 0)",Chrome 126.0.0.0,verify oftertas option header ,,15-07-2024 23:27:16,15-07-2024 23:27:16,0.495s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Home Page/Sucursales_HP""), 0)",Chrome 126.0.0.0,verify surcursales option header ,,15-07-2024 23:27:16,15-07-2024 23:27:17,0.512s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Home Page/Facturacin_header_HP""), 0)",Chrome 126.0.0.0,verify facturacin option header ,,15-07-2024 23:27:17,15-07-2024 23:27:18,1.624s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Ofertas  San Pablo Farmacia/div_Bienvenido  sudha""), 0)",Chrome 126.0.0.0,verify logged in by verifying the name ,,15-07-2024 23:27:18,15-07-2024 23:27:19,0.480s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Home Page/SideBox_HP""), 0)",Chrome 126.0.0.0,"verify images at HP
+",,15-07-2024 23:27:19,15-07-2024 23:27:19,0.406s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Home Page/SearchBox_Header_HP""), 0)",Chrome 126.0.0.0,verify searchbar header ,,15-07-2024 23:27:19,15-07-2024 23:27:19,0.428s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Home Page/Logo_hp""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:27:19,15-07-2024 23:27:20,0.572s,PASSED
+"mouseOver(findTestObject(""Object Repository/Page_Ofertas  San Pablo Farmacia/li_Categoras MedicamentosMedicamentosAntimi_49f250""))",Chrome 126.0.0.0,mouse over on category drop down option,,15-07-2024 23:27:20,15-07-2024 23:27:21,0.741s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Home Page/Medicamentos_L1_category_HP""), 0)",Chrome 126.0.0.0,verify Medicamentos L1 category option from category drop down,,15-07-2024 23:27:21,15-07-2024 23:27:21,0.515s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Medicamentos_L1_category_HP""), STOP_ON_FAILURE)",Chrome 126.0.0.0,click Medicamentos L1 category option from category drop down,,15-07-2024 23:27:21,15-07-2024 23:27:22,0.517s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Ofertas  San Pablo Farmacia/a_Medicamentos""), 0)",Chrome 126.0.0.0,"verify medicamentos 
+",,15-07-2024 23:27:22,15-07-2024 23:27:22,0.507s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Page_Ofertas  San Pablo Farmacia/a_Aerosoles_L3Category""))",Chrome 126.0.0.0,verify Element Aerosoles at L3,,15-07-2024 23:27:22,15-07-2024 23:27:23,0.538s,PASSED
+"click(findTestObject(""Page_Ofertas  San Pablo Farmacia/a_Aerosoles_L3Category""))",Chrome 126.0.0.0,click Element Aerosoles at L3,,15-07-2024 23:27:23,15-07-2024 23:27:24,0.679s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Aerosoles/button_Precio""))",Chrome 126.0.0.0,"verify Element precio filtter at PLP
+",,15-07-2024 23:27:24,15-07-2024 23:27:28,4.316s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Aerosoles/Marca""))",Chrome 126.0.0.0,"verify Element Maraco filtter at PLP
+",,15-07-2024 23:27:28,15-07-2024 23:27:28,0.489s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Aerosoles/Todas_las_Categoras""), 0)",Chrome 126.0.0.0,"verify Element todas las categoras  at PLP
+",,15-07-2024 23:27:28,15-07-2024 23:27:29,0.409s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Aerosoles/Ordenar_por""), ""Ordenar por:"")",Chrome 126.0.0.0,"verify Element ordernar at PLP
+",,15-07-2024 23:27:29,15-07-2024 23:27:29,0.369s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Aerosoles/item per page""), 0)",Chrome 126.0.0.0,"verify Element item per page at PLP
+",,15-07-2024 23:27:29,15-07-2024 23:27:29,0.346s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Page_Aerosoles/item per row option 1""), 0)",Chrome 126.0.0.0,verify item per row in PLP,,15-07-2024 23:27:29,15-07-2024 23:27:30,0.374s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Aerosoles/item per row option 2""), 0)",Chrome 126.0.0.0,verify item per row option 2 in PLP,,15-07-2024 23:27:30,15-07-2024 23:27:30,0.399s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Aerosoles/Product 1""), 0)",Chrome 126.0.0.0,verify product 1 in PLP,,15-07-2024 23:27:30,15-07-2024 23:27:31,0.472s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Aerosoles/Product1_Add to wishlist""), 0)",Chrome 126.0.0.0,verify add product 1 to wishlist heart button at PLP,,15-07-2024 23:27:31,15-07-2024 23:27:31,0.420s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Aerosoles/Product1_Name_PLP""))",Chrome 126.0.0.0,verify product 1 name at PLP,,15-07-2024 23:27:31,15-07-2024 23:27:32,0.437s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Aerosoles/img""), 0)",Chrome 126.0.0.0,verify product 1 image at PLP,,15-07-2024 23:27:32,15-07-2024 23:27:32,0.416s,PASSED
+"click(findTestObject(""Object Repository/Page_Aerosoles/img""))",Chrome 126.0.0.0,click product 1 image at PLP,,15-07-2024 23:27:32,15-07-2024 23:27:37,4.922s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/h3_product_name_PDP""), 0)",Chrome 126.0.0.0,verify product name ,,15-07-2024 23:27:37,15-07-2024 23:27:44,6.763s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/img""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:27:44,15-07-2024 23:27:44,0.391s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_Cantidad""), 0)",Chrome 126.0.0.0,verify candid at PDP,,15-07-2024 23:27:44,15-07-2024 23:27:45,0.479s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/Product_price_PDP""), 0)",Chrome 126.0.0.0,"verify product price PDP	
+
+",,15-07-2024 23:27:45,15-07-2024 23:27:45,0.521s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/header_IMG_PDP""), 0)",Chrome 126.0.0.0,verify header IMG PDP,,15-07-2024 23:27:45,15-07-2024 23:27:46,0.509s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/Quantity_PDP""), 0)",Chrome 126.0.0.0,verify quantity in PDP,,15-07-2024 23:27:46,15-07-2024 23:27:46,0.382s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Comprar ahora""), 0)",Chrome 126.0.0.0,"verify comprar ahora PDP
+",,15-07-2024 23:27:46,15-07-2024 23:27:46,0.391s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Agregar al carrito""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:27:46,15-07-2024 23:27:47,0.401s,PASSED
+"click(findTestObject(""Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Agregar al carrito""))",Chrome 126.0.0.0,,,15-07-2024 23:27:47,15-07-2024 23:27:47,0.451s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Seguir comprando""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:27:47,15-07-2024 23:27:50,2.443s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_304.00 MXN""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:27:50,15-07-2024 23:27:50,0.703s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Realizar compra""))",Chrome 126.0.0.0,,,15-07-2024 23:27:50,15-07-2024 23:27:51,0.384s,PASSED
+"click(findTestObject(""Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Realizar compra""))",Chrome 126.0.0.0,,,15-07-2024 23:27:51,15-07-2024 23:27:51,0.398s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_ProductoPrecio""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:27:51,15-07-2024 23:27:55,3.559s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_Subtotal (4 productos)""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:27:55,15-07-2024 23:27:56,1.426s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_436.00 MXN""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:27:56,15-07-2024 23:27:57,0.366s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_Total""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:27:57,15-07-2024 23:27:57,0.474s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_304.00 MXN""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:27:57,15-07-2024 23:27:57,0.477s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Carrito de compras  San Pablo Farmacia/Selecciona_direccin_de_entrega""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:27:57,15-07-2024 23:27:58,0.470s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Carrito de compras  San Pablo Farmacia/h3_304.00 MXN""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:27:58,15-07-2024 23:27:58,0.521s,PASSED
+"click(findTestObject(""Object Repository/Page_Carrito de compras  San Pablo Farmacia/Selecciona_direccin_de_entrega""))",Chrome 126.0.0.0,,,15-07-2024 23:27:58,15-07-2024 23:27:59,0.540s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Checkout Shipping Address/h4_Resumen de compra""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:27:59,15-07-2024 23:28:04,4.633s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Checkout Shipping Address/h4_Subtotal (1 producto)""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:28:04,15-07-2024 23:28:04,0.357s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Checkout Shipping Address/h4_436.00 MXN""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:28:04,15-07-2024 23:28:04,0.374s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Checkout Shipping Address/h3_Total""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:28:04,15-07-2024 23:28:05,0.402s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Checkout Shipping Address/h3_304.00 MXN""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:28:05,15-07-2024 23:28:05,0.360s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Checkout Shipping Address/div_sudhasantafe98765Residencial insurgente_0adf22""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:28:05,15-07-2024 23:28:05,0.358s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Checkout Shipping Address/button_Entregar en esta direccin""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:28:05,15-07-2024 23:28:06,0.382s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Checkout Shipping Address/div_Nueva direccin""))",Chrome 126.0.0.0,,,15-07-2024 23:28:06,15-07-2024 23:28:06,0.345s,PASSED
+"click(findTestObject(""Object Repository/Page_Checkout Shipping Address/button_Entregar en esta direccin""))",Chrome 126.0.0.0,,,15-07-2024 23:28:06,15-07-2024 23:28:07,0.419s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_/Selecciona_un_mtodo_de_entrega(cambiar)""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:28:07,15-07-2024 23:28:09,2.343s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_/Entrega_programada_Elige_el""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:28:09,15-07-2024 23:28:10,1.079s,PASSED
+"click(findTestObject(""Object Repository/Page_/img_santafe 98765TLALPAN, RESIDENCIAL INSUR_9c95c1""))",Chrome 126.0.0.0,,,15-07-2024 23:28:10,15-07-2024 23:28:10,0.418s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_/div_Hoy12""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:28:10,15-07-2024 23:28:11,0.602s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_/p_8am - 9am""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:28:11,15-07-2024 23:28:11,0.005s,NOT_RUN
+"click(findTestObject(""Object Repository/Page_/img_Viernes_imgCheck""))",Chrome 126.0.0.0,,,15-07-2024 23:28:11,15-07-2024 23:28:11,0.004s,NOT_RUN
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_/Elegir_forma_de_entrega_PDP""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:28:11,15-07-2024 23:28:11,0.352s,PASSED
+"enhancedClick(findTestObject(""Object Repository/Page_/Elegir_forma_de_entrega_PDP""))",Chrome 126.0.0.0,,,15-07-2024 23:28:11,15-07-2024 23:28:12,0.553s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Checkout Detalle de pago/div_Solicitar FacturaPodrs capturar tus dat_4af506""))",Chrome 126.0.0.0,,,15-07-2024 23:28:12,15-07-2024 23:28:18,6.026s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Checkout Detalle de pago/h4_Selecciona una forma de pago""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:28:18,15-07-2024 23:28:18,0.411s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Checkout Detalle de pago/div_En lneaTarjeta de crdito o dbito""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:28:18,15-07-2024 23:28:19,0.397s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Checkout Detalle de pago/div_Al recibir tu PedidoEfectivo o tarjeta""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:28:19,15-07-2024 23:28:19,0.500s,PASSED
+"click(findTestObject(""Object Repository/Page_Checkout Detalle de pago/div_Al recibir tu PedidoEfectivo o tarjeta""))",Chrome 126.0.0.0,,,15-07-2024 23:28:19,15-07-2024 23:28:20,0.393s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Checkout Detalle de pago/div_Efectivo""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:28:20,15-07-2024 23:28:21,0.957s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Checkout Detalle de pago/span_Tarjeta de crdito o dbito""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:28:21,15-07-2024 23:28:21,0.354s,PASSED
+"click(findTestObject(""Object Repository/Page_Checkout Detalle de pago/div_Tarjeta de crdito o dbito""))",Chrome 126.0.0.0,,,15-07-2024 23:28:21,15-07-2024 23:28:21,0.374s,PASSED
+"click(findTestObject(""Object Repository/Page_Checkout Detalle de pago/img_Efectivo_checkCard""))",Chrome 126.0.0.0,,,15-07-2024 23:28:21,15-07-2024 23:28:22,0.402s,PASSED
+"click(findTestObject(""Object Repository/Page_Checkout Detalle de pago/button_Pagar al recibir pedido""))",Chrome 126.0.0.0,,,15-07-2024 23:28:22,15-07-2024 23:28:25,2.908s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_/h4_Resumen de productos""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:28:25,15-07-2024 23:28:29,4.029s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_/Finalizar_compra_OPC""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:28:29,15-07-2024 23:28:29,0.374s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,15-07-2024 23:28:29,15-07-2024 23:28:30,0.796s,PASSED

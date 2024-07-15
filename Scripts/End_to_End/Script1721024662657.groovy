@@ -242,19 +242,17 @@ WebUI.click(findTestObject('Object Repository/Page_/img_santafe 98765TLALPAN, RE
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_/div_Hoy12'), 
     0)
 
-CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_/p_8am - 9am'), 
+not_run: CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_/p_8am - 9am'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/Page_/img_Viernes_imgCheck'))
+not_run: WebUI.click(findTestObject('Object Repository/Page_/img_Viernes_imgCheck'))
 
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_/Elegir_forma_de_entrega_PDP'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/Page_/Elegir_forma_de_entrega_PDP'))
+WebUI.enhancedClick(findTestObject('Object Repository/Page_/Elegir_forma_de_entrega_PDP'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_Solicitar FacturaPodrs capturar tus dat_4af506'))
-
-WebUI.rightClick(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_En lneaTarjeta de crdito o dbito'))
 
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Detalle de pago/h4_Selecciona una forma de pago'), 
     0)

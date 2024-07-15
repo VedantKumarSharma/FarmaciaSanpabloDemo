@@ -28,8 +28,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.t
 
 
 
-RunConfiguration.setExecutionSettingFile("D:\\Github\\FarmaciaSanpabloDemo\\Reports\\20240715_161046\\FarmaciaSanpablo\\20240715_161046\\execution.properties")
+RunConfiguration.setExecutionSettingFile("D:\\Github\\FarmaciaSanpabloDemo\\Reports\\20240715_232513\\FarmaciaSanpablo\\20240715_232513\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/FarmaciaSanpablo', suiteProperties, new File("D:\\Github\\FarmaciaSanpabloDemo\\Reports\\20240715_161046\\FarmaciaSanpablo\\20240715_161046\\testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/FarmaciaSanpablo', suiteProperties, new File("D:\\Github\\FarmaciaSanpabloDemo\\Reports\\20240715_232513\\FarmaciaSanpablo\\20240715_232513\\testCaseBinding"))

@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FarmaciaSanpablo,Chrome 126.0.0.0,,,15-07-2024 23:25:22,15-07-2024 23:26:09,47.624s,FAILED
+,,,,,,,
+Test Cases/End_to_End,Chrome 126.0.0.0,,,15-07-2024 23:25:22,15-07-2024 23:26:09,47.412s,FAILED
+"openBrowser("""")",Chrome 126.0.0.0,,,15-07-2024 23:25:22,15-07-2024 23:25:25,2.135s,PASSED
+"navigateToUrl(""https://www.farmaciasanpablo.com.mx/"")",Chrome 126.0.0.0,"enter the testing enviornment URL
+",,15-07-2024 23:25:25,15-07-2024 23:25:46,21.227s,PASSED
+"com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject(""Object Repository/Home Page/No_button_Popup_HP""))",Chrome 126.0.0.0,"no selection of pop-up
+",,15-07-2024 23:25:46,15-07-2024 23:25:51,4.906s,PASSED
+"com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject(""Object Repository/Home Page/Close_popUp_HP""))",Chrome 126.0.0.0,close of Pop-up,,15-07-2024 23:25:51,15-07-2024 23:25:52,1.398s,PASSED
+"com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject(""HP/Login_LOGO_HP""))",Chrome 126.0.0.0,click on login icon ,,15-07-2024 23:25:52,15-07-2024 23:25:53,1.135s,PASSED
+"com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject(""Object Repository/Home Page/Inicia_sesin_HP""))",Chrome 126.0.0.0,"click on iniciar session icon
+",,15-07-2024 23:25:53,15-07-2024 23:25:55,1.245s,PASSED
+"setText(findTestObject(""Object Repository/Home Page/Inicia_sesin_Username_HP_loginPopup""), username)",Chrome 126.0.0.0,enter username for login,,15-07-2024 23:25:55,15-07-2024 23:25:56,1.029s,PASSED
+"setText(findTestObject(""Object Repository/Home Page/Inicia_sesin_Password_HP_loginPopup""), password)",Chrome 126.0.0.0,enter password for login,,15-07-2024 23:25:56,15-07-2024 23:25:56,0.896s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Ingresar_Header_HP""))",Chrome 126.0.0.0,submit button ,,15-07-2024 23:25:56,15-07-2024 23:25:57,0.539s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Home Page/Categoras_button_HP""), 0)",Chrome 126.0.0.0,category option header ,,15-07-2024 23:25:57,15-07-2024 23:26:04,6.519s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Home Page/Enviar_a_Cdiga_Postal_14000_(after login postal code)""), 0)",Chrome 126.0.0.0,verify postal code at header ,,15-07-2024 23:26:04,15-07-2024 23:26:04,0.356s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Home Page/Ofertas_hedaer_HP""), 0)",Chrome 126.0.0.0,verify oftertas option header ,,15-07-2024 23:26:04,15-07-2024 23:26:05,0.756s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Home Page/Sucursales_HP""), 0)",Chrome 126.0.0.0,verify surcursales option header ,,15-07-2024 23:26:05,15-07-2024 23:26:05,0.392s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Home Page/Facturacin_header_HP""), 0)",Chrome 126.0.0.0,verify facturacin option header ,,15-07-2024 23:26:05,15-07-2024 23:26:06,0.571s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Page_Ofertas  San Pablo Farmacia/div_Bienvenido  sudha""), 0)",Chrome 126.0.0.0,verify logged in by verifying the name ,,15-07-2024 23:26:06,15-07-2024 23:26:06,0.478s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Home Page/SideBox_HP""), 0)",Chrome 126.0.0.0,"verify images at HP
+",,15-07-2024 23:26:06,15-07-2024 23:26:07,0.426s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Home Page/SearchBox_Header_HP""), 0)",Chrome 126.0.0.0,verify searchbar header ,,15-07-2024 23:26:07,15-07-2024 23:26:07,0.402s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Home Page/Logo_hp""), 0)",Chrome 126.0.0.0,,,15-07-2024 23:26:07,15-07-2024 23:26:07,0.424s,PASSED
+"mouseOver(findTestObject(""Object Repository/Page_Ofertas  San Pablo Farmacia/li_Categoras MedicamentosMedicamentosAntimi_49f250""))",Chrome 126.0.0.0,mouse over on category drop down option,,15-07-2024 23:26:07,15-07-2024 23:26:08,0.805s,PASSED
+"com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject(""Object Repository/Home Page/Medicamentos_L1_category_HP""), 0)",Chrome 126.0.0.0,verify Medicamentos L1 category option from category drop down,,15-07-2024 23:26:08,15-07-2024 23:26:09,0.395s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Medicamentos_L1_category_HP""), STOP_ON_FAILURE)",Chrome 126.0.0.0,click Medicamentos L1 category option from category drop down,,15-07-2024 23:26:09,15-07-2024 23:26:09,0.836s,FAILED

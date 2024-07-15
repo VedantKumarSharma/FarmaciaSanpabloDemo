@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@class='btn btn-primary btnSetMethod ng-star-inserted']</value>
+         <value>//button[contains(text(),' Elegir forma de entrega ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>503f883b-b219-43c6-82a4-3ae2a51c07e1</webElementGuid>
+      <webElementGuid>e8ce1887-d8b8-47c0-b454-7f96cd1d5e8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-sm btnSelect</value>
-      <webElementGuid>21e66864-5227-4692-a6eb-d56dab11d92b</webElementGuid>
+      <webElementGuid>1a41f9c9-57f1-4280-9f2f-be70aeb88e0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Elegir forma de entrega </value>
-      <webElementGuid>bba14e35-edaa-4c30-b652-1f4bcc2c4e21</webElementGuid>
+      <webElementGuid>3b6673bb-95ff-4fba-ae8e-263b7c760fd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/cx-storefront[@class=&quot;MultiStepCheckoutSummaryPageTemplate stop-navigating&quot;]/main[@class=&quot;mouse-focus&quot;]/cx-page-layout[@class=&quot;MultiStepCheckoutSummaryPageTemplate&quot;]/cx-page-slot[@class=&quot;BodyContent has-components&quot;]/app-custom-delivery-mode[1]/div[3]/app-delivery-method-sheduling[1]/div[2]/div[1]/div[@class=&quot;tarjeta&quot;]/div[@class=&quot;row justify-content-end&quot;]/div[@class=&quot;col-md-4 col-lg-4 col-12&quot;]/button[@class=&quot;btn btn-primary btn-sm btnSelect&quot;]</value>
-      <webElementGuid>49ba8fba-b8bb-4f83-8297-5100ff1b9964</webElementGuid>
+      <webElementGuid>4d90efe5-d489-4f74-876e-f20a7cf7b38f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Viernes'])[1]/following::button[1]</value>
-      <webElementGuid>5540833e-4543-442c-b776-ce9cf7f62767</webElementGuid>
+      <webElementGuid>816dec70-dc6c-4814-83fd-eff5a5962fc9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jueves'])[1]/following::button[1]</value>
-      <webElementGuid>3f0b72b6-3892-41ea-9e19-4b6191171b30</webElementGuid>
+      <webElementGuid>a5845f19-0595-45aa-918c-ee15a3921523</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Resumen de compra'])[1]/preceding::button[1]</value>
-      <webElementGuid>a8be18b7-218e-4c02-ba3e-e37f0d0f0a02</webElementGuid>
+      <webElementGuid>207e402b-1c33-49d9-ae89-4d8f5839db0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Elegir forma de entrega']/parent::*</value>
-      <webElementGuid>38d3c8bf-b35a-48de-be03-613c1a0bc636</webElementGuid>
+      <webElementGuid>be0bf5e1-8d0b-4652-b021-28ed83faabe8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[16]/div/button</value>
-      <webElementGuid>0ae67a8b-5d7e-411d-b9b5-d8522a4da3f8</webElementGuid>
+      <webElementGuid>5b730156-52fe-48d8-801d-1a4e31012d4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' Elegir forma de entrega ' or . = ' Elegir forma de entrega ')]</value>
-      <webElementGuid>0502e3a4-98c3-462b-9d24-2641d4c71cab</webElementGuid>
+      <webElementGuid>989c4dda-5959-4397-9edb-346616188f88</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
