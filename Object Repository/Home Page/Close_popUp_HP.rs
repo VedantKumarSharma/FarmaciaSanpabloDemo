@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_</name>
+   <name>Close_popUp_HP</name>
    <tag></tag>
    <elementGuidId>71fbed96-d87f-40f6-aedd-3a3b77fafe16</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.tache</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='modalForaneo']/div/div/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.tache</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

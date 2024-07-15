@@ -1,3 +1,24 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Home Page/Inicia_sesin_Username_HP_loginPopup",
+      "brokenLocator": "//input[@class\u003d\u0027form-control ng-pristine ng-invalid ng-touched\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@type\u003d\u0027email\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Home Page/Inicia_sesin_Username_HP_loginPopup_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Home Page/Enviar_a_Cdiga_Postal_14000_(after login postal code)",
+      "brokenLocator": "//header[@id\u003d\u0027cx-header\u0027]/cx-page-layout/cx-page-slot[6]/app-custom-login/div[2]/div/div/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Preguntas frecuentes\u0027])[1]/following::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
 }

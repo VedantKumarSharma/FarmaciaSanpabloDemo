@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Ingresar</name>
+   <name>Ingresar_Header_HP</name>
    <tag></tag>
    <elementGuidId>0ae26c5f-20db-4dfa-9395-b641893ec236</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-primary.col-md-6.col-sm-6.col-sm-offset-3.col-xs-12</value>
+         <key>XPATH</key>
+         <value>//button[@class=&quot;btn btn-primary col-md-6 col-sm-6 col-sm-offset-3 col-xs-12&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.col-md-6.col-sm-6.col-sm-offset-3.col-xs-12</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3122d87f-7ccf-4a59-8326-339761bda195</webElementGuid>
+      <webElementGuid>3b5a96ec-5a5c-4bab-87e9-1343a1088b27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>070a4c0d-ab4d-4825-a5fa-6950216ed64b</webElementGuid>
+      <webElementGuid>b5368a68-b372-42b7-b85e-7a87b1d17eb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary col-md-6 col-sm-6 col-sm-offset-3 col-xs-12</value>
-      <webElementGuid>c747759e-d258-4ccf-8fb5-f5646b25a674</webElementGuid>
+      <webElementGuid>73fded2e-6067-4f82-9a7d-fe359177ba3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ingresar</value>
-      <webElementGuid>e7f482df-bda4-49f5-99e0-f9c0abd31b22</webElementGuid>
+      <webElementGuid>4de8934a-b31c-4343-af9a-f1440be78345</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;modal-open fix-scroll&quot;]/ngb-modal-window[@class=&quot;d-block modal fade show&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered modal-lg&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/fsp-custom-login-form[1]/form[@class=&quot;ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;d-flex justify-content-center&quot;]/button[@class=&quot;btn btn-primary col-md-6 col-sm-6 col-sm-offset-3 col-xs-12&quot;]</value>
-      <webElementGuid>24e0369b-8a65-42bb-8334-4c975debaff9</webElementGuid>
+      <webElementGuid>e375fee0-d025-4d1c-94ab-5f52d0d9d441</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>f97459de-1e89-48da-9f8b-e7c3b203a6cc</webElementGuid>
+      <webElementGuid>eed832d1-8840-4bdf-86d9-029d4346cc86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='¿Olvidaste tu contraseña?'])[1]/following::button[1]</value>
-      <webElementGuid>20e28698-1994-40b1-84b0-6251bfe01e04</webElementGuid>
+      <webElementGuid>b4cf8ce5-5bbc-4c32-a855-dfb8089c2e84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*Contraseña'])[1]/following::button[1]</value>
-      <webElementGuid>127dec63-2e39-4f79-b6aa-1d5e92507f20</webElementGuid>
+      <webElementGuid>1d88205d-b5b0-4261-8de2-86007b4d4bd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Regístrate'])[3]/preceding::button[1]</value>
-      <webElementGuid>66b8db04-b7b3-479b-a5c9-688d0eb25493</webElementGuid>
+      <webElementGuid>9ecd6c4b-0ef3-435c-b35a-9bd76513e367</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Ingresar']/parent::*</value>
-      <webElementGuid>dfdcb56f-f33d-4465-83b0-9d67582e5055</webElementGuid>
+      <webElementGuid>6adf186e-1704-4093-ab49-fcf1ddfeb7cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div[2]/button</value>
-      <webElementGuid>f74caddf-b512-4422-b212-c7af6ff1ec48</webElementGuid>
+      <webElementGuid>bae788ac-afe7-4acf-af2f-5fd927c2f025</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Ingresar' or . = 'Ingresar')]</value>
-      <webElementGuid>e3541d3a-accd-412f-845f-1992711ec23b</webElementGuid>
+      <webElementGuid>188964eb-33c3-468f-991b-42e57676c34c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Inicia sesin_form-control ng-untouche_9480b0</name>
+   <name>Inicia_sesin_Password_HP_loginPopup</name>
    <tag></tag>
-   <elementGuidId>49ab5aea-c812-45a5-b908-70151fcc3bf5</elementGuidId>
+   <elementGuidId>6d7fa1cb-02bb-4309-885b-e837b670086e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input.form-control.ng-untouched.ng-invalid.ng-dirty</value>
+         <key>XPATH</key>
+         <value>//input[@id='login-password']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@type='email']</value>
+         <key>CSS</key>
+         <value>#login-password</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Correo electrónico&quot;s]</value>
+         <value>internal:attr=[placeholder=&quot;*Contraseña&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,70 +29,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>08675432-ad62-46b9-979d-6eee60ff39f6</webElementGuid>
+      <webElementGuid>4075a24f-5725-4ddf-83a7-c5a76439a2c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Correo electrónico</value>
-      <webElementGuid>8726abfe-c204-48ea-b74a-c2e2ef291f74</webElementGuid>
+      <value>*Contraseña</value>
+      <webElementGuid>4c55f0a0-06a1-4ec0-b293-4da430cae0e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>login-password</value>
+      <webElementGuid>7d1a1e07-ee16-4f3d-bf83-419c52e96984</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>2343ee61-af25-45db-a5b4-a69c389c285c</webElementGuid>
+      <value>password</value>
+      <webElementGuid>cd55966b-8153-40f6-ad03-3ebe9e432f8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>formcontrolname</name>
       <type>Main</type>
-      <value>userId</value>
-      <webElementGuid>40552947-6264-49c6-982a-ae8b09b3fc10</webElementGuid>
+      <value>password</value>
+      <webElementGuid>5b679fe1-2360-4099-9896-ab664900ddba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-untouched ng-invalid ng-dirty</value>
-      <webElementGuid>12d3106a-04b6-43a2-9be1-379c99478224</webElementGuid>
+      <value>form-control ng-untouched ng-pristine ng-invalid</value>
+      <webElementGuid>d739b7d8-0058-4db6-9082-026dcfe9a052</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;modal-open fix-scroll&quot;]/ngb-modal-window[@class=&quot;d-block modal fade show&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered modal-lg&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/fsp-custom-login-form[1]/form[@class=&quot;ng-untouched ng-invalid ng-dirty&quot;]/div[@class=&quot;row d-flex justify-content-center&quot;]/div[@class=&quot;form-group col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 form-group floating-label-container colorwhite&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;form-group floating-label-container&quot;]/input[@class=&quot;form-control ng-untouched ng-invalid ng-dirty&quot;]</value>
-      <webElementGuid>0c1da6bb-8d27-43c3-bb4b-15343d211b6c</webElementGuid>
+      <value>id(&quot;login-password&quot;)</value>
+      <webElementGuid>0379ddd1-3e36-4b2b-871a-673741f023e7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@type='email']</value>
-      <webElementGuid>7eda22d4-e84c-4d84-a6ed-b0b2e0fd9852</webElementGuid>
+      <value>//input[@id='login-password']</value>
+      <webElementGuid>80ca14ef-2d31-4360-90ff-5a60cb34e5bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/input</value>
-      <webElementGuid>6114a736-9e3b-4d45-aed8-31bfb1afb8d9</webElementGuid>
+      <value>//div[2]/div/div/input</value>
+      <webElementGuid>7704089a-12bc-4c34-855b-1654b7534c65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@placeholder = 'Correo electrónico' and @type = 'email']</value>
-      <webElementGuid>a74014c4-948b-4ede-bccd-874828453527</webElementGuid>
+      <value>//input[@placeholder = '*Contraseña' and @id = 'login-password' and @type = 'password']</value>
+      <webElementGuid>5ac974e9-8d8c-4f26-b7cc-71f9b821d56c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

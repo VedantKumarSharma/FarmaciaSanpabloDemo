@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Atencin a clientes_searchBoxId</name>
+   <name>SearchBox_Header_HP</name>
    <tag></tag>
    <elementGuidId>4ed0a5b7-de2b-4688-a81b-4a1e498b324a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#searchBoxId</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='searchBoxId']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#searchBoxId</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

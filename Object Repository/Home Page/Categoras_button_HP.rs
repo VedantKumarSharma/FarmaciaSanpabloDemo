@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Ofertas</name>
+   <name>Categoras_button_HP</name>
    <tag></tag>
-   <elementGuidId>50243344-4b90-4002-80a2-adaddb1a5961</elementGuidId>
+   <elementGuidId>a5de7655-fc9c-46ae-8bc9-329426db7ca9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//header[@id='cx-header']/cx-page-layout/cx-page-slot[8]/app-custom-menu-header/nav/ul/li/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//header[@id='cx-header']/cx-page-layout/cx-page-slot[8]/app-custom-menu-header/nav/ul[2]/li/a</value>
+         <key>CSS</key>
+         <value>li.main-option > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Ofertas&quot;s]</value>
+         <value>internal:role=link[name=&quot;Categorías &quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,23 +29,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>fce8f4df-656c-4ad9-b5a9-225a14de71fd</webElementGuid>
+      <webElementGuid>ea86dc69-2cb6-46b8-84d6-a33338c207f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/ofertas</value>
-      <webElementGuid>33167b4e-cfda-4ba6-92c3-18a27f9a978d</webElementGuid>
+      <value>/undefined</value>
+      <webElementGuid>cad569a6-c0e3-44d5-9c40-dd60f8bd1029</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Ofertas </value>
-      <webElementGuid>3ac9dc8a-bd5b-4f61-afca-8add924efb9d</webElementGuid>
+      <value> Categorías </value>
+      <webElementGuid>782b0a47-f89b-4de9-baa8-b77b393b0462</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,86 +53,86 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cx-header&quot;)/cx-page-layout[@class=&quot;header&quot;]/cx-page-slot[@class=&quot;NavigationBar has-components&quot;]/app-custom-menu-header[1]/nav[@class=&quot;navbar align-nav-var headerFixed&quot;]/ul[@class=&quot;not-mobile&quot;]/li[@class=&quot;main-option&quot;]/a[1]</value>
-      <webElementGuid>fe153084-2aba-4da7-8a5a-bf2808ae5f6c</webElementGuid>
+      <webElementGuid>c51cb319-bdff-46f8-8486-ffc1bb8db8d5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//header[@id='cx-header']/cx-page-layout/cx-page-slot[8]/app-custom-menu-header/nav/ul[2]/li/a</value>
-      <webElementGuid>67feb705-b882-4c3d-b54f-b9dbf0b22527</webElementGuid>
+      <value>//header[@id='cx-header']/cx-page-layout/cx-page-slot[8]/app-custom-menu-header/nav/ul/li/a</value>
+      <webElementGuid>6d302fe8-5708-4b64-9855-26a639d776d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Ofertas')]</value>
-      <webElementGuid>5b8bb4f7-24f9-427f-93e9-168153cbddaf</webElementGuid>
+      <value>//a[contains(text(),'Categorías')]</value>
+      <webElementGuid>b4011a62-3fc2-4634-9705-219813323da1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vigorizantes'])[1]/following::a[1]</value>
-      <webElementGuid>307c56e0-f0ef-4a87-acb1-fd904af82673</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Eliminar Carrito'])[1]/following::a[1]</value>
+      <webElementGuid>8d780781-44f4-4de8-b197-d88b10c5e2ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pruebas'])[1]/following::a[2]</value>
-      <webElementGuid>cd70f546-318c-488a-8d23-bd13b9b5258e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Resumen de compra'])[1]/following::a[1]</value>
+      <webElementGuid>c5cd2fbd-58c3-4fc7-8099-ae47de9b787c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sucursales'])[1]/preceding::a[1]</value>
-      <webElementGuid>2846b525-e3ea-403f-b1c6-853cec4d2add</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medicamentos'])[1]/preceding::a[1]</value>
+      <webElementGuid>7cc8f38d-c91d-4fcd-950d-7468cdfba6bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facturación'])[1]/preceding::a[2]</value>
-      <webElementGuid>38e9b07d-96d5-4511-9c59-7d53963e41e2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medicamentos'])[2]/preceding::a[2]</value>
+      <webElementGuid>016f0159-107d-4db1-8583-8449dfd45ede</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Ofertas']/parent::*</value>
-      <webElementGuid>b6d5aaa2-60bc-4cdc-a066-0a1abd8df511</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Categorías']/parent::*</value>
+      <webElementGuid>690c357f-b4ea-4a70-806e-b3d2863e59ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/ofertas')]</value>
-      <webElementGuid>d1d044ad-afa6-4033-9753-954aa50c1ef8</webElementGuid>
+      <value>//a[contains(@href, '/undefined')]</value>
+      <webElementGuid>1c6d5dcd-ab9f-4b83-93e6-10f682b4fd29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//ul[2]/li/a</value>
-      <webElementGuid>08341371-311f-4cad-a2d4-829012d3cddb</webElementGuid>
+      <value>//app-custom-menu-header/nav/ul/li/a</value>
+      <webElementGuid>6500079c-f502-440a-bc41-eb30a92f56ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/ofertas' and (text() = ' Ofertas ' or . = ' Ofertas ')]</value>
-      <webElementGuid>a4bfcef2-3e9b-4168-8671-98d6a76999b2</webElementGuid>
+      <value>//a[@href = '/undefined' and (text() = ' Categorías ' or . = ' Categorías ')]</value>
+      <webElementGuid>f53ede88-3f63-4045-815f-700e3c11bc24</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

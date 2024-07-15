@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Medicamentos</name>
+   <name>Medicamentos_L1_category_HP</name>
    <tag></tag>
    <elementGuidId>4e582627-0bbe-41d2-824b-d24003732e4e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.content-menu > div</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//ul[@id='categories']/li/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.content-menu > div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

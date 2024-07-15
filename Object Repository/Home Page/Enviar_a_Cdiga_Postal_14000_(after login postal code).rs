@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_Enviar a Cdigo Postal 14000</name>
+   <name>Enviar_a_Cdiga_Postal_14000_(after login postal code)</name>
    <tag></tag>
    <elementGuidId>44d7ee64-1240-4e88-bf0d-eab4fb59b2c9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>p.cp-text</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//header[@id='cx-header']/cx-page-layout/cx-page-slot[6]/app-custom-login/div[2]/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.cp-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
