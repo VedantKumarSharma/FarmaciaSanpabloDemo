@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@class='form-control ng-pristine ng-invalid ng-touched']</value>
+         <value>//div[@class='form-group floating-label-container']//input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>7873e722-c81c-4026-bd34-ae2960063c3f</webElementGuid>
+      <webElementGuid>103b5c20-37f7-4840-83ab-e5d7efb32d2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Correo electrónico</value>
-      <webElementGuid>8bcf8ca8-98f4-480e-b356-d7ed0cf0fa2a</webElementGuid>
+      <webElementGuid>a7c03040-8315-446d-b26d-61264bab28f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>519add09-8fa1-480b-9310-c238f33a5a43</webElementGuid>
+      <webElementGuid>9f82bfcf-334d-495d-8166-c060ce8fe394</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>formcontrolname</name>
       <type>Main</type>
       <value>userId</value>
-      <webElementGuid>f06f60e5-8845-4826-8024-192248b9c3e9</webElementGuid>
+      <webElementGuid>136f478e-89b1-4fbe-9b48-910eb6e552b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control ng-untouched ng-invalid ng-dirty</value>
-      <webElementGuid>bbbc8384-4904-46c7-b2bd-8ce048d8a68a</webElementGuid>
+      <webElementGuid>8c9363b3-74f3-4d91-aadd-a905d4d73774</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;modal-open fix-scroll&quot;]/ngb-modal-window[@class=&quot;d-block modal fade show&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered modal-lg&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/fsp-custom-login-form[1]/form[@class=&quot;ng-untouched ng-invalid ng-dirty&quot;]/div[@class=&quot;row d-flex justify-content-center&quot;]/div[@class=&quot;form-group col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 form-group floating-label-container colorwhite&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;form-group floating-label-container&quot;]/input[@class=&quot;form-control ng-untouched ng-invalid ng-dirty&quot;]</value>
-      <webElementGuid>b84ba16d-eaea-4163-9eeb-b5c2a252f56c</webElementGuid>
+      <webElementGuid>48aebcc4-ebb3-4565-8978-131c59ec1b5d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@type='email']</value>
-      <webElementGuid>51d1f077-4922-42c2-af19-b39480ea98a9</webElementGuid>
+      <webElementGuid>1c1ea551-0a7c-48a8-a227-8d749fae6df8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input</value>
-      <webElementGuid>a169efe3-da06-44db-abbf-7e0d23738fdd</webElementGuid>
+      <webElementGuid>80a71519-ef18-4f31-8753-fc659ebab3f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Correo electrónico' and @type = 'email']</value>
-      <webElementGuid>ca01b364-4fac-478f-9f34-ad9575982bcf</webElementGuid>
+      <webElementGuid>77a981db-e4d6-48b1-8461-d71ed4dfc14f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
