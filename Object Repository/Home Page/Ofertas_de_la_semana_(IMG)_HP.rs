@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Ofertas de la semana</name>
+   <name>Ofertas_de_la_semana_(IMG)_HP</name>
    <tag></tag>
    <elementGuidId>aab68fe0-050c-4572-abc8-5c9ea49b3ee7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.container</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Ofertas en dermocosméticos'])[1]/preceding::div[13]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.container</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

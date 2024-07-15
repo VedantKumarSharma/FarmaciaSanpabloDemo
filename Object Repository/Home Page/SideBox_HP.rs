@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_concat( i class, , fas fa-chevron-right_898612</name>
+   <name>SideBox_HP</name>
    <tag></tag>
    <elementGuidId>f802a1cc-a021-447b-80fa-37771293759e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#sliderGrid-home-estacionOfertas-secundarias-banner01</value>
+         <key>XPATH</key>
+         <value>//div[@class='sidebox-1']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//img[@id='sliderGrid-home-estacionOfertas-secundarias-banner01']</value>
+         <key>CSS</key>
+         <value>#sliderGrid-home-estacionOfertas-secundarias-banner01</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>174176a6-9c87-4d08-bfe7-b0d7e5b2e2a4</webElementGuid>
+      <webElementGuid>7b134b2c-3b08-4846-a90e-2c9c1f02cfe1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>src</name>
       <type>Main</type>
       <value>https://assets1.farmaciasanpablo.com.mx/landings/HardSell/2406-EstaciondeOfertas/Sem03/CintilloGrid-EstaciondeOfertas24-sem03-m-v1@2x.jpg</value>
-      <webElementGuid>ec23ad03-b569-4f02-accc-85d60faf6978</webElementGuid>
+      <webElementGuid>83a5f69b-8519-488c-9995-0431055d1e71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>Estación de Ofertas</value>
-      <webElementGuid>ae5a9657-f99e-4379-ad61-12f6d05fdc90</webElementGuid>
+      <webElementGuid>3dcc23ef-1508-4c82-b43c-a2f9e09018ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>id</name>
       <type>Main</type>
       <value>sliderGrid-home-estacionOfertas-secundarias-banner01</value>
-      <webElementGuid>4b4b7c39-9dfa-4e67-b3b8-b1c819fd9468</webElementGuid>
+      <webElementGuid>ee8e7206-d001-4e92-968b-29e5e37c1372</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sliderGrid-home-estacionOfertas-secundarias-banner01&quot;)</value>
-      <webElementGuid>39e3300e-021a-476b-a3e2-3fa8cb0e0473</webElementGuid>
+      <webElementGuid>864f5af3-a764-4ff6-88da-059ccc65920b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//img[@id='sliderGrid-home-estacionOfertas-secundarias-banner01']</value>
-      <webElementGuid>59049024-5623-4344-a7ec-3cba0c798c63</webElementGuid>
+      <webElementGuid>0ee543f9-88c4-4618-bb3b-4acfd19357bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='Estación de Ofertas']</value>
-      <webElementGuid>dcd42f84-6ec8-4fba-9a87-28890a871abc</webElementGuid>
+      <webElementGuid>d761b2f7-d20f-49f6-a5fe-a9725ff5b628</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/a/picture/img</value>
-      <webElementGuid>9ef05b04-abc0-4c9f-b31d-5fd6c9dad245</webElementGuid>
+      <webElementGuid>f3f5a343-9819-4444-a59f-4a2682474faf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'https://assets1.farmaciasanpablo.com.mx/landings/HardSell/2406-EstaciondeOfertas/Sem03/CintilloGrid-EstaciondeOfertas24-sem03-m-v1@2x.jpg' and @alt = 'Estación de Ofertas' and @id = 'sliderGrid-home-estacionOfertas-secundarias-banner01']</value>
-      <webElementGuid>a24f2c3a-8e46-4f55-809e-871456ead587</webElementGuid>
+      <webElementGuid>2de598e8-071a-4bff-a0d5-b7db0edd061f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

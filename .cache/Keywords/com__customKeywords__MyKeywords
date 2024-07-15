@@ -6,11 +6,13 @@
       "keywordMethods": [
         {
           "name": "generateRandomEmail",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "refreshBrowser",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "clickElement",
@@ -28,7 +30,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "clickElementWithoutScroll",
@@ -59,7 +62,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "getHtmlTableRows",
@@ -90,19 +94,23 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "scrollWindow",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "scrollToTop",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "highlightElement1",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "highlightElement",
@@ -120,7 +128,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "verifyElementPresentKeyword",
@@ -151,11 +160,13 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "randomString",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "removeDollar",
@@ -173,7 +184,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "clickElementWithoutScroll",
@@ -191,7 +203,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "verifyElementPresentKeyword",
@@ -209,10 +222,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

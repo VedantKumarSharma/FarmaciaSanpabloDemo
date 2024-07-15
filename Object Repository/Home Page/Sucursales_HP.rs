@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Facturacin</name>
+   <name>Sucursales_HP</name>
    <tag></tag>
-   <elementGuidId>eabaefec-3827-4ca1-bddd-e04c865514fc</elementGuidId>
+   <elementGuidId>4cf44745-6384-4b1b-95e5-2f77eb99cef8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//header[@id='cx-header']/cx-page-layout/cx-page-slot[8]/app-custom-menu-header/nav/ul[3]/li/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//header[@id='cx-header']/cx-page-layout/cx-page-slot[8]/app-custom-menu-header/nav/ul[4]/li/a</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#cx-header >> internal:role=link[name=&quot;Facturación&quot;i]</value>
+         <value>#cx-header >> internal:role=link[name=&quot;Sucursales&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,23 +28,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>305b2bbe-3d4e-4a9b-a918-bc3f59609fb9</webElementGuid>
+      <webElementGuid>c3612d0c-7d25-4c4c-8ac0-366582906e56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/electronic-billing</value>
-      <webElementGuid>504faaa4-92e7-43b1-b7d4-df7397576896</webElementGuid>
+      <value>/store-finder</value>
+      <webElementGuid>1f712b94-6464-4b01-baf4-46e4d8eb32c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Facturación </value>
-      <webElementGuid>599ea01e-3e0e-42b9-94e5-ee522ee85afc</webElementGuid>
+      <value> Sucursales </value>
+      <webElementGuid>fbba05a8-14b8-4f5b-b54e-9b69f7518340</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,86 +52,86 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cx-header&quot;)/cx-page-layout[@class=&quot;header&quot;]/cx-page-slot[@class=&quot;NavigationBar has-components&quot;]/app-custom-menu-header[1]/nav[@class=&quot;navbar align-nav-var headerFixed&quot;]/ul[@class=&quot;not-mobile&quot;]/li[@class=&quot;main-option&quot;]/a[1]</value>
-      <webElementGuid>61ac59fa-b40b-4a3b-8ee0-d293ce9b368a</webElementGuid>
+      <webElementGuid>ab9a0fc7-2a7b-4a4c-ab3f-915fcc6f01db</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//header[@id='cx-header']/cx-page-layout/cx-page-slot[8]/app-custom-menu-header/nav/ul[4]/li/a</value>
-      <webElementGuid>4059aa8b-fa84-499d-bbd6-938ae2501b9f</webElementGuid>
+      <value>//header[@id='cx-header']/cx-page-layout/cx-page-slot[8]/app-custom-menu-header/nav/ul[3]/li/a</value>
+      <webElementGuid>914a5916-d53c-447a-a10f-b0b559bcdb7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Facturación')]</value>
-      <webElementGuid>c6d20358-a4b8-4893-b1d5-5502226ce769</webElementGuid>
+      <value>//a[contains(text(),'Sucursales')]</value>
+      <webElementGuid>02f67ac2-5cc0-4ff0-93af-caf9f9c19daf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sucursales'])[1]/following::a[1]</value>
-      <webElementGuid>ad30ff7c-169f-4ce7-ae1d-83af4ab0e883</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ofertas'])[1]/following::a[1]</value>
+      <webElementGuid>e7fec013-b71e-40c0-b8da-8a5cb092d64a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ofertas'])[1]/following::a[2]</value>
-      <webElementGuid>b445e257-9363-467c-a1d0-b8bd1acb4ffb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vigorizantes'])[1]/following::a[2]</value>
+      <webElementGuid>43766168-b329-4b16-b713-aa5215b91c3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Categorías'])[2]/preceding::a[1]</value>
-      <webElementGuid>dc8ed5b6-08b4-476f-8a5d-648f37d45c33</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facturación'])[1]/preceding::a[1]</value>
+      <webElementGuid>6d025444-11ad-449f-80c8-b9683dd96a49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medicamentos'])[3]/preceding::a[1]</value>
-      <webElementGuid>a2f8d8c4-69c9-4ccc-a905-fba95691192f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Categorías'])[2]/preceding::a[2]</value>
+      <webElementGuid>11febc0c-13c8-42e0-98f7-73a68a82479a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Facturación']/parent::*</value>
-      <webElementGuid>f2e77d96-0543-4dbc-995e-e0f1ceedd0b7</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Sucursales']/parent::*</value>
+      <webElementGuid>ceb17642-f39a-48be-999b-020af13922e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/electronic-billing')]</value>
-      <webElementGuid>b3111bfd-0196-454d-92ea-25c6295a0831</webElementGuid>
+      <value>//a[contains(@href, '/store-finder')]</value>
+      <webElementGuid>0796bf40-5c4c-487e-a220-ef2468a41667</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//ul[4]/li/a</value>
-      <webElementGuid>ea1b1200-546e-478d-8215-057ad1877ff9</webElementGuid>
+      <value>//ul[3]/li/a</value>
+      <webElementGuid>9c1f5107-8a9b-4dca-8051-bb0a31f4b938</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/electronic-billing' and (text() = ' Facturación ' or . = ' Facturación ')]</value>
-      <webElementGuid>b4e5beb2-14ac-4864-9265-ba70b7f24b4c</webElementGuid>
+      <value>//a[@href = '/store-finder' and (text() = ' Sucursales ' or . = ' Sucursales ')]</value>
+      <webElementGuid>63775353-9a47-4560-9cc7-e893c39c6afc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

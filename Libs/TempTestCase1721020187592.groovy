@@ -1,4 +1,29 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import com.kms.katalon.core.main.TestCaseMain
+import com.kms.katalon.core.logging.KeywordLogger
+import com.kms.katalon.core.testcase.TestCaseBinding
+import com.kms.katalon.core.driver.internal.DriverCleanerCollector
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.webui.contribution.WebUiDriverCleaner
+import com.kms.katalon.core.mobile.contribution.MobileDriverCleaner
+import com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner
+import com.kms.katalon.core.windows.keyword.contribution.WindowsDriverCleaner
+import com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner
+
+
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.webui.contribution.WebUiDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.windows.keyword.contribution.WindowsDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
+
+
+RunConfiguration.setExecutionSettingFile('C:\\Users\\VEDANT~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\EndToEnd_TC\\20240715_103947\\execution.properties')
+
+TestCaseMain.beforeStart()
+
+        TestCaseMain.runTestCaseRawScript(
+'''import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -17,27 +42,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+not_run: WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.farmaciasanpablo.com.mx/')
+not_run: WebUI.navigateToUrl('https://www.farmaciasanpablo.com.mx/')
 
 //CustomKeywords.'com.customKeywords.myKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Home Page/No_button_Popup_HP'))
-WebUI.click(findTestObject('Object Repository/Home Page/No_button_Popup_HP'))
+not_run: WebUI.click(findTestObject('Object Repository/Home Page/No_button_Popup_HP'))
 
 //WebUI.click(findTestObject('Object Repository/Home Page/Close_popUp_HP'))
-CustomKeywords.'com.customKeywords.myKeywords.clickElement'(findTestObject('Object Repository/Home Page/Close_popUp_HP'))
+not_run: CustomKeywords.'com.customKeywords.myKeywords.clickElement'(findTestObject('Object Repository/Home Page/Close_popUp_HP'))
 
-CustomKeywords.'com.customKeywords.myKeywords.clickElement'(findTestObject('HP/Login_LOGO_HP'))
+not_run: CustomKeywords.'com.customKeywords.myKeywords.clickElement'(findTestObject('HP/Login_LOGO_HP'))
 
-WebUI.click(findTestObject('Object Repository/Home Page/Inicia_sesin_HP'))
+not_run: WebUI.click(findTestObject('Object Repository/Home Page/Inicia_sesin_HP'))
 
-WebUI.setText(findTestObject('Object Repository/Home Page/Inicia_sesin_Username_HP_loginPopup'), GlobalVariable.username)
+not_run: WebUI.setText(findTestObject('Object Repository/Home Page/Inicia_sesin_Username_HP_loginPopup'), GlobalVariable.username)
 
-WebUI.setText(findTestObject('Object Repository/Home Page/Inicia_sesin_Password_HP_loginPopup'), GlobalVariable.password)
+not_run: WebUI.setText(findTestObject('Object Repository/Home Page/Inicia_sesin_Password_HP_loginPopup'), GlobalVariable.password)
 
-WebUI.click(findTestObject('Object Repository/Home Page/Ingresar_Header_HP'))
+not_run: WebUI.click(findTestObject('Object Repository/Home Page/Ingresar_Header_HP'))
 
-WebUI.verifyElementPresent(findTestObject('Home Page/Categoras_button_HP'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('Home Page/Categoras_button_HP'), 0)
 
 CustomKeywords.'com.customKeywords.myKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Home Page/Enviar_a_Cdiga_Postal_14000_(after login postal code)'), 
     0)
@@ -59,15 +84,13 @@ CustomKeywords.'com.customKeywords.myKeywords.highlightElement'(findTestObject('
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Home Page/Ofertas_de_la_semana_(IMG)_HP'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Home Page/SearchBox_Header_HP'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Home Page/SearchBox_Header_HP'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Home Page/Logo_HP'), 0)
 
 WebUI.mouseOver(findTestObject('Object Repository/Page_Ofertas  San Pablo Farmacia/li_Categoras MedicamentosMedicamentosAntimi_49f250'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Home Page/Medicamentos_L1_category_HP'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Home Page/Medicamentos_L1_category_HP'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Ofertas  San Pablo Farmacia/a_Medicamentos'), 0)
 
@@ -246,3 +269,5 @@ WebUI.closeBrowser()
 
 WebUI.acceptAlert()
 
+''', 'Test Cases/EndToEnd_TC', new TestCaseBinding('Test Cases/EndToEnd_TC',[:]), FailureHandling.STOP_ON_FAILURE , false)
+    
