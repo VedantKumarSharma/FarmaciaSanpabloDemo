@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Home Page/Inicia_sesin_Username_HP_loginPopup",
+      "brokenLocator": "//input[@class\u003d\u0027form-control ng-pristine ng-invalid ng-touched\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@type\u003d\u0027email\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240715_112034/FarmaciaSanpablo/20240715_112035/Object Repository/Home Page/Inicia_sesin_Username_HP_loginPopup_attributes.png"
+    }
+  ]
+}

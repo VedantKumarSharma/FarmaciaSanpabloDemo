@@ -5,7 +5,7 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
@@ -16,6 +16,33 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/EndToEnd_TC</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>54bbe316-8026-4afa-bf04-2b14d474e434</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FarmaciaSanpabloTestData</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>54bbe316-8026-4afa-bf04-2b14d474e434</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userName</value>
+         <variableId>d86ebe45-712b-42ce-a1c7-2a96e15a3181</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>54bbe316-8026-4afa-bf04-2b14d474e434</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>9a8bd757-c92e-4beb-926f-ab2fcc823de5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>54bbe316-8026-4afa-bf04-2b14d474e434</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Url</value>
+         <variableId>075145c7-ee95-42a2-b4d7-77a514cf4a4b</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

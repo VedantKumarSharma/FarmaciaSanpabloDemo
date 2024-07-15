@@ -19,30 +19,29 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.farmaciasanpablo.com.mx/')
+WebUI.navigateToUrl(Url)
 
 //CustomKeywords.'com.customKeywords.myKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Home Page/No_button_Popup_HP'))
-WebUI.click(findTestObject('Object Repository/Home Page/No_button_Popup_HP'))
+CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Home Page/No_button_Popup_HP'))
 
-//WebUI.click(findTestObject('Object Repository/Home Page/Close_popUp_HP'))
-CustomKeywords.'com.customKeywords.myKeywords.clickElement'(findTestObject('Object Repository/Home Page/Close_popUp_HP'))
+//CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Home Page/Close_popUp_HP'))
+CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Home Page/Close_popUp_HP'))
 
-CustomKeywords.'com.customKeywords.myKeywords.clickElement'(findTestObject('HP/Login_LOGO_HP'))
+CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('HP/Login_LOGO_HP'))
 
-WebUI.click(findTestObject('Object Repository/Home Page/Inicia_sesin_HP'))
+CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Home Page/Inicia_sesin_HP'))
 
-WebUI.setText(findTestObject('Object Repository/Home Page/Inicia_sesin_Username_HP_loginPopup'), GlobalVariable.username)
+WebUI.setText(findTestObject('Object Repository/Home Page/Inicia_sesin_Username_HP_loginPopup'), userName)
 
-WebUI.setText(findTestObject('Object Repository/Home Page/Inicia_sesin_Password_HP_loginPopup'), GlobalVariable.password)
+WebUI.setText(findTestObject('Object Repository/Home Page/Inicia_sesin_Password_HP_loginPopup'), Password)
 
-WebUI.click(findTestObject('Object Repository/Home Page/Ingresar_Header_HP'))
+CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Home Page/Ingresar_Header_HP'))
 
-WebUI.verifyElementPresent(findTestObject('Home Page/Categoras_button_HP'), 0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Home Page/Categoras_button_HP'))
 
-CustomKeywords.'com.customKeywords.myKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Home Page/Enviar_a_Cdiga_Postal_14000_(after login postal code)'), 
-    0)
+CustomKeywords.'com.customKeywords.myKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Home Page/Enviar_a_Cdiga_Postal_14000_(after login postal code)'))
 
-not_run: WebUI.click(findTestObject('Object Repository/Home Page/Ofertas_hedaer_HP'))
+not_run: CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Home Page/Ofertas_hedaer_HP'))
 
 CustomKeywords.'com.customKeywords.myKeywords.highlightElement'(findTestObject('Home Page/Ofertas_hedaer_HP'))
 
@@ -57,27 +56,25 @@ WebUI.rightClick(findTestObject('Object Repository/Home Page/Medicamentos_L1_cat
 
 CustomKeywords.'com.customKeywords.myKeywords.highlightElement'(findTestObject('Object Repository/Home Page/SideBox_HP'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Home Page/Ofertas_de_la_semana_(IMG)_HP'), 0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Home Page/Ofertas_de_la_semana_(IMG)_HP'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Home Page/SearchBox_Header_HP'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Home Page/SearchBox_Header_HP'))
 
-WebUI.verifyElementPresent(findTestObject('Home Page/Logo_HP'), 0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Home Page/Logo_HP'))
 
 WebUI.mouseOver(findTestObject('Object Repository/Page_Ofertas  San Pablo Farmacia/li_Categoras MedicamentosMedicamentosAntimi_49f250'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Home Page/Medicamentos_L1_category_HP'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Home Page/Medicamentos_L1_category_HP'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Ofertas  San Pablo Farmacia/a_Medicamentos'), 0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Ofertas  San Pablo Farmacia/a_Medicamentos'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Ofertas  San Pablo Farmacia/a_Antimicticos'))
 
-WebUI.click(findTestObject('Object Repository/Page_Ofertas  San Pablo Farmacia/a_Antimicticos'))
+CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Ofertas  San Pablo Farmacia/a_Antimicticos'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Ofertas  San Pablo Farmacia/a_Aerosoles'), 0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Ofertas  San Pablo Farmacia/a_Aerosoles'))
 
-WebUI.click(findTestObject('Object Repository/Page_Ofertas  San Pablo Farmacia/a_Aerosoles'))
+CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Ofertas  San Pablo Farmacia/a_Aerosoles'))
 
 WebUI.rightClick(findTestObject('Object Repository/Page_Aerosoles/button_Precio'))
 
@@ -85,164 +82,136 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Aerosoles/button_
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Aerosoles/Marca'), 'Marca')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Aerosoles/Todas_las_Categoras'), 0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/Todas_las_Categoras'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Aerosoles/Ordenar_por'), 'Ordenar por:')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Aerosoles/a_Artculos por pgina 12'), 0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/a_Artculos por pgina 12'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Aerosoles/i_Artculos por pgina 12_fa fa-2x fa-th-larg_767e51'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/i_Artculos por pgina 12_fa fa-2x fa-th-larg_767e51'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Aerosoles/button_Artculos por pgina 12_view-button'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/button_Artculos por pgina 12_view-button'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Aerosoles/div_30 de Descuento  Silka Medic Defensa De_b8a457'), 
     '30% de Descuento Silka Medic Defensa Desodorante en Aero... 150 ML Lata $109.00 MXN $76.00 MXN Agregar')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Aerosoles/div_30 de Descuento  Silka Medic Defensa De_b8a457'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/div_30 de Descuento  Silka Medic Defensa De_b8a457'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Aerosoles/i_Artculos por pgina 12_fa fa-heart disable'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/i_Artculos por pgina 12_fa fa-heart disable'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Aerosoles/a_Silka Medic Defensa Desodorante en Aero'), 'Silka Medic Defensa Desodorante en Aero...')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Aerosoles/img'), 0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/img'))
 
-WebUI.click(findTestObject('Object Repository/Page_Aerosoles/img'))
+CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Aerosoles/img'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/h3_Silka Medic Defensa Desodorante en Aeros_261b7a'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/h3_Silka Medic Defensa Desodorante en Aeros_261b7a'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/img'), 0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/img'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_Cantidad'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_Cantidad'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/p_Envo GRATIS a toda la Repblica Mexicana. _34a419'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/p_Envo GRATIS a toda la Repblica Mexicana. _34a419'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_30 de Descuento'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_30 de Descuento'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Comprar ahora'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Comprar ahora'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Agregar al carrito'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Agregar al carrito'))
 
-WebUI.click(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Agregar al carrito'))
+CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Agregar al carrito'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Seguir comprando'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Seguir comprando'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_304.00 MXN'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_304.00 MXN'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Realizar compra'))
 
-WebUI.click(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Realizar compra'))
+CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Realizar compra'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_ProductoPrecio'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_ProductoPrecio'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_Subtotal (4 productos)'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_Subtotal (4 productos)'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_436.00 MXN'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_436.00 MXN'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_Total'), 0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_Total'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_304.00 MXN'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_304.00 MXN'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/Selecciona_direccin_de_entrega'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/Selecciona_direccin_de_entrega'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/h3_304.00 MXN'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/h3_304.00 MXN'))
 
-WebUI.click(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/Selecciona_direccin_de_entrega'))
+CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/Selecciona_direccin_de_entrega'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Checkout Shipping Address/h4_Selecciona una direccin'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Checkout Shipping Address/h4_Resumen de compra'), 0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Shipping Address/h4_Resumen de compra'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Checkout Shipping Address/h4_Subtotal (1 producto)'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Shipping Address/h4_Subtotal (1 producto)'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Checkout Shipping Address/h4_436.00 MXN'), 0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Shipping Address/h4_436.00 MXN'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Checkout Shipping Address/h3_Total'), 0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Shipping Address/h3_Total'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Checkout Shipping Address/h3_304.00 MXN'), 0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Shipping Address/h3_304.00 MXN'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Checkout Shipping Address/div_sudhasantafe98765Residencial insurgente_0adf22'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Shipping Address/div_sudhasantafe98765Residencial insurgente_0adf22'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Checkout Shipping Address/button_Entregar en esta direccin'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Shipping Address/button_Entregar en esta direccin'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Checkout Shipping Address/div_Nueva direccin'))
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout Shipping Address/button_Entregar en esta direccin'))
+CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Checkout Shipping Address/button_Entregar en esta direccin'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_/Selecciona_un_mtodo_de_entrega(cambiar)'), 0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_/Selecciona_un_mtodo_de_entrega(cambiar)'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_/Entrega_programada_Elige_el'), 0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_/Entrega_programada_Elige_el'))
 
-WebUI.click(findTestObject('Object Repository/Page_/img_santafe 98765TLALPAN, RESIDENCIAL INSUR_9c95c1'))
+CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_/img_santafe 98765TLALPAN, RESIDENCIAL INSUR_9c95c1'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_/div_Hoy12'), 0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_/div_Hoy12'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_/p_8am - 9am'), 0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_/p_8am - 9am'))
 
-WebUI.click(findTestObject('Object Repository/Page_/img_Viernes_imgCheck'))
+CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_/img_Viernes_imgCheck'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_/Elegir_forma_de_entrega_PDP'), 0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_/Elegir_forma_de_entrega_PDP'))
 
-WebUI.click(findTestObject('Object Repository/Page_/Elegir_forma_de_entrega_PDP'))
+CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_/Elegir_forma_de_entrega_PDP'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_Solicitar FacturaPodrs capturar tus dat_4af506'))
 
 WebUI.rightClick(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_En lneaTarjeta de crdito o dbito'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Checkout Detalle de pago/h4_Selecciona una forma de pago'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Detalle de pago/h4_Selecciona una forma de pago'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_En lneaTarjeta de crdito o dbito'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_En lneaTarjeta de crdito o dbito'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_Al recibir tu PedidoEfectivo o tarjeta'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_Al recibir tu PedidoEfectivo o tarjeta'))
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_Al recibir tu PedidoEfectivo o tarjeta'))
+CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_Al recibir tu PedidoEfectivo o tarjeta'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_Efectivo'), 0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_Efectivo'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Checkout Detalle de pago/span_Tarjeta de crdito o dbito'), 
-    0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Detalle de pago/span_Tarjeta de crdito o dbito'))
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_Tarjeta de crdito o dbito'))
+CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_Tarjeta de crdito o dbito'))
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout Detalle de pago/img_Efectivo_checkCard'))
+CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Checkout Detalle de pago/img_Efectivo_checkCard'))
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout Detalle de pago/button_Pagar al recibir pedido'))
+CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Checkout Detalle de pago/button_Pagar al recibir pedido'))
 
 WebUI.rightClick(findTestObject('Object Repository/Page_/div_Silka Medic Defensa Desodorante en Aero_b44a92'))
 
 WebUI.rightClick(findTestObject('Object Repository/Page_/Direccin_de_entrega'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_/h4_Resumen de productos'), 0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_/h4_Resumen de productos'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_/Finalizar_compra_OPC'), 0)
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_/Finalizar_compra_OPC'))
 
 WebUI.closeBrowser()
-
-WebUI.acceptAlert()
 
