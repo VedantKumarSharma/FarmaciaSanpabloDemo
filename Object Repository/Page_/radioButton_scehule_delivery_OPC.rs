@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_santafe 98765TLALPAN, RESIDENCIAL INSUR_9c95c1</name>
+   <name>radioButton_scehule_delivery_OPC</name>
    <tag></tag>
    <elementGuidId>11421012-47c4-49bb-b285-f6d4f470eed3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>img.imgCheck</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//p/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.imgCheck</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

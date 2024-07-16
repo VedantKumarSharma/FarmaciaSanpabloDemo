@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Hoy12</name>
+   <name>available_scehule_OPC</name>
    <tag></tag>
    <elementGuidId>76e446b7-8150-4094-9cba-2709f24556f7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.row.justify-content-center.mx-0.dayInfoSelect</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambiar'])[1]/following::div[17]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.row.justify-content-center.mx-0.dayInfoSelect</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

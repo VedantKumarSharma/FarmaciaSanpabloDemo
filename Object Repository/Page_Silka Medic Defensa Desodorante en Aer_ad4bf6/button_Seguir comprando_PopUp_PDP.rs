@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Seguir comprando</name>
+   <name>button_Seguir comprando_PopUp_PDP</name>
    <tag></tag>
    <elementGuidId>86a40c3e-ca90-41d1-8124-601a465efa4b</elementGuidId>
    <selectorCollection>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='*Los precios incluyen IVA'])[2]/following::button[1]</value>
+         <value>//button[contains(text(),'Seguir comprando')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>187fe227-148c-4702-9d2e-11505d135b86</webElementGuid>
+      <webElementGuid>ba04c488-7567-4f49-a75e-3c899511d17b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-light btnContinue btnMargin color</value>
-      <webElementGuid>710c783d-b136-4f05-a232-8e590a7c3fea</webElementGuid>
+      <webElementGuid>2da874e2-28c3-42b5-b6c5-4ae298ac8642</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Seguir comprando</value>
-      <webElementGuid>5a26e976-75ad-4fd6-9fb0-518d10f9f4fa</webElementGuid>
+      <webElementGuid>47eae532-f54f-4877-b755-19ae9456060e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;modal-open fix-scroll&quot;]/ngb-modal-window[@class=&quot;d-block modal fade show&quot;]/div[@class=&quot;modal-dialog modal-xl&quot;]/div[@class=&quot;modal-content&quot;]/app-added-to-cart-dialog[1]/div[1]/div[@class=&quot;cx-dialog-body modal-body custom-modal-bottom&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-5 col-lg-5 col-12 titleUp titleLeft&quot;]/div[@class=&quot;col-md-12 col-lg-12 col-12 delete-padding-lr&quot;]/button[@class=&quot;btn btn-light btnContinue btnMargin color&quot;]</value>
-      <webElementGuid>c8e784d9-7a47-4779-a5df-589a4fc72fce</webElementGuid>
+      <webElementGuid>f5f98a8a-dea3-4788-ba26-352036ebf765</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*Los precios incluyen IVA'])[2]/following::button[1]</value>
-      <webElementGuid>405c21ef-6d56-443f-82f3-3619a9d24f35</webElementGuid>
+      <webElementGuid>eaa6d94d-9fe6-4494-9670-9f276a3d484e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$304.00 MXN'])[3]/following::button[1]</value>
-      <webElementGuid>250224c7-6b23-4717-91f4-f292b9b92ade</webElementGuid>
+      <webElementGuid>4a815fff-6f9a-4b05-8c23-9dd22b148961</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Realizar compra'])[1]/preceding::button[1]</value>
-      <webElementGuid>4a91d12a-0391-4feb-b1e3-844b28f345f2</webElementGuid>
+      <webElementGuid>0a73a8a4-3e09-4f81-add8-b20276b7fde3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Seguir comprando']/parent::*</value>
-      <webElementGuid>0fa5b1ff-2311-4d75-9038-d6891c36fd3a</webElementGuid>
+      <webElementGuid>be1fd825-a24e-49e8-a820-c3bec42d6cec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/button</value>
-      <webElementGuid>2e0595b2-be73-421f-af60-d1d83b29776d</webElementGuid>
+      <webElementGuid>cc5a39b2-5dc2-4dfc-b2fe-2610ac4afebc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Seguir comprando' or . = 'Seguir comprando')]</value>
-      <webElementGuid>ed1daa6d-e614-4c09-b2a3-2c01dd9b5bf2</webElementGuid>
+      <webElementGuid>ede35653-58f2-4599-8735-278eb4e27949</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_sudhasantafe98765Residencial insurgente_0adf22</name>
+   <name>select_present_address</name>
    <tag></tag>
    <elementGuidId>6781a5ec-62dc-4aa3-b2d7-cc173dc343a6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.card-body.customCardWidth</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Selecciona una dirección'])[1]/following::div[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.card-body.customCardWidth</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
