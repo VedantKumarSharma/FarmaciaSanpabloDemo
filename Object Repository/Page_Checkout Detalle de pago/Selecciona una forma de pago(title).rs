@@ -6,11 +6,11 @@
    <elementGuidId>7751a1d1-1fd6-4919-9529-30c4d398d723</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//h4[contains(text(),'Selecciona una forma de pago')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//p[contains(text(),'Selecciona una hora de entrega')]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
-      <webElementGuid>a152a2a8-37d2-4b20-a17b-4fae2ff023ac</webElementGuid>
+      <webElementGuid>7a8f76e6-76a6-49ed-a2c3-fd24b492e6ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>custom-align custom-h4</value>
-      <webElementGuid>b1619cf8-4657-4012-bccf-a95d301b921d</webElementGuid>
+      <webElementGuid>aac79762-67ca-4e2a-b9cb-03c7cdcafa63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Selecciona una forma de pago</value>
-      <webElementGuid>14bd134a-528c-4412-ba89-7b556ff74499</webElementGuid>
+      <webElementGuid>7eac6675-05c0-494d-ad0b-fcef3918f467</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/cx-storefront[@class=&quot;MultiStepCheckoutSummaryPageTemplate stop-navigating&quot;]/main[@class=&quot;mouse-focus&quot;]/cx-page-layout[@class=&quot;MultiStepCheckoutSummaryPageTemplate&quot;]/cx-page-slot[@class=&quot;BodyContent has-components&quot;]/app-custom-payment-mode-component[1]/div[@class=&quot;main-payment&quot;]/h4[@class=&quot;custom-align custom-h4&quot;]</value>
-      <webElementGuid>3abe5774-5c31-4fb3-8b41-c889d79745b8</webElementGuid>
+      <webElementGuid>3f8ae3b0-15f0-4a01-9930-849f2a55f42b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -60,7 +60,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Podrás capturar tus datos en el siguiente paso'])[1]/following::h4[1]</value>
-      <webElementGuid>29dc865a-66d2-4962-ab0b-27a1f86fbb1c</webElementGuid>
+      <webElementGuid>5a80707d-0efe-4cb7-bb33-97ea14a4152c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitar Factura'])[1]/following::h4[1]</value>
-      <webElementGuid>7a9b7b6d-b4b7-42aa-bbc8-e3aeff10b6e8</webElementGuid>
+      <webElementGuid>5e558488-9d79-4185-9461-317db6ec8f86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='En línea'])[1]/preceding::h4[1]</value>
-      <webElementGuid>859249da-0b25-432a-a262-43593cd5d9dc</webElementGuid>
+      <webElementGuid>258bb747-44e9-41e8-af10-16663e4170be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tarjeta de crédito o débito'])[1]/preceding::h4[1]</value>
-      <webElementGuid>6b1ff670-9410-4307-a697-31d39c26fdee</webElementGuid>
+      <webElementGuid>4a003922-ad04-4130-9ae9-648eba2bf33f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Selecciona una forma de pago']/parent::*</value>
-      <webElementGuid>6faf5ceb-3d1e-40d6-8a8d-feb64d32bc67</webElementGuid>
+      <webElementGuid>11339ebf-cc52-4ea0-8a82-efe9c6d8b45e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h4[2]</value>
-      <webElementGuid>64c0f79e-4dbf-4f1a-976e-9e4f4965534a</webElementGuid>
+      <webElementGuid>8f0d6341-7617-466f-8fc8-a2274a741724</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,6 +108,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[(text() = 'Selecciona una forma de pago' or . = 'Selecciona una forma de pago')]</value>
-      <webElementGuid>36b63ed7-7f6d-481e-a712-defc9789d11a</webElementGuid>
+      <webElementGuid>2b2bfdb9-9f7a-4d8f-af18-b7538984e79d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

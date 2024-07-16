@@ -22,12 +22,14 @@ WebUI.openBrowser('')
 'enter the testing enviornment URL\r\n'
 WebUI.navigateToUrl('https://www.farmaciasanpablo.com.mx/')
 
+WebUI.maximizeWindow()
+
 //CustomKeywords.'com.customKeywords.myKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Home Page/No_button_Popup_HP'))
-'no selection of pop-up\r\n'
+'click on no in offers pop-up\r\n'
 CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Home Page/No_button_Popup_HP'))
 
 //CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Home Page/Close_popUp_HP'))
-'close of Pop-up'
+'close the Pop-up'
 CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Home Page/Close_popUp_HP'))
 
 'click on login icon '
@@ -145,10 +147,15 @@ CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTes
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/h3_product_name_PDP'), 
     0)
 
+'verify alternate images'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/img'), 
     0)
 
-'verify candid at PDP'
+'verify product image in pdp'
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('PDP page/ProductImage_pdp'), 
+    0)
+
+'verify cantidad at PDP'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_Cantidad'), 
     0)
 
@@ -156,7 +163,7 @@ CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findT
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/Product_price_PDP'), 
     0)
 
-'verify header IMG PDP'
+'verify banner IMG in PDP'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/header_IMG_PDP'), 
     0)
 
@@ -168,148 +175,164 @@ CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findT
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Comprar ahora'), 
     0)
 
-'verify Agregar al carrito'
+'verify Agregar al carrito in pdp'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Agregar al carrito'), 
     0)
 
-'click Agregar al carrito'
+'click Agregar al carrito in pdp'
 CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Agregar al carrito'))
 
-'verify Seguir comprando at pop up pdp\r\n'
+'Verify Seguir comprando button in cart overlay\r\n'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Seguir comprando_PopUp_PDP'), 
     0)
 
-'verify price visible'
+'verify price visible in cart overlay'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_304.00 MXN'), 
     0)
 
-'verify compra button '
+'verify compra button in cart overlay'
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Realizar compra'))
 
-'click compra button '
+'click compra button in cart overlay'
 CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Realizar compra'))
 
-'verify price per product '
+'verify product image in cart page'
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('CartPage/productImage_cart'), 0)
+
+'verify product name in cart page'
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('CartPage/productName_cart'), 0)
+
+'verify product quantity in cart page'
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('CartPage/quanity_cart'), 0)
+
+'verify delete icon in cart page'
+CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('CartPage/deleteIcon_cart'), 0)
+
+'verify price per product in cart page'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_ProductoPrecio'), 
     0)
 
-'verify subtotal of product '
+'verify subtotal of product in cart page'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_Subtotal (4 productos)'), 
     0)
 
-'verify total at opc'
+'verify total at cart page'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_436.00 MXN'), 
     0)
 
-'verify total title '
+'verify total title in cart page'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_Total'), 
     0)
 
-'verify total price '
+'verify total price in cart page'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_304.00 MXN'), 
     0)
 
-'verify seleciana direccin de entrega at address section'
+'verify seleciana direccin de entrega in cart page'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/Selecciona_direccin_de_entrega'), 
     0)
 
-'click seleciana direccin de entrega at address section'
+'click seleciana direccin de entrega at cart page'
 CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Carrito de compras  San Pablo Farmacia/Selecciona_direccin_de_entrega'))
 
-'verify resume de compra (title)'
+'verify resume de compra (title) in Shipping page'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Shipping Address/h4_Resumen de compra'), 
     0)
 
-'verify subtotal '
+'verify subtotal in Shipping page'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Shipping Address/h4_Subtotal (1 producto)'), 
     0)
 
-'verify subtotal value'
+'verify subtotal value in Shipping page'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Shipping Address/h4_436.00 MXN'), 
     0)
 
-'verify total title'
+'verify total title in Shipping page'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Shipping Address/h3_Total'), 
     0)
 
-'verify total price\r\n'
+'verify total price in Shipping page'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Shipping Address/h3_304.00 MXN'), 
     0)
 
-'verify default address at OPC '
+'verify default address in Shipping page'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Shipping Address/select_present_address'), 
     0)
 
-'verify Entregar en esta direccin at OPC'
+'verify Entregar en esta direccin in Shipping page'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Shipping Address/button_Entregar en esta direccin'), 
     0)
 
-'verify add new address\r\n'
+'verify add new address in Shipping page\r\n'
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Checkout Shipping Address/div_Nueva direccin'))
 
-'click Entregar en esta direccin at OPC'
+'click Entregar en esta direccin in Shipping page'
 CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Checkout Shipping Address/button_Entregar en esta direccin'))
 
-'verify cambiar add address at OPC'
+'verify cambiar address in delivery mode page'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_/Selecciona_un_mtodo_de_entrega(cambiar)'), 
     0)
 
-'verfy scedule delivary at OPC'
+'verify schedule delivery at delivery mode page'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_/Entrega_programada_Elige_el'), 
     0)
 
-'click radio button at OPC to scehule delivary'
+'click radio button at deliver mode page to schedule the delivery'
 CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_/radioButton_scehule_delivery_OPC'))
 
-'verify scehule to select section'
+'verify schedule to select section'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_/available_scehule_OPC'), 
     0)
 
-'verify chose delivary method'
+'verify choose delivery method'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_/Elegir_forma_de_entrega_PDP'), 
     0)
 
+'select choose delivery method radio button'
 WebUI.enhancedClick(findTestObject('OPC/RadioBUtton'))
 
+'click on choose delivery button in delivery mode page'
 WebUI.enhancedClick(findTestObject('Object Repository/Page_/Elegir_forma_de_entrega_PDP'))
 
-'verify Selecciona una hora de entrega'
+WebUI.scrollToElement(findTestObject('Page_Checkout Detalle de pago/Selecciona una forma de pago(title)'), 0)
+
+'verify Select payment method in payment detail page'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Detalle de pago/Selecciona una forma de pago(title)'), 
     0)
 
-'verify En inea Tarjeta de crdito'
+'verify En inea Tarjeta de crdito in payment detail page'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_En lneaTarjeta de crdito o dbito'), 
     0)
 
-'verify pedido efectivo o tarjets\r\n'
+'verify pedido efectivo o tarjets in payment detail page\r\n'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_Al recibir tu PedidoEfectivo o tarjeta'), 
     0)
 
-'click pedido efectivo o tarjets\r\n'
+'click pedido efectivo o tarjets in payment detail page\r\n'
 CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_Al recibir tu PedidoEfectivo o tarjeta'))
 
-'verify effectivo at final OPC'
+'verify effectivo in payment detail page'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_Efectivo'), 
     0)
 
-'verify tarjeta de crdito o dbito'
+'verify tarjeta de crdito o dbito in payment detail page'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Detalle de pago/span_Tarjeta de crdito o dbito'), 
     0)
 
-'click Tarjeta de crdito o dbito'
+'click Tarjeta de crdito o dbito in payment detail page'
 CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_Tarjeta de crdito o dbito'))
 
-'Efectivo check card _OPC'
+'verify Efectivo check card in payment detail page'
 CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Checkout Detalle de pago/img_Efectivo_checkCard'))
 
-'pagar al recibir peedido OPC'
+'verify pagar al recibir peedido in payment detail page'
 CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Checkout Detalle de pago/button_Pagar al recibir pedido'))
 
-'verify resume de productos'
+'verify resume de productos in review order page'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_/h4_Resumen de productos'), 
     0)
 
-'verify finalizar Compa OPC'
+'verify finalizar Compa in review order page'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_/Finalizar_compra_OPC'), 
     0)
 
