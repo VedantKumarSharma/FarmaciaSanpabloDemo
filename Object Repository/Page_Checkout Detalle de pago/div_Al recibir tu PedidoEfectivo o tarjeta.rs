@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Tarjeta de crédito o débito'])[1]/following::div[1]</value>
+         <value>//div[@class='col-12 col-md-6 order-3 order-md-2 p-2 phisic-payment c-pb-0']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>26ea05c4-4cbf-444e-a590-c78d9c93ef3f</webElementGuid>
+      <webElementGuid>9b7c8d07-90d9-4bf4-8183-6acaf463c1d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>col-12 col-md-6 order-3 order-md-2 p-2 phisic-payment c-pb-0</value>
-      <webElementGuid>03a17b96-55bd-48a7-80bb-ab2305241e6f</webElementGuid>
+      <webElementGuid>67f8fdd3-9cda-415f-87e1-f16568c35ff3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Al recibir tu PedidoEfectivo o tarjeta</value>
-      <webElementGuid>d5179e93-668f-4d07-bb60-b1a04f48842a</webElementGuid>
+      <webElementGuid>5b4aebbd-6cc9-4613-b061-7692cd685f29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/cx-storefront[@class=&quot;MultiStepCheckoutSummaryPageTemplate stop-navigating&quot;]/main[@class=&quot;mouse-focus&quot;]/cx-page-layout[@class=&quot;MultiStepCheckoutSummaryPageTemplate&quot;]/cx-page-slot[@class=&quot;BodyContent has-components&quot;]/app-custom-payment-mode-component[1]/div[@class=&quot;main-payment&quot;]/div[@class=&quot;row custom-payment-row&quot;]/div[@class=&quot;col-12 col-md-6 order-3 order-md-2 p-2 phisic-payment c-pb-0&quot;]</value>
-      <webElementGuid>f533135c-18fa-4491-91fc-375fa37f4860</webElementGuid>
+      <webElementGuid>ab7736e3-337d-40d1-bbcf-d8c4e303470b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tarjeta de crédito o débito'])[1]/following::div[1]</value>
-      <webElementGuid>10532ca9-2b51-4d91-918e-ed269fa7790a</webElementGuid>
+      <webElementGuid>a926c957-161b-45c1-a1a5-0b1608cb9653</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='En línea'])[1]/following::div[1]</value>
-      <webElementGuid>117a0ac8-7c2d-46ce-8a08-70ecf4182770</webElementGuid>
+      <webElementGuid>08d3b823-d1f8-4e4b-b588-a707020b9ec9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]</value>
-      <webElementGuid>a2d2b7ce-5e08-4c44-9d5e-315883cd7d8d</webElementGuid>
+      <webElementGuid>67ebc6d5-800c-4932-890f-c9dcb8a35041</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +85,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Al recibir tu PedidoEfectivo o tarjeta' or . = 'Al recibir tu PedidoEfectivo o tarjeta')]</value>
-      <webElementGuid>a6cf394b-7a9c-4283-880b-6b407ef84fbc</webElementGuid>
+      <webElementGuid>b5c522f4-2521-4380-bb83-1fc1342a9a6e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

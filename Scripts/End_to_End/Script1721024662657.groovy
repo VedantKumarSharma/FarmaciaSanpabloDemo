@@ -269,6 +269,8 @@ CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findT
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_/Elegir_forma_de_entrega_PDP'), 
     0)
 
+WebUI.enhancedClick(findTestObject('OPC/RadioBUtton'))
+
 WebUI.enhancedClick(findTestObject('Object Repository/Page_/Elegir_forma_de_entrega_PDP'))
 
 'verify Selecciona una hora de entrega'
