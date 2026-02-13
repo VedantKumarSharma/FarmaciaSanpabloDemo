@@ -26,5 +26,23 @@
          <testDataId>Data Files/FarmaciaSanpabloTestData</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>54bbe316-8026-4afa-bf04-2b14d474e434</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>URL</value>
+         <variableId>04dac11f-a13f-42c0-ae70-56990018e0d0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>54bbe316-8026-4afa-bf04-2b14d474e434</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>38f93eba-a126-4e9c-b4f4-a4c78ffe5eb3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>54bbe316-8026-4afa-bf04-2b14d474e434</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>0655a5a5-9f43-4a27-90b2-d30778022c63</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

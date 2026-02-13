@@ -1,4 +1,29 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import com.kms.katalon.core.main.TestCaseMain
+import com.kms.katalon.core.logging.KeywordLogger
+import com.kms.katalon.core.testcase.TestCaseBinding
+import com.kms.katalon.core.driver.internal.DriverCleanerCollector
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.webui.contribution.WebUiDriverCleaner
+import com.kms.katalon.core.mobile.contribution.MobileDriverCleaner
+import com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner
+import com.kms.katalon.core.windows.keyword.contribution.WindowsDriverCleaner
+import com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner
+
+
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.webui.contribution.WebUiDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.windows.keyword.contribution.WindowsDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
+
+
+RunConfiguration.setExecutionSettingFile('C:\\Users\\SUDHAR~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\End_to_End\\20260213_110131\\execution.properties')
+
+TestCaseMain.beforeStart()
+
+        TestCaseMain.runTestCaseRawScript(
+'''import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -17,70 +42,72 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+not_run: WebUI.openBrowser('')
 
-'enter the testing enviornment URL\r\n'
-WebUI.navigateToUrl('https://www.farmaciasanpablo.com.mx/')
+'enter the testing enviornment URL\\r\\n'
+not_run: WebUI.navigateToUrl('https://www.farmaciasanpablo.com.mx/')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
 
 //CustomKeywords.'com.customKeywords.myKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Home Page/No_button_Popup_HP'))
-'click on no in offers pop-up\r\n'
-CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Home Page/No_button_Popup_HP'))
+'click on no in offers pop-up\\r\\n'
+not_run: CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Home Page/No_button_Popup_HP'))
 
 //CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Home Page/Close_popUp_HP'))
 'close the Pop-up'
-CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Home Page/Close_popUp_HP'))
+not_run: CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Home Page/Close_popUp_HP'))
 
 'click on login icon '
-CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('HP/Login_LOGO_HP'))
+not_run: CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('HP/Login_LOGO_HP'))
 
-WebUI.enhancedClick(findTestObject('HP/Login_LOGO_HP'))
+not_run: WebUI.enhancedClick(findTestObject('HP/Login_LOGO_HP'))
 
-'click on iniciar session icon\r\n'
-CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Home Page/Inicia_sesin_HP'))
+'click on iniciar session icon\\r\\n'
+not_run: CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Home Page/Inicia_sesin_HP'))
 
 'enter username for login'
-WebUI.setText(findTestObject('Object Repository/Home Page/Inicia_sesin_Username_HP_loginPopup'), GlobalVariable.username)
+not_run: WebUI.setText(findTestObject('Object Repository/Home Page/Inicia_sesin_Username_HP_loginPopup'), GlobalVariable.username)
 
 'enter password for login'
-WebUI.setText(findTestObject('Object Repository/Home Page/Inicia_sesin_Password_HP_loginPopup'), GlobalVariable.password)
+not_run: WebUI.setText(findTestObject('Object Repository/Home Page/Inicia_sesin_Password_HP_loginPopup'), GlobalVariable.password)
 
 'submit button '
-CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Home Page/Ingresar_Header_HP'))
+not_run: CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Home Page/Ingresar_Header_HP'))
 
 'category option header '
 not_run: CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Home Page/Categoras_button_HP'), 
     0)
 
 'verify postal code at header '
-CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Home Page/Enviar_a_Cdiga_Postal_14000_(after login postal code)'), 
+not_run: CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Home Page/Enviar_a_Cdiga_Postal_14000_(after login postal code)'), 
     0)
 
 'verify oftertas option header '
-CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Home Page/Ofertas_hedaer_HP'), 
+not_run: CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Home Page/Ofertas_hedaer_HP'), 
     0)
 
 'verify surcursales option header '
-CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Home Page/Sucursales_HP'), 0)
+not_run: CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Home Page/Sucursales_HP'), 
+    0)
 
 'verify facturacin option header '
-CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Home Page/Facturacin_header_HP'), 
+not_run: CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Home Page/Facturacin_header_HP'), 
     0)
 
 'verify logged in by verifying the name '
-CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Ofertas  San Pablo Farmacia/div_Bienvenido  sudha'), 
+not_run: CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Ofertas  San Pablo Farmacia/div_Bienvenido  sudha'), 
     0)
 
-'verify images at HP\r\n'
+'verify images at HP\\r\\n'
 not_run: CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Home Page/SideBox_HP'), 
     0)
 
 'verify searchbar header '
-CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Home Page/SearchBox_Header_HP'), 
+not_run: CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Home Page/SearchBox_Header_HP'), 
     0)
 
-CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Home Page/Logo_hp'), 0)
+not_run: CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Home Page/Logo_hp'), 
+    0)
 
 'mouse over on category drop down option'
 WebUI.mouseOver(findTestObject('Object Repository/Page_Ofertas  San Pablo Farmacia/li_Categoras MedicamentosMedicamentosAntimi_49f250'))
@@ -92,7 +119,7 @@ not_run: CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeywo
 'mouse over on category drop down option'
 WebUI.enhancedClick(findTestObject('Home Page/Medicamentos_L1_category_HP'))
 
-'verify medicamentos \r\n'
+'verify medicamentos \\r\\n'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Ofertas  San Pablo Farmacia/a_Medicamentos'), 
     0)
 
@@ -102,20 +129,20 @@ CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findT
 'click Element Aerosoles at L3'
 CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Page_Ofertas  San Pablo Farmacia/a_Aerosoles_L3Category'))
 
-'verify Element precio filtter at PLP\r\n'
+'verify Element precio filtter at PLP\\r\\n'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/button_Precio'))
 
-'verify Element Maraco filtter at PLP\r\n'
+'verify Element Maraco filtter at PLP\\r\\n'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/Marca'))
 
-'verify Element todas las categoras  at PLP\r\n'
+'verify Element todas las categoras  at PLP\\r\\n'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/Todas_las_Categoras'), 
     0)
 
-'verify Element ordernar at PLP\r\n'
+'verify Element ordernar at PLP\\r\\n'
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Aerosoles/Ordenar_por'), 'Ordenar por:')
 
-'verify Element item per page at PLP\r\n'
+'verify Element item per page at PLP\\r\\n'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Aerosoles/item per page'), 
     0)
 
@@ -161,7 +188,7 @@ CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findT
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_Cantidad'), 
     0)
 
-'verify product price PDP\t\r\n\r\n'
+'verify product price PDP\\t\\r\\n\\r\\n'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/Product_price_PDP'), 
     0)
 
@@ -173,7 +200,7 @@ CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findT
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/Quantity_PDP'), 
     0)
 
-'verify comprar ahora PDP\r\n'
+'verify comprar ahora PDP\\r\\n'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Comprar ahora'), 
     0)
 
@@ -184,7 +211,7 @@ CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findT
 'click Agregar al carrito in pdp'
 CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Agregar al carrito'))
 
-'Verify Seguir comprando button in cart overlay\r\n'
+'Verify Seguir comprando button in cart overlay\\r\\n'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Seguir comprando_PopUp_PDP'), 
     0)
 
@@ -267,7 +294,7 @@ CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findT
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Shipping Address/button_Entregar en esta direccin'), 
     0)
 
-'verify add new address in Shipping page\r\n'
+'verify add new address in Shipping page\\r\\n'
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Checkout Shipping Address/div_Nueva direccin'))
 
 'click Entregar en esta direccin in Shipping page'
@@ -308,11 +335,11 @@ CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findT
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_En lneaTarjeta de crdito o dbito'), 
     0)
 
-'verify pedido efectivo o tarjets in payment detail page\r\n'
+'verify pedido efectivo o tarjets in payment detail page\\r\\n'
 CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_Al recibir tu PedidoEfectivo o tarjeta'), 
     0)
 
-'click pedido efectivo o tarjets in payment detail page\r\n'
+'click pedido efectivo o tarjets in payment detail page\\r\\n'
 CustomKeywords.'com.customKeywords.MyKeywords.clickElementWithoutScroll'(findTestObject('Object Repository/Page_Checkout Detalle de pago/div_Al recibir tu PedidoEfectivo o tarjeta'))
 
 'verify effectivo in payment detail page'
@@ -342,3 +369,5 @@ CustomKeywords.'com.customKeywords.MyKeywords.verifyElementPresentKeyword'(findT
 
 WebUI.closeBrowser()
 
+''', 'Test Cases/End_to_End', new TestCaseBinding('Test Cases/End_to_End',[:]), FailureHandling.STOP_ON_FAILURE , false)
+    

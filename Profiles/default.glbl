@@ -8,10 +8,14 @@
       <description></description>
       <initValue>'sudha.addepalli6662@gmail.com'</initValue>
       <name>username</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Indian143.'</initValue>
       <name>password</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

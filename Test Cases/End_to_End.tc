@@ -6,4 +6,52 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>15b12638-ca47-47fa-92d3-74cdf2c66a40</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>c156e453-2c79-472c-83f0-0a9f9187f995</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/FarmaciaSanpabloTestData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>c156e453-2c79-472c-83f0-0a9f9187f995</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>URL</value>
+      <variableId>04dac11f-a13f-42c0-ae70-56990018e0d0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>c156e453-2c79-472c-83f0-0a9f9187f995</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>38f93eba-a126-4e9c-b4f4-a4c78ffe5eb3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>c156e453-2c79-472c-83f0-0a9f9187f995</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>0655a5a5-9f43-4a27-90b2-d30778022c63</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>04dac11f-a13f-42c0-ae70-56990018e0d0</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>38f93eba-a126-4e9c-b4f4-a4c78ffe5eb3</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0655a5a5-9f43-4a27-90b2-d30778022c63</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
 </TestCaseEntity>

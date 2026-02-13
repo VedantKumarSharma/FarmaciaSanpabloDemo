@@ -1,0 +1,264 @@
+2026-02-13 11:20:41.635 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\SudhaRaniAddepalli\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-02-13 11:20:41.640 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\SudhaRaniAddepalli\OneDrive - Kognivera\Documents\GitHub\FarmaciaSanpabloDemo\Include\config\log.properties
+2026-02-13 11:20:43.066 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/FarmaciaSanpablo
+2026-02-13 11:20:43.435 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Sudha
+2026-02-13 11:20:43.437 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = farmacia_san_pablo
+2026-02-13 11:20:43.438 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = SudhaRaniAddepalli - KVITSPL-0803
+2026-02-13 11:20:43.440 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-02-13 11:20:43.441 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.2
+2026-02-13 11:20:43.445 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-02-13 11:20:46.166 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-13 11:20:46.167 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/End_to_End
+2026-02-13 11:20:46.428 INFO  c.k.katalon.core.main.TestCaseExecutor   - URL = https://www.farmaciasanpablo.com.mx/
+2026-02-13 11:20:46.429 INFO  c.k.katalon.core.main.TestCaseExecutor   - Username = sudha.addepalli6662@gmail.com
+2026-02-13 11:20:46.430 INFO  c.k.katalon.core.main.TestCaseExecutor   - Password = Indian143.
+2026-02-13 11:20:47.826 DEBUG testcase.End_to_End                      - 1: openBrowser("")
+2026-02-13 11:20:49.105 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-02-13 11:20:49.287 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Feb 13, 2026 11:20:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-02-13 11:20:53.761 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 18b911d045342da7f4e9015e2d6ede08
+2026-02-13 11:20:53.764 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.133
+2026-02-13 11:20:53.765 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-02-13 11:20:53.767 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-02-13 11:20:53.796 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-02-13 11:20:53.935 DEBUG testcase.End_to_End                      - 2: navigateToUrl("https://www.farmaciasanpablo.com.mx/")
+2026-02-13 11:20:59.442 DEBUG testcase.End_to_End                      - 3: maximizeWindow()
+2026-02-13 11:20:59.678 DEBUG testcase.End_to_End                      - 4: com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject("Object Repository/Home Page/No_button_Popup_HP"))
+2026-02-13 11:21:03.979 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+2026-02-13 11:21:03.993 DEBUG testcase.End_to_End                      - 5: com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject("Object Repository/Home Page/Close_popUp_HP"))
+2026-02-13 11:21:05.895 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+2026-02-13 11:21:05.911 DEBUG testcase.End_to_End                      - 6: com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject("HP/Login_LOGO_HP"))
+2026-02-13 11:21:07.749 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+2026-02-13 11:21:07.761 DEBUG testcase.End_to_End                      - 7: enhancedClick(findTestObject("HP/Login_LOGO_HP"))
+2026-02-13 11:21:08.543 DEBUG testcase.End_to_End                      - 8: com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject("Object Repository/Home Page/Inicia_sesin_HP"))
+2026-02-13 11:21:10.374 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+2026-02-13 11:21:10.381 DEBUG testcase.End_to_End                      - 9: setText(findTestObject("Object Repository/Home Page/Inicia_sesin_Username_HP_loginPopup"), username)
+2026-02-13 11:21:12.570 DEBUG testcase.End_to_End                      - 10: setText(findTestObject("Object Repository/Home Page/Inicia_sesin_Password_HP_loginPopup"), password)
+2026-02-13 11:21:14.178 DEBUG testcase.End_to_End                      - 11: com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject("Object Repository/Home Page/Ingresar_Header_HP"))
+2026-02-13 11:21:15.890 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+2026-02-13 11:21:15.905 DEBUG testcase.End_to_End                      - 12: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Home Page/Categoras_button_HP"), 0)
+2026-02-13 11:21:15.914 WARN  testcase.End_to_End                      - SKIPPED NOT_RUN: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Home Page/Categoras_button_HP"), 0)
+2026-02-13 11:21:15.928 DEBUG testcase.End_to_End                      - 13: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Home Page/Enviar_a_Cdiga_Postal_14000_(after login postal code)"), 0)
+2026-02-13 11:21:15.995 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:21:19.926 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:21:19.939 DEBUG testcase.End_to_End                      - 14: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Home Page/Ofertas_hedaer_HP"), 0)
+2026-02-13 11:21:19.983 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:21:20.405 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:21:20.420 DEBUG testcase.End_to_End                      - 15: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Home Page/Sucursales_HP"), 0)
+2026-02-13 11:21:20.476 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:21:20.950 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:21:20.959 DEBUG testcase.End_to_End                      - 16: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Home Page/Facturacin_header_HP"), 0)
+2026-02-13 11:21:20.991 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:21:21.384 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:21:21.392 DEBUG testcase.End_to_End                      - 17: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Ofertas  San Pablo Farmacia/div_Bienvenido  sudha"), 0)
+2026-02-13 11:21:21.430 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:21:21.838 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:21:21.844 DEBUG testcase.End_to_End                      - 18: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Home Page/SideBox_HP"), 0)
+2026-02-13 11:21:21.848 WARN  testcase.End_to_End                      - SKIPPED NOT_RUN: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Home Page/SideBox_HP"), 0)
+2026-02-13 11:21:21.859 DEBUG testcase.End_to_End                      - 19: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Home Page/SearchBox_Header_HP"), 0)
+2026-02-13 11:21:21.892 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:21:22.286 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:21:22.290 DEBUG testcase.End_to_End                      - 20: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Home Page/Logo_hp"), 0)
+2026-02-13 11:21:22.319 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:21:22.722 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:21:22.724 DEBUG testcase.End_to_End                      - 21: mouseOver(findTestObject("Object Repository/Page_Ofertas  San Pablo Farmacia/li_Categoras MedicamentosMedicamentosAntimi_49f250"))
+2026-02-13 11:21:23.504 DEBUG testcase.End_to_End                      - 22: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Home Page/Medicamentos_L1_category_HP"), 0)
+2026-02-13 11:21:23.506 WARN  testcase.End_to_End                      - SKIPPED NOT_RUN: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Home Page/Medicamentos_L1_category_HP"), 0)
+2026-02-13 11:21:23.516 DEBUG testcase.End_to_End                      - 23: enhancedClick(findTestObject("Home Page/Medicamentos_L1_category_HP"))
+2026-02-13 11:21:24.153 DEBUG testcase.End_to_End                      - 24: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Ofertas  San Pablo Farmacia/a_Medicamentos"), 0)
+2026-02-13 11:21:24.190 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:21:24.598 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:21:24.608 DEBUG testcase.End_to_End                      - 25: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Page_Ofertas  San Pablo Farmacia/a_Aerosoles_L3Category"))
+2026-02-13 11:21:25.102 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:21:25.109 DEBUG testcase.End_to_End                      - 26: com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject("Page_Ofertas  San Pablo Farmacia/a_Aerosoles_L3Category"))
+2026-02-13 11:21:27.097 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+2026-02-13 11:21:27.108 DEBUG testcase.End_to_End                      - 27: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Aerosoles/button_Precio"))
+2026-02-13 11:21:57.175 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/Page_Aerosoles/button_Precio'. Try using Self-healing.
+2026-02-13 11:21:57.588 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/Page_Aerosoles/button_Precio' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Filtrar'])[2]/following::button[2]'.
+2026-02-13 11:21:57.672 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:21:57.679 DEBUG testcase.End_to_End                      - 28: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Aerosoles/Marca"))
+2026-02-13 11:21:58.137 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:21:58.147 DEBUG testcase.End_to_End                      - 29: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Aerosoles/Todas_las_Categoras"), 0)
+2026-02-13 11:21:58.180 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:21:58.561 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:21:58.574 DEBUG testcase.End_to_End                      - 30: verifyElementText(findTestObject("Object Repository/Page_Aerosoles/Ordenar_por"), "Ordenar por:")
+2026-02-13 11:21:59.020 DEBUG testcase.End_to_End                      - 31: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Aerosoles/item per page"), 0)
+2026-02-13 11:21:59.045 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:09.243 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/Page_Aerosoles/item per page'. Try using Self-healing.
+2026-02-13 11:22:09.726 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/Page_Aerosoles/item per page' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Relevancia'])[1]/following::a[1]'.
+2026-02-13 11:22:09.793 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:09.803 DEBUG testcase.End_to_End                      - 32: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Page_Aerosoles/item per row option 1"), 0)
+2026-02-13 11:22:09.827 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:10.219 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:10.227 DEBUG testcase.End_to_End                      - 33: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Aerosoles/item per row option 2"), 0)
+2026-02-13 11:22:10.260 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:20.507 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/Page_Aerosoles/item per row option 2'. Try using Self-healing.
+2026-02-13 11:22:20.990 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/Page_Aerosoles/item per row option 2' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Relevancia'])[1]/following::button[2]'.
+2026-02-13 11:22:21.063 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:21.063 DEBUG testcase.End_to_End                      - 34: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Aerosoles/Product 1"), 0)
+2026-02-13 11:22:21.097 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:21.489 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:21.494 DEBUG testcase.End_to_End                      - 35: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Aerosoles/Product1_Add to wishlist"), 0)
+2026-02-13 11:22:21.521 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:21.875 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:21.883 DEBUG testcase.End_to_End                      - 36: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Aerosoles/Product1_Name_PLP"))
+2026-02-13 11:22:22.290 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:22.297 DEBUG testcase.End_to_End                      - 37: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Aerosoles/img"), 0)
+2026-02-13 11:22:22.324 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:22.706 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:22.706 DEBUG testcase.End_to_End                      - 38: com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject("Object Repository/Page_Aerosoles/img"))
+2026-02-13 11:22:24.418 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+2026-02-13 11:22:24.426 DEBUG testcase.End_to_End                      - 39: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/h3_product_name_PDP"), 0)
+2026-02-13 11:22:24.474 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:34.670 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] Failed to find element with id 'Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/h3_product_name_PDP'. Try using Self-healing.
+2026-02-13 11:22:35.181 WARN  .c.w.m.WebUiElementFinderWithSelfHealing - [WEBUI-SELF-HEALING] The current locator of test object 'Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/h3_product_name_PDP' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Medicamentos'])[4]/following::h3[1]'.
+2026-02-13 11:22:35.266 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:35.273 DEBUG testcase.End_to_End                      - 40: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/img"), 0)
+2026-02-13 11:22:35.307 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:35.694 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:35.694 DEBUG testcase.End_to_End                      - 41: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("PDP page/ProductImage_pdp"), 0)
+2026-02-13 11:22:35.720 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:36.119 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:36.127 DEBUG testcase.End_to_End                      - 42: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_Cantidad"), 0)
+2026-02-13 11:22:36.170 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:36.562 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:36.572 DEBUG testcase.End_to_End                      - 43: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/Product_price_PDP"), 0)
+2026-02-13 11:22:36.605 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:37.003 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:37.003 DEBUG testcase.End_to_End                      - 44: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/header_IMG_PDP"), 0)
+2026-02-13 11:22:37.028 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:37.429 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:37.435 DEBUG testcase.End_to_End                      - 45: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/Quantity_PDP"), 0)
+2026-02-13 11:22:37.460 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:37.893 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:37.902 DEBUG testcase.End_to_End                      - 46: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Comprar ahora"), 0)
+2026-02-13 11:22:37.937 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:38.343 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:38.343 DEBUG testcase.End_to_End                      - 47: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Agregar al carrito"), 0)
+2026-02-13 11:22:38.376 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:38.754 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:38.762 DEBUG testcase.End_to_End                      - 48: com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Agregar al carrito"))
+2026-02-13 11:22:40.412 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+2026-02-13 11:22:40.415 DEBUG testcase.End_to_End                      - 49: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Seguir comprando_PopUp_PDP"), 0)
+2026-02-13 11:22:40.437 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:44.306 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:44.309 DEBUG testcase.End_to_End                      - 50: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/div_304.00 MXN"), 0)
+2026-02-13 11:22:44.342 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:44.744 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:44.756 DEBUG testcase.End_to_End                      - 51: verifyElementVisible(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Realizar compra"))
+2026-02-13 11:22:45.185 DEBUG testcase.End_to_End                      - 52: com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject("Object Repository/Page_Silka Medic Defensa Desodorante en Aer_ad4bf6/button_Realizar compra"))
+2026-02-13 11:22:46.839 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+2026-02-13 11:22:46.841 DEBUG testcase.End_to_End                      - 53: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("CartPage/productImage_cart"), 0)
+2026-02-13 11:22:46.872 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:52.609 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:52.620 DEBUG testcase.End_to_End                      - 54: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("CartPage/productName_cart"), 0)
+2026-02-13 11:22:52.645 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:53.012 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:53.016 DEBUG testcase.End_to_End                      - 55: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("CartPage/quanity_cart"), 0)
+2026-02-13 11:22:53.040 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:53.402 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:53.409 DEBUG testcase.End_to_End                      - 56: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("CartPage/deleteIcon_cart"), 0)
+2026-02-13 11:22:53.433 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:53.808 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:53.816 DEBUG testcase.End_to_End                      - 57: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_ProductoPrecio"), 0)
+2026-02-13 11:22:53.842 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:54.233 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:54.234 DEBUG testcase.End_to_End                      - 58: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_Subtotal (4 productos)"), 0)
+2026-02-13 11:22:54.252 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:54.625 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:54.636 DEBUG testcase.End_to_End                      - 59: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_436.00 MXN"), 0)
+2026-02-13 11:22:54.660 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:55.025 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:55.029 DEBUG testcase.End_to_End                      - 60: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_Total"), 0)
+2026-02-13 11:22:55.053 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:55.425 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:55.433 DEBUG testcase.End_to_End                      - 61: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Carrito de compras  San Pablo Farmacia/div_304.00 MXN"), 0)
+2026-02-13 11:22:55.456 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:55.834 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:55.837 DEBUG testcase.End_to_End                      - 62: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Carrito de compras  San Pablo Farmacia/Selecciona_direccin_de_entrega"), 0)
+2026-02-13 11:22:55.862 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:22:56.232 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:22:56.238 DEBUG testcase.End_to_End                      - 63: com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject("Object Repository/Page_Carrito de compras  San Pablo Farmacia/Selecciona_direccin_de_entrega"))
+2026-02-13 11:22:57.923 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+2026-02-13 11:22:57.930 DEBUG testcase.End_to_End                      - 64: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Shipping Address/h4_Resumen de compra"), 0)
+2026-02-13 11:22:57.954 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:23:01.501 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:23:01.504 DEBUG testcase.End_to_End                      - 65: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Shipping Address/h4_Subtotal (1 producto)"), 0)
+2026-02-13 11:23:01.563 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:23:03.302 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:23:03.307 DEBUG testcase.End_to_End                      - 66: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Shipping Address/h4_436.00 MXN"), 0)
+2026-02-13 11:23:03.332 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:23:03.691 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:23:03.695 DEBUG testcase.End_to_End                      - 67: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Shipping Address/h3_Total"), 0)
+2026-02-13 11:23:03.719 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:23:04.076 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:23:04.083 DEBUG testcase.End_to_End                      - 68: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Shipping Address/h3_304.00 MXN"), 0)
+2026-02-13 11:23:04.105 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:23:04.525 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:23:04.529 DEBUG testcase.End_to_End                      - 69: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Shipping Address/select_present_address"), 0)
+2026-02-13 11:23:04.553 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:23:04.936 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:23:04.942 DEBUG testcase.End_to_End                      - 70: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Shipping Address/button_Entregar en esta direccin"), 0)
+2026-02-13 11:23:04.973 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:23:05.350 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:23:05.355 DEBUG testcase.End_to_End                      - 71: verifyElementVisible(findTestObject("Object Repository/Page_Checkout Shipping Address/div_Nueva direccin"))
+2026-02-13 11:23:05.721 DEBUG testcase.End_to_End                      - 72: com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject("Object Repository/Page_Checkout Shipping Address/button_Entregar en esta direccin"))
+2026-02-13 11:23:07.255 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+2026-02-13 11:23:07.255 DEBUG testcase.End_to_End                      - 73: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_/Selecciona_un_mtodo_de_entrega(cambiar)"), 0)
+2026-02-13 11:23:07.284 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:23:12.767 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:23:12.767 DEBUG testcase.End_to_End                      - 74: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_/Entrega_programada_Elige_el"), 0)
+2026-02-13 11:23:12.786 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:23:13.174 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:23:13.178 DEBUG testcase.End_to_End                      - 75: com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject("Object Repository/Page_/radioButton_scehule_delivery_OPC"))
+2026-02-13 11:23:14.739 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+2026-02-13 11:23:14.749 DEBUG testcase.End_to_End                      - 76: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_/available_scehule_OPC"), 0)
+2026-02-13 11:23:14.778 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:23:15.885 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:23:15.885 DEBUG testcase.End_to_End                      - 77: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_/Elegir_forma_de_entrega_PDP"), 0)
+2026-02-13 11:23:15.914 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:23:16.297 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:23:16.301 DEBUG testcase.End_to_End                      - 78: enhancedClick(findTestObject("OPC/RadioBUtton"))
+2026-02-13 11:23:16.848 DEBUG testcase.End_to_End                      - 79: enhancedClick(findTestObject("Object Repository/Page_/Elegir_forma_de_entrega_PDP"))
+2026-02-13 11:23:17.515 DEBUG testcase.End_to_End                      - 80: scrollToElement(findTestObject("Page_Checkout Detalle de pago/Selecciona una forma de pago(title)"), 0)
+2026-02-13 11:23:17.594 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:23:23.246 DEBUG testcase.End_to_End                      - 81: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Detalle de pago/Selecciona una forma de pago(title)"), 0)
+2026-02-13 11:23:23.271 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:23:23.658 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:23:23.661 DEBUG testcase.End_to_End                      - 82: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Detalle de pago/div_En lneaTarjeta de crdito o dbito"), 0)
+2026-02-13 11:23:23.686 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:23:24.067 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:23:24.069 DEBUG testcase.End_to_End                      - 83: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Detalle de pago/div_Al recibir tu PedidoEfectivo o tarjeta"), 0)
+2026-02-13 11:23:24.093 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:23:24.579 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:23:24.579 DEBUG testcase.End_to_End                      - 84: com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject("Object Repository/Page_Checkout Detalle de pago/div_Al recibir tu PedidoEfectivo o tarjeta"))
+2026-02-13 11:23:26.109 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+2026-02-13 11:23:26.117 DEBUG testcase.End_to_End                      - 85: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Detalle de pago/div_Efectivo"), 0)
+2026-02-13 11:23:26.134 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:23:26.955 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:23:26.960 DEBUG testcase.End_to_End                      - 86: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_Checkout Detalle de pago/span_Tarjeta de crdito o dbito"), 0)
+2026-02-13 11:23:26.985 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:23:27.370 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:23:27.375 DEBUG testcase.End_to_End                      - 87: com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject("Object Repository/Page_Checkout Detalle de pago/div_Tarjeta de crdito o dbito"))
+2026-02-13 11:23:28.990 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+2026-02-13 11:23:28.990 DEBUG testcase.End_to_End                      - 88: com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject("Object Repository/Page_Checkout Detalle de pago/img_Efectivo_checkCard"))
+2026-02-13 11:23:30.471 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+2026-02-13 11:23:30.479 DEBUG testcase.End_to_End                      - 89: com.customKeywords.MyKeywords.clickElementWithoutScroll(findTestObject("Object Repository/Page_Checkout Detalle de pago/button_Pagar al recibir pedido"))
+2026-02-13 11:23:34.146 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.clickElementWithoutScroll is PASSED
+2026-02-13 11:23:34.146 DEBUG testcase.End_to_End                      - 90: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_/h4_Resumen de productos"), 0)
+2026-02-13 11:23:34.176 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:23:38.403 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:23:38.409 DEBUG testcase.End_to_End                      - 91: com.customKeywords.MyKeywords.verifyElementPresentKeyword(findTestObject("Object Repository/Page_/Finalizar_compra_OPC"), 0)
+2026-02-13 11:23:38.433 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-13 11:23:38.814 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.customKeywords.MyKeywords.verifyElementPresentKeyword is PASSED
+2026-02-13 11:23:38.814 DEBUG testcase.End_to_End                      - 92: closeBrowser()
+2026-02-13 11:23:39.429 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/End_to_End
+2026-02-13 11:23:39.432 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2026-02-13 11:23:39.433 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2026-02-13 11:23:39.433 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2026-02-13 11:23:39.433 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2026-02-13 11:23:39.433 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2026-02-13 11:23:39.518 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-02-13 11:23:39.518 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/FarmaciaSanpablo
+2026-02-13 11:23:39.518 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
